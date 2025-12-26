@@ -1,0 +1,96 @@
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2025-12-26 10:54:45",
+  "match": {
+    "match_id": "2788674",
+    "match_time": "2025-12-27 04:00",
+    "league": {
+      "league_id": 93,
+      "league_name": "unknown"
+    },
+    "home_team": "摩洛哥",
+    "away_team": "马里"
+  },
+  "company": {
+    "company_id": "48",
+    "company_name": "香港马会"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-23 19:30",
+          "state": "即",
+          "is_opening": 0,
+          "line": "一球",
+          "home_odds": 0.82,
+          "away_odds": 0.95,
+          "raw_cols": "||0.82|一球|0.95|12-23 19:30|即"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-23 19:30",
+        "state": "即",
+        "is_opening": 0,
+        "line": "一球",
+        "home_odds": 0.82,
+        "away_odds": 0.95,
+        "raw_cols": "||0.82|一球|0.95|12-23 19:30|即"
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-23 19:30",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.92,
+          "under_odds": 0.78,
+          "raw_cols": "||0.92|2/2.5|0.78|12-23 19:30|即"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-23 19:30",
+        "state": "即",
+        "is_opening": 0,
+        "line": "2/2.5",
+        "over_odds": 0.92,
+        "under_odds": 0.78,
+        "raw_cols": "||0.92|2/2.5|0.78|12-23 19:30|即"
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-23 19:30",
+          "state": "早",
+          "is_opening": 1,
+          "home": 1.37,
+          "draw": 3.7,
+          "away": 7.5,
+          "raw_cols": "||1.37|3.70|7.50|12-23 19:30|(初盘)"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-23 19:30",
+        "state": "早",
+        "is_opening": 1,
+        "home": 1.37,
+        "draw": 3.7,
+        "away": 7.5,
+        "raw_cols": "||1.37|3.70|7.50|12-23 19:30|(初盘)"
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 1,
+    "overunder_events": 1,
+    "1x2_events": 1
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20251226_105444"
+  }
+}
