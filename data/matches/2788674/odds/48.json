@@ -1,7 +1,7 @@
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-26 10:54:45",
+  "exported_at": "2025-12-26 22:04:45",
   "match": {
     "match_id": "2788674",
     "match_time": "2025-12-27 04:00",
@@ -27,16 +27,61 @@
           "home_odds": 0.82,
           "away_odds": 0.95,
           "raw_cols": "||0.82|一球|0.95|12-23 19:30|即"
+        },
+        {
+          "event_time": "2025-12-26 10:20",
+          "state": "即",
+          "is_opening": 0,
+          "line": "一球",
+          "home_odds": 0.76,
+          "away_odds": 1.02,
+          "raw_cols": "||0.76|一球|1.02|12-26 10:20|即"
+        },
+        {
+          "event_time": "2025-12-26 10:21",
+          "state": "即",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 1.08,
+          "away_odds": 0.71,
+          "raw_cols": "||1.08|一球/球半|0.71|12-26 10:21|即"
+        },
+        {
+          "event_time": "2025-12-26 18:16",
+          "state": "即",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 1.14,
+          "away_odds": 0.67,
+          "raw_cols": "||1.14|一球/球半|0.67|12-26 18:16|即"
+        },
+        {
+          "event_time": "2025-12-26 18:18",
+          "state": "即",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 1.13,
+          "away_odds": 0.66,
+          "raw_cols": "||1.13|一球/球半|0.66|12-26 18:18|即"
+        },
+        {
+          "event_time": "2025-12-26 18:28",
+          "state": "即",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 1.14,
+          "away_odds": 0.67,
+          "raw_cols": "||1.14|一球/球半|0.67|12-26 18:28|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-23 19:30",
+        "event_time": "2025-12-26 18:28",
         "state": "即",
         "is_opening": 0,
-        "line": "一球",
-        "home_odds": 0.82,
-        "away_odds": 0.95,
-        "raw_cols": "||0.82|一球|0.95|12-23 19:30|即"
+        "line": "一球/球半",
+        "home_odds": 1.14,
+        "away_odds": 0.67,
+        "raw_cols": "||1.14|一球/球半|0.67|12-26 18:28|即"
       }
     },
     "overunder": {
@@ -71,26 +116,44 @@
           "draw": 3.7,
           "away": 7.5,
           "raw_cols": "||1.37|3.70|7.50|12-23 19:30|(初盘)"
+        },
+        {
+          "event_time": "2025-12-26 10:20",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.35,
+          "draw": 3.75,
+          "away": 8.0,
+          "raw_cols": "||1.35|3.75|8.00|12-26 10:20|即"
+        },
+        {
+          "event_time": "2025-12-26 18:16",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.37,
+          "draw": 3.7,
+          "away": 7.5,
+          "raw_cols": "||1.37|3.70|7.50|12-26 18:16|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-23 19:30",
-        "state": "早",
-        "is_opening": 1,
+        "event_time": "2025-12-26 18:16",
+        "state": "即",
+        "is_opening": 0,
         "home": 1.37,
         "draw": 3.7,
         "away": 7.5,
-        "raw_cols": "||1.37|3.70|7.50|12-23 19:30|(初盘)"
+        "raw_cols": "||1.37|3.70|7.50|12-26 18:16|即"
       }
     }
   },
   "counts": {
-    "handicap_events": 1,
+    "handicap_events": 6,
     "overunder_events": 1,
-    "1x2_events": 1
+    "1x2_events": 3
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251226_105444"
+    "export_ts": "20251226_220445"
   }
 }
