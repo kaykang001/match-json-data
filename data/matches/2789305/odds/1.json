@@ -1,7 +1,7 @@
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-26 10:54:45",
+  "exported_at": "2025-12-26 22:04:45",
   "match": {
     "match_id": "2789305",
     "match_time": "2025-12-27 04:00",
@@ -54,16 +54,43 @@
           "home_odds": 0.9,
           "away_odds": 0.94,
           "raw_cols": "||0.90|平手|0.94|12-24 14:51|即"
+        },
+        {
+          "event_time": "2025-12-26 12:31",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手",
+          "home_odds": 0.85,
+          "away_odds": 0.99,
+          "raw_cols": "||0.85|平手|0.99|12-26 12:31|即"
+        },
+        {
+          "event_time": "2025-12-26 18:59",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手",
+          "home_odds": 0.94,
+          "away_odds": 0.9,
+          "raw_cols": "||0.94|平手|0.90|12-26 18:59|即"
+        },
+        {
+          "event_time": "2025-12-26 19:19",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手",
+          "home_odds": 0.96,
+          "away_odds": 0.88,
+          "raw_cols": "||0.96|平手|0.88|12-26 19:19|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-24 14:51",
+        "event_time": "2025-12-26 19:19",
         "state": "即",
         "is_opening": 0,
         "line": "平手",
-        "home_odds": 0.9,
-        "away_odds": 0.94,
-        "raw_cols": "||0.90|平手|0.94|12-24 14:51|即"
+        "home_odds": 0.96,
+        "away_odds": 0.88,
+        "raw_cols": "||0.96|平手|0.88|12-26 19:19|即"
       }
     },
     "overunder": {
@@ -116,26 +143,35 @@
           "draw": 3.4,
           "away": 2.48,
           "raw_cols": "||2.42|3.40|2.48|12-24 14:52|即"
+        },
+        {
+          "event_time": "2025-12-26 19:19",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.48,
+          "draw": 3.4,
+          "away": 2.42,
+          "raw_cols": "||2.48|3.40|2.42|12-26 19:19|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-24 14:52",
+        "event_time": "2025-12-26 19:19",
         "state": "即",
         "is_opening": 0,
-        "home": 2.42,
+        "home": 2.48,
         "draw": 3.4,
-        "away": 2.48,
-        "raw_cols": "||2.42|3.40|2.48|12-24 14:52|即"
+        "away": 2.42,
+        "raw_cols": "||2.48|3.40|2.42|12-26 19:19|即"
       }
     }
   },
   "counts": {
-    "handicap_events": 4,
+    "handicap_events": 7,
     "overunder_events": 1,
-    "1x2_events": 3
+    "1x2_events": 4
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251226_105444"
+    "export_ts": "20251226_220445"
   }
 }
