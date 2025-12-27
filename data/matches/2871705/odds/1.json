@@ -1,0 +1,133 @@
+# INDEX
+MATCH_ID: 2871705
+COMPANY_ID: 1
+COMPANY_NAME: 澳彩
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 2
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 3
+TIME_RANGE: 2025-12-22 17:49 -> 2025-12-27 02:26
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2025-12-27 10:43:07",
+  "match": {
+    "match_id": "2871705",
+    "match_time": "2025-12-27 16:35",
+    "league": {
+      "league_id": 273,
+      "league_name": "unknown"
+    },
+    "home_team": "阿德莱德联",
+    "away_team": "西悉尼流浪者"
+  },
+  "company": {
+    "company_id": "1",
+    "company_name": "澳彩"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-22 17:49",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.98,
+          "away_odds": 0.8,
+          "raw_cols": "||0.98|平手/半球|0.80|12-22 17:49|即"
+        },
+        {
+          "event_time": "2025-12-27 02:24",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手",
+          "home_odds": 0.85,
+          "away_odds": 0.93,
+          "raw_cols": "||0.85|平手|0.93|12-27 02:24|即"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-27 02:24",
+        "state": "即",
+        "is_opening": 0,
+        "line": "平手",
+        "home_odds": 0.85,
+        "away_odds": 0.93,
+        "raw_cols": "||0.85|平手|0.93|12-27 02:24|即"
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-22 17:49",
+          "state": "即",
+          "is_opening": 0,
+          "line": "3",
+          "over_odds": 0.91,
+          "under_odds": 0.81,
+          "raw_cols": "||0.91|3|0.81|12-22 17:49|即"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-22 17:49",
+        "state": "即",
+        "is_opening": 0,
+        "line": "3",
+        "over_odds": 0.91,
+        "under_odds": 0.81,
+        "raw_cols": "||0.91|3|0.81|12-22 17:49|即"
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-22 17:49",
+          "state": "早",
+          "is_opening": 1,
+          "home": 2.18,
+          "draw": 3.7,
+          "away": 2.53,
+          "raw_cols": "||2.18|3.70|2.53|12-22 17:49|(初盘)"
+        },
+        {
+          "event_time": "2025-12-24 13:32",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.2,
+          "draw": 3.7,
+          "away": 2.5,
+          "raw_cols": "||2.20|3.70|2.50|12-24 13:32|即"
+        },
+        {
+          "event_time": "2025-12-27 02:26",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.3,
+          "draw": 3.7,
+          "away": 2.38,
+          "raw_cols": "||2.30|3.70|2.38|12-27 02:26|即"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-27 02:26",
+        "state": "即",
+        "is_opening": 0,
+        "home": 2.3,
+        "draw": 3.7,
+        "away": 2.38,
+        "raw_cols": "||2.30|3.70|2.38|12-27 02:26|即"
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 2,
+    "overunder_events": 1,
+    "1x2_events": 3
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20251227_104307"
+  }
+}

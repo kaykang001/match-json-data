@@ -1,0 +1,232 @@
+# INDEX
+MATCH_ID: 2814861
+COMPANY_ID: 3
+COMPANY_NAME: Crown
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 9
+OVERUNDER_EVENTS: 2
+1X2_EVENTS: 6
+TIME_RANGE: 2025-12-23 06:39 -> 2025-12-27 09:48
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2025-12-27 10:43:07",
+  "match": {
+    "match_id": "2814861",
+    "match_time": "2025-12-28 04:30",
+    "league": {
+      "league_id": 23,
+      "league_name": "unknown"
+    },
+    "home_team": "埃斯托里尔",
+    "away_team": "艾华卡"
+  },
+  "company": {
+    "company_id": "3",
+    "company_name": "Crown"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-23 06:39",
+          "state": "早",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.98,
+          "away_odds": 0.9,
+          "raw_cols": "||0.98|平手/半球|0.90|12-23 06:39|早"
+        },
+        {
+          "event_time": "2025-12-23 15:06",
+          "state": "早",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.94,
+          "away_odds": 0.94,
+          "raw_cols": "||0.94|平手/半球|0.94|12-23 15:06|早"
+        },
+        {
+          "event_time": "2025-12-23 15:10",
+          "state": "早",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.92,
+          "away_odds": 0.96,
+          "raw_cols": "||0.92|平手/半球|0.96|12-23 15:10|早"
+        },
+        {
+          "event_time": "2025-12-23 15:11",
+          "state": "早",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.89,
+          "away_odds": 0.99,
+          "raw_cols": "||0.89|平手/半球|0.99|12-23 15:11|早"
+        },
+        {
+          "event_time": "2025-12-23 15:12",
+          "state": "早",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.88,
+          "away_odds": 1.0,
+          "raw_cols": "||0.88|平手/半球|1.00|12-23 15:12|早"
+        },
+        {
+          "event_time": "2025-12-24 03:45",
+          "state": "早",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.91,
+          "away_odds": 0.97,
+          "raw_cols": "||0.91|平手/半球|0.97|12-24 03:45|早"
+        },
+        {
+          "event_time": "2025-12-24 03:46",
+          "state": "早",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.97,
+          "away_odds": 0.91,
+          "raw_cols": "||0.97|平手/半球|0.91|12-24 03:46|早"
+        },
+        {
+          "event_time": "2025-12-27 03:16",
+          "state": "早",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.94,
+          "away_odds": 0.94,
+          "raw_cols": "||0.94|平手/半球|0.94|12-27 03:16|早"
+        },
+        {
+          "event_time": "2025-12-27 09:48",
+          "state": "早",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.93,
+          "away_odds": 0.95,
+          "raw_cols": "||0.93|平手/半球|0.95|12-27 09:48|早"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-27 09:48",
+        "state": "早",
+        "is_opening": 0,
+        "line": "平手/半球",
+        "home_odds": 0.93,
+        "away_odds": 0.95,
+        "raw_cols": "||0.93|平手/半球|0.95|12-27 09:48|早"
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-23 06:39",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.84,
+          "under_odds": 1.03,
+          "raw_cols": "||0.84|2/2.5|1.03|12-23 06:39|早"
+        },
+        {
+          "event_time": "2025-12-23 15:06",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.85,
+          "under_odds": 1.02,
+          "raw_cols": "||0.85|2/2.5|1.02|12-23 15:06|早"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-23 15:06",
+        "state": "早",
+        "is_opening": 0,
+        "line": "2/2.5",
+        "over_odds": 0.85,
+        "under_odds": 1.02,
+        "raw_cols": "||0.85|2/2.5|1.02|12-23 15:06|早"
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-23 06:39",
+          "state": "早",
+          "is_opening": 1,
+          "home": 2.25,
+          "draw": 3.35,
+          "away": 2.95,
+          "raw_cols": "||2.25|3.35|2.95|12-23 06:39|(初盘)"
+        },
+        {
+          "event_time": "2025-12-23 15:04",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.22,
+          "draw": 3.35,
+          "away": 2.95,
+          "raw_cols": "||2.22|3.35|2.95|12-23 15:04|早"
+        },
+        {
+          "event_time": "2025-12-23 15:06",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.2,
+          "draw": 3.4,
+          "away": 3.05,
+          "raw_cols": "||2.20|3.40|3.05|12-23 15:06|早"
+        },
+        {
+          "event_time": "2025-12-23 15:12",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.13,
+          "draw": 3.4,
+          "away": 3.15,
+          "raw_cols": "||2.13|3.40|3.15|12-23 15:12|早"
+        },
+        {
+          "event_time": "2025-12-24 03:46",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.23,
+          "draw": 3.4,
+          "away": 2.98,
+          "raw_cols": "||2.23|3.40|2.98|12-24 03:46|早"
+        },
+        {
+          "event_time": "2025-12-27 09:48",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.21,
+          "draw": 3.4,
+          "away": 2.98,
+          "raw_cols": "||2.21|3.40|2.98|12-27 09:48|早"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-27 09:48",
+        "state": "早",
+        "is_opening": 0,
+        "home": 2.21,
+        "draw": 3.4,
+        "away": 2.98,
+        "raw_cols": "||2.21|3.40|2.98|12-27 09:48|早"
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 9,
+    "overunder_events": 2,
+    "1x2_events": 6
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20251227_104307"
+  }
+}

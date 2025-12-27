@@ -1,0 +1,151 @@
+# INDEX
+MATCH_ID: 2789306
+COMPANY_ID: 48
+COMPANY_NAME: 香港马会
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 4
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 3
+TIME_RANGE: 2025-12-24 12:00 -> 2025-12-27 07:38
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2025-12-27 10:43:07",
+  "match": {
+    "match_id": "2789306",
+    "match_time": "2025-12-27 20:30",
+    "league": {
+      "league_id": 36,
+      "league_name": "unknown"
+    },
+    "home_team": "诺丁汉森林",
+    "away_team": "曼彻斯特城"
+  },
+  "company": {
+    "company_id": "48",
+    "company_name": "香港马会"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-24 12:00",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让一球",
+          "home_odds": 0.83,
+          "away_odds": 0.93,
+          "raw_cols": "||0.83|受让一球|0.93|12-24 12:00|即"
+        },
+        {
+          "event_time": "2025-12-26 17:46",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让一球",
+          "home_odds": 0.88,
+          "away_odds": 0.88,
+          "raw_cols": "||0.88|受让一球|0.88|12-26 17:46|即"
+        },
+        {
+          "event_time": "2025-12-26 21:09",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让一球",
+          "home_odds": 0.91,
+          "away_odds": 0.85,
+          "raw_cols": "||0.91|受让一球|0.85|12-26 21:09|即"
+        },
+        {
+          "event_time": "2025-12-27 07:38",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让一球",
+          "home_odds": 0.93,
+          "away_odds": 0.83,
+          "raw_cols": "||0.93|受让一球|0.83|12-27 07:38|即"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-27 07:38",
+        "state": "即",
+        "is_opening": 0,
+        "line": "受让一球",
+        "home_odds": 0.93,
+        "away_odds": 0.83,
+        "raw_cols": "||0.93|受让一球|0.83|12-27 07:38|即"
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-24 12:00",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5/3",
+          "over_odds": 0.75,
+          "under_odds": 0.95,
+          "raw_cols": "||0.75|2.5/3|0.95|12-24 12:00|即"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-24 12:00",
+        "state": "即",
+        "is_opening": 0,
+        "line": "2.5/3",
+        "over_odds": 0.75,
+        "under_odds": 0.95,
+        "raw_cols": "||0.75|2.5/3|0.95|12-24 12:00|即"
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-24 12:00",
+          "state": "早",
+          "is_opening": 1,
+          "home": 5.1,
+          "draw": 4.0,
+          "away": 1.46,
+          "raw_cols": "||5.10|4.00|1.46|12-24 12:00|(初盘)"
+        },
+        {
+          "event_time": "2025-12-26 17:46",
+          "state": "即",
+          "is_opening": 0,
+          "home": 5.3,
+          "draw": 4.05,
+          "away": 1.44,
+          "raw_cols": "||5.30|4.05|1.44|12-26 17:46|即"
+        },
+        {
+          "event_time": "2025-12-27 07:37",
+          "state": "即",
+          "is_opening": 0,
+          "home": 5.6,
+          "draw": 4.15,
+          "away": 1.41,
+          "raw_cols": "||5.60|4.15|1.41|12-27 07:37|即"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-27 07:37",
+        "state": "即",
+        "is_opening": 0,
+        "home": 5.6,
+        "draw": 4.15,
+        "away": 1.41,
+        "raw_cols": "||5.60|4.15|1.41|12-27 07:37|即"
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 4,
+    "overunder_events": 1,
+    "1x2_events": 3
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20251227_104307"
+  }
+}
