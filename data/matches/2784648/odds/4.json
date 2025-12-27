@@ -1,0 +1,114 @@
+# INDEX
+MATCH_ID: 2784648
+COMPANY_ID: 4
+COMPANY_NAME: 立博(Ladbrokes)
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 0
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 4
+TIME_RANGE: 2025-12-22 16:22 -> 2025-12-23 08:50
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2025-12-27 10:43:07",
+  "match": {
+    "match_id": "2784648",
+    "match_time": "2025-12-28 03:45",
+    "league": {
+      "league_id": 34,
+      "league_name": "unknown"
+    },
+    "home_team": "比萨",
+    "away_team": "尤文图斯"
+  },
+  "company": {
+    "company_id": "4",
+    "company_name": "立博(Ladbrokes)"
+  },
+  "markets": {
+    "handicap": {
+      "events": []
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-22 16:22",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.91,
+          "under_odds": 0.8,
+          "raw_cols": "||0.91|2.5|0.80|12-22 16:22|早"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-22 16:22",
+        "state": "早",
+        "is_opening": 0,
+        "line": "2.5",
+        "over_odds": 0.91,
+        "under_odds": 0.8,
+        "raw_cols": "||0.91|2.5|0.80|12-22 16:22|早"
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-22 16:22",
+          "state": "早",
+          "is_opening": 1,
+          "home": 6.5,
+          "draw": 4.2,
+          "away": 1.5,
+          "raw_cols": "||6.50|4.20|1.50|12-22 16:22|(初盘)"
+        },
+        {
+          "event_time": "2025-12-23 08:30",
+          "state": "早",
+          "is_opening": 0,
+          "home": 6.5,
+          "draw": 4.2,
+          "away": 1.48,
+          "raw_cols": "||6.50|4.20|1.48|12-23 08:30|早"
+        },
+        {
+          "event_time": "2025-12-23 08:47",
+          "state": "早",
+          "is_opening": 0,
+          "home": 9.0,
+          "draw": 4.8,
+          "away": 1.35,
+          "raw_cols": "||9.00|4.80|1.35|12-23 08:47|早"
+        },
+        {
+          "event_time": "2025-12-23 08:50",
+          "state": "早",
+          "is_opening": 0,
+          "home": 6.5,
+          "draw": 4.2,
+          "away": 1.48,
+          "raw_cols": "||6.50|4.20|1.48|12-23 08:50|早"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-23 08:50",
+        "state": "早",
+        "is_opening": 0,
+        "home": 6.5,
+        "draw": 4.2,
+        "away": 1.48,
+        "raw_cols": "||6.50|4.20|1.48|12-23 08:50|早"
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 0,
+    "overunder_events": 1,
+    "1x2_events": 4
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20251227_104307"
+  }
+}
