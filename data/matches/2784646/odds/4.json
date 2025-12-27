@@ -1,0 +1,99 @@
+# INDEX
+MATCH_ID: 2784646
+COMPANY_ID: 4
+COMPANY_NAME: 立博(Ladbrokes)
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 0
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 3
+TIME_RANGE: 2025-12-22 16:22 -> 2025-12-24 18:49
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2025-12-28 06:59:30",
+  "match": {
+    "match_id": "2784646",
+    "match_time": "2025-12-28 19:30",
+    "league": {
+      "league_id": 34,
+      "league_name": "unknown"
+    },
+    "home_team": "AC米兰",
+    "away_team": "维罗纳"
+  },
+  "company": {
+    "company_id": "4",
+    "company_name": "立博(Ladbrokes)"
+  },
+  "markets": {
+    "handicap": {
+      "events": []
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-22 16:22",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.8,
+          "under_odds": 0.91
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-22 16:22",
+        "state": "早",
+        "is_opening": 0,
+        "line": "2.5",
+        "over_odds": 0.8,
+        "under_odds": 0.91
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-22 16:22",
+          "state": "早",
+          "is_opening": 1,
+          "home": 1.36,
+          "draw": 4.8,
+          "away": 7.5
+        },
+        {
+          "event_time": "2025-12-23 20:17",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.36,
+          "draw": 5.0,
+          "away": 7.5
+        },
+        {
+          "event_time": "2025-12-24 18:49",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.4,
+          "draw": 5.0,
+          "away": 7.5
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-24 18:49",
+        "state": "早",
+        "is_opening": 0,
+        "home": 1.4,
+        "draw": 5.0,
+        "away": 7.5
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 0,
+    "overunder_events": 1,
+    "1x2_events": 3
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20251228_065930"
+  }
+}

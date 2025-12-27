@@ -1,0 +1,300 @@
+# INDEX
+MATCH_ID: 2784646
+COMPANY_ID: 3
+COMPANY_NAME: Crown
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 12
+OVERUNDER_EVENTS: 7
+1X2_EVENTS: 9
+TIME_RANGE: 2025-12-15 08:44 -> 2025-12-28 04:53
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2025-12-28 06:59:30",
+  "match": {
+    "match_id": "2784646",
+    "match_time": "2025-12-28 19:30",
+    "league": {
+      "league_id": 34,
+      "league_name": "unknown"
+    },
+    "home_team": "AC米兰",
+    "away_team": "维罗纳"
+  },
+  "company": {
+    "company_id": "3",
+    "company_name": "Crown"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-15 08:44",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.88,
+          "away_odds": 1.0
+        },
+        {
+          "event_time": "2025-12-15 14:17",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.91,
+          "away_odds": 0.97
+        },
+        {
+          "event_time": "2025-12-15 16:32",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.88,
+          "away_odds": 1.0
+        },
+        {
+          "event_time": "2025-12-17 21:32",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.98,
+          "away_odds": 0.9
+        },
+        {
+          "event_time": "2025-12-19 01:54",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.94,
+          "away_odds": 0.94
+        },
+        {
+          "event_time": "2025-12-19 05:21",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.95,
+          "away_odds": 0.93
+        },
+        {
+          "event_time": "2025-12-22 05:49",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.92,
+          "away_odds": 0.96
+        },
+        {
+          "event_time": "2025-12-22 05:50",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.9,
+          "away_odds": 0.98
+        },
+        {
+          "event_time": "2025-12-22 05:53",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.88,
+          "away_odds": 1.0
+        },
+        {
+          "event_time": "2025-12-27 21:09",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.91,
+          "away_odds": 0.97
+        },
+        {
+          "event_time": "2025-12-27 21:50",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.92,
+          "away_odds": 0.96
+        },
+        {
+          "event_time": "2025-12-28 04:20",
+          "state": "早",
+          "is_opening": 0,
+          "line": "一球/球半",
+          "home_odds": 0.9,
+          "away_odds": 0.98
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-28 04:20",
+        "state": "早",
+        "is_opening": 0,
+        "line": "一球/球半",
+        "home_odds": 0.9,
+        "away_odds": 0.98
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-15 08:44",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.89,
+          "under_odds": 0.97
+        },
+        {
+          "event_time": "2025-12-15 15:15",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.9,
+          "under_odds": 0.98
+        },
+        {
+          "event_time": "2025-12-18 16:08",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.92,
+          "under_odds": 0.96
+        },
+        {
+          "event_time": "2025-12-22 05:50",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.89,
+          "under_odds": 0.99
+        },
+        {
+          "event_time": "2025-12-22 05:52",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.86,
+          "under_odds": 1.02
+        },
+        {
+          "event_time": "2025-12-28 04:52",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.87,
+          "under_odds": 1.01
+        },
+        {
+          "event_time": "2025-12-28 04:53",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.88,
+          "under_odds": 1.0
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-28 04:53",
+        "state": "早",
+        "is_opening": 0,
+        "line": "2.5",
+        "over_odds": 0.88,
+        "under_odds": 1.0
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-15 08:44",
+          "state": "早",
+          "is_opening": 1,
+          "home": 1.39,
+          "draw": 4.95,
+          "away": 8.4
+        },
+        {
+          "event_time": "2025-12-17 21:32",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.44,
+          "draw": 4.75,
+          "away": 7.5
+        },
+        {
+          "event_time": "2025-12-19 05:23",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.42,
+          "draw": 4.8,
+          "away": 7.8
+        },
+        {
+          "event_time": "2025-12-22 05:50",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.4,
+          "draw": 4.9,
+          "away": 8.2
+        },
+        {
+          "event_time": "2025-12-22 05:53",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.39,
+          "draw": 4.95,
+          "away": 8.2
+        },
+        {
+          "event_time": "2025-12-24 22:28",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.37,
+          "draw": 4.95,
+          "away": 9.0
+        },
+        {
+          "event_time": "2025-12-27 21:09",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.41,
+          "draw": 4.9,
+          "away": 8.0
+        },
+        {
+          "event_time": "2025-12-28 00:59",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.39,
+          "draw": 4.9,
+          "away": 8.0
+        },
+        {
+          "event_time": "2025-12-28 01:00",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.39,
+          "draw": 4.9,
+          "away": 8.3
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-28 01:00",
+        "state": "早",
+        "is_opening": 0,
+        "home": 1.39,
+        "draw": 4.9,
+        "away": 8.3
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 12,
+    "overunder_events": 7,
+    "1x2_events": 9
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20251228_065930"
+  }
+}
