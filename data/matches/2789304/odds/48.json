@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2789304
-COMPANY_ID: 48
-COMPANY_NAME: 香港马会
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 2
-OVERUNDER_EVENTS: 1
-1X2_EVENTS: 2
-TIME_RANGE: 2025-12-24 12:03 -> 2025-12-25 01:54
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-27 10:43:07",
+  "exported_at": "2025-12-27 20:53:10",
   "match": {
     "match_id": "2789304",
     "match_time": "2025-12-27 23:00",
@@ -46,16 +36,34 @@ TIME_RANGE: 2025-12-24 12:03 -> 2025-12-25 01:54
           "home_odds": 0.85,
           "away_odds": 0.91,
           "raw_cols": "||0.85|球半/两球|0.91|12-25 01:54|即"
+        },
+        {
+          "event_time": "2025-12-27 11:04",
+          "state": "即",
+          "is_opening": 0,
+          "line": "球半/两球",
+          "home_odds": 0.82,
+          "away_odds": 0.95,
+          "raw_cols": "||0.82|球半/两球|0.95|12-27 11:04|即"
+        },
+        {
+          "event_time": "2025-12-27 12:12",
+          "state": "即",
+          "is_opening": 0,
+          "line": "球半/两球",
+          "home_odds": 0.85,
+          "away_odds": 0.97,
+          "raw_cols": "||0.85|球半/两球|0.97|12-27 12:12|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-25 01:54",
+        "event_time": "2025-12-27 12:12",
         "state": "即",
         "is_opening": 0,
         "line": "球半/两球",
         "home_odds": 0.85,
-        "away_odds": 0.91,
-        "raw_cols": "||0.85|球半/两球|0.91|12-25 01:54|即"
+        "away_odds": 0.97,
+        "raw_cols": "||0.85|球半/两球|0.97|12-27 12:12|即"
       }
     },
     "overunder": {
@@ -99,26 +107,35 @@ TIME_RANGE: 2025-12-24 12:03 -> 2025-12-25 01:54
           "draw": 6.0,
           "away": 11.0,
           "raw_cols": "||1.15|6.00|11.00|12-25 01:54|即"
+        },
+        {
+          "event_time": "2025-12-27 11:04",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.14,
+          "draw": 6.1,
+          "away": 11.5,
+          "raw_cols": "||1.14|6.10|11.50|12-27 11:04|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-25 01:54",
+        "event_time": "2025-12-27 11:04",
         "state": "即",
         "is_opening": 0,
-        "home": 1.15,
-        "draw": 6.0,
-        "away": 11.0,
-        "raw_cols": "||1.15|6.00|11.00|12-25 01:54|即"
+        "home": 1.14,
+        "draw": 6.1,
+        "away": 11.5,
+        "raw_cols": "||1.14|6.10|11.50|12-27 11:04|即"
       }
     }
   },
   "counts": {
-    "handicap_events": 2,
+    "handicap_events": 4,
     "overunder_events": 1,
-    "1x2_events": 2
+    "1x2_events": 3
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251227_104307"
+    "export_ts": "20251227_205310"
   }
 }

@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2789304
-COMPANY_ID: 4
-COMPANY_NAME: 立博(Ladbrokes)
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 0
-OVERUNDER_EVENTS: 4
-1X2_EVENTS: 7
-TIME_RANGE: 2025-12-14 15:21 -> 2025-12-27 04:57
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-27 10:43:07",
+  "exported_at": "2025-12-27 20:53:10",
   "match": {
     "match_id": "2789304",
     "match_time": "2025-12-27 23:00",
@@ -28,7 +18,8 @@ TIME_RANGE: 2025-12-14 15:21 -> 2025-12-27 04:57
   },
   "markets": {
     "handicap": {
-      "events": []
+      "events": [],
+      "latest": null
     },
     "overunder": {
       "events": [
@@ -67,16 +58,25 @@ TIME_RANGE: 2025-12-14 15:21 -> 2025-12-27 04:57
           "over_odds": 0.5,
           "under_odds": 1.45,
           "raw_cols": "||0.50|2.5|1.45|12-26 23:47|早"
+        },
+        {
+          "event_time": "2025-12-27 13:33",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.5,
+          "under_odds": 1.4,
+          "raw_cols": "||0.50|2.5|1.40|12-27 13:33|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-26 23:47",
-        "state": "早",
+        "event_time": "2025-12-27 13:33",
+        "state": "即",
         "is_opening": 0,
         "line": "2.5",
         "over_odds": 0.5,
-        "under_odds": 1.45,
-        "raw_cols": "||0.50|2.5|1.45|12-26 23:47|早"
+        "under_odds": 1.4,
+        "raw_cols": "||0.50|2.5|1.40|12-27 13:33|即"
       }
     },
     "1x2": {
@@ -143,26 +143,35 @@ TIME_RANGE: 2025-12-14 15:21 -> 2025-12-27 04:57
           "draw": 6.0,
           "away": 9.5,
           "raw_cols": "||1.25|6.00|9.50|12-27 04:57|即"
+        },
+        {
+          "event_time": "2025-12-27 13:33",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.25,
+          "draw": 6.5,
+          "away": 9.5,
+          "raw_cols": "||1.25|6.50|9.50|12-27 13:33|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-27 04:57",
+        "event_time": "2025-12-27 13:33",
         "state": "即",
         "is_opening": 0,
         "home": 1.25,
-        "draw": 6.0,
+        "draw": 6.5,
         "away": 9.5,
-        "raw_cols": "||1.25|6.00|9.50|12-27 04:57|即"
+        "raw_cols": "||1.25|6.50|9.50|12-27 13:33|即"
       }
     }
   },
   "counts": {
     "handicap_events": 0,
-    "overunder_events": 4,
-    "1x2_events": 7
+    "overunder_events": 5,
+    "1x2_events": 8
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251227_104307"
+    "export_ts": "20251227_205310"
   }
 }
