@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2784650
-COMPANY_ID: 48
-COMPANY_NAME: 香港马会
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
-OVERUNDER_EVENTS: 1
-1X2_EVENTS: 1
-TIME_RANGE: 2025-12-25 19:30 -> 2025-12-25 19:30
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-27 10:43:07",
+  "exported_at": "2025-12-27 20:53:10",
   "match": {
     "match_id": "2784650",
     "match_time": "2025-12-27 22:00",
@@ -37,16 +27,25 @@ TIME_RANGE: 2025-12-25 19:30 -> 2025-12-25 19:30
           "home_odds": 1.12,
           "away_odds": 0.68,
           "raw_cols": "||1.12|半球/一球|0.68|12-25 19:30|即"
+        },
+        {
+          "event_time": "2025-12-27 12:15",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球/一球",
+          "home_odds": 1.17,
+          "away_odds": 0.7,
+          "raw_cols": "||1.17|半球/一球|0.70|12-27 12:15|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-25 19:30",
+        "event_time": "2025-12-27 12:15",
         "state": "即",
         "is_opening": 0,
         "line": "半球/一球",
-        "home_odds": 1.12,
-        "away_odds": 0.68,
-        "raw_cols": "||1.12|半球/一球|0.68|12-25 19:30|即"
+        "home_odds": 1.17,
+        "away_odds": 0.7,
+        "raw_cols": "||1.17|半球/一球|0.70|12-27 12:15|即"
       }
     },
     "overunder": {
@@ -95,12 +94,12 @@ TIME_RANGE: 2025-12-25 19:30 -> 2025-12-25 19:30
     }
   },
   "counts": {
-    "handicap_events": 1,
+    "handicap_events": 2,
     "overunder_events": 1,
     "1x2_events": 1
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251227_104307"
+    "export_ts": "20251227_205310"
   }
 }
