@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2788687
-COMPANY_ID: 48
-COMPANY_NAME: 香港马会
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
-OVERUNDER_EVENTS: 1
-1X2_EVENTS: 1
-TIME_RANGE: 2025-12-24 19:30 -> 2025-12-24 19:30
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-27 10:43:07",
+  "exported_at": "2025-12-27 23:32:58",
   "match": {
     "match_id": "2788687",
     "match_time": "2025-12-28 01:30",
@@ -37,16 +27,25 @@ TIME_RANGE: 2025-12-24 19:30 -> 2025-12-24 19:30
           "home_odds": 1.0,
           "away_odds": 0.77,
           "raw_cols": "||1.00|平手/半球|0.77|12-24 19:30|即"
+        },
+        {
+          "event_time": "2025-12-27 20:41",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 1.05,
+          "away_odds": 0.74,
+          "raw_cols": "||1.05|平手/半球|0.74|12-27 20:41|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-24 19:30",
+        "event_time": "2025-12-27 20:41",
         "state": "即",
         "is_opening": 0,
         "line": "平手/半球",
-        "home_odds": 1.0,
-        "away_odds": 0.77,
-        "raw_cols": "||1.00|平手/半球|0.77|12-24 19:30|即"
+        "home_odds": 1.05,
+        "away_odds": 0.74,
+        "raw_cols": "||1.05|平手/半球|0.74|12-27 20:41|即"
       }
     },
     "overunder": {
@@ -81,26 +80,35 @@ TIME_RANGE: 2025-12-24 19:30 -> 2025-12-24 19:30
           "draw": 2.75,
           "away": 3.1,
           "raw_cols": "||2.24|2.75|3.10|12-24 19:30|(初盘)"
+        },
+        {
+          "event_time": "2025-12-27 20:41",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.3,
+          "draw": 2.74,
+          "away": 3.0,
+          "raw_cols": "||2.30|2.74|3.00|12-27 20:41|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-24 19:30",
-        "state": "早",
-        "is_opening": 1,
-        "home": 2.24,
-        "draw": 2.75,
-        "away": 3.1,
-        "raw_cols": "||2.24|2.75|3.10|12-24 19:30|(初盘)"
+        "event_time": "2025-12-27 20:41",
+        "state": "即",
+        "is_opening": 0,
+        "home": 2.3,
+        "draw": 2.74,
+        "away": 3.0,
+        "raw_cols": "||2.30|2.74|3.00|12-27 20:41|即"
       }
     }
   },
   "counts": {
-    "handicap_events": 1,
+    "handicap_events": 2,
     "overunder_events": 1,
-    "1x2_events": 1
+    "1x2_events": 2
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251227_104307"
+    "export_ts": "20251227_233257"
   }
 }
