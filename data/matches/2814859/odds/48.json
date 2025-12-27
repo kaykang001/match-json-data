@@ -1,0 +1,100 @@
+# INDEX
+MATCH_ID: 2814859
+COMPANY_ID: 48
+COMPANY_NAME: 香港马会
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 1
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 1
+TIME_RANGE: 2025-12-25 19:31 -> 2025-12-25 19:31
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2025-12-28 06:59:31",
+  "match": {
+    "match_id": "2814859",
+    "match_time": "2025-12-29 02:00",
+    "league": {
+      "league_id": 23,
+      "league_name": "unknown"
+    },
+    "home_team": "布拉加",
+    "away_team": "本菲卡"
+  },
+  "company": {
+    "company_id": "48",
+    "company_name": "香港马会"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-25 19:31",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.96,
+          "away_odds": 0.81
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-25 19:31",
+        "state": "即",
+        "is_opening": 0,
+        "line": "受让平手/半球",
+        "home_odds": 0.96,
+        "away_odds": 0.81
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-25 19:31",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.94,
+          "under_odds": 0.76
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-25 19:31",
+        "state": "即",
+        "is_opening": 0,
+        "line": "2.5",
+        "over_odds": 0.94,
+        "under_odds": 0.76
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-25 19:31",
+          "state": "早",
+          "is_opening": 1,
+          "home": 3.2,
+          "draw": 3.15,
+          "away": 1.99
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-25 19:31",
+        "state": "早",
+        "is_opening": 1,
+        "home": 3.2,
+        "draw": 3.15,
+        "away": 1.99
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 1,
+    "overunder_events": 1,
+    "1x2_events": 1
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20251228_065930"
+  }
+}

@@ -1,0 +1,212 @@
+# INDEX
+MATCH_ID: 2814858
+COMPANY_ID: 8
+COMPANY_NAME: 365bet
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 3
+OVERUNDER_EVENTS: 4
+1X2_EVENTS: 10
+TIME_RANGE: 2025-12-23 09:45 -> 2025-12-27 03:15
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2025-12-28 06:59:31",
+  "match": {
+    "match_id": "2814858",
+    "match_time": "2025-12-28 23:30",
+    "league": {
+      "league_id": 23,
+      "league_name": "unknown"
+    },
+    "home_team": "阿罗卡",
+    "away_team": "吉维森特"
+  },
+  "company": {
+    "company_id": "8",
+    "company_name": "365bet"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-23 09:45",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.83,
+          "away_odds": 1.03
+        },
+        {
+          "event_time": "2025-12-26 00:45",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.85,
+          "away_odds": 1.0
+        },
+        {
+          "event_time": "2025-12-27 00:25",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.88,
+          "away_odds": 0.98
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-27 00:25",
+        "state": "即",
+        "is_opening": 0,
+        "line": "受让半球",
+        "home_odds": 0.88,
+        "away_odds": 0.98
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-23 09:45",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.0,
+          "under_odds": 0.85
+        },
+        {
+          "event_time": "2025-12-24 02:03",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.98,
+          "under_odds": 0.88
+        },
+        {
+          "event_time": "2025-12-24 02:19",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.0,
+          "under_odds": 0.85
+        },
+        {
+          "event_time": "2025-12-24 02:23",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.98,
+          "under_odds": 0.88
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-24 02:23",
+        "state": "即",
+        "is_opening": 0,
+        "line": "2/2.5",
+        "over_odds": 0.98,
+        "under_odds": 0.88
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-23 09:59",
+          "state": "早",
+          "is_opening": 1,
+          "home": 3.9,
+          "draw": 3.2,
+          "away": 1.96
+        },
+        {
+          "event_time": "2025-12-23 12:09",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.9,
+          "draw": 3.2,
+          "away": 2.0
+        },
+        {
+          "event_time": "2025-12-26 00:45",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.0,
+          "draw": 3.2,
+          "away": 1.91
+        },
+        {
+          "event_time": "2025-12-26 03:08",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.0,
+          "draw": 3.2,
+          "away": 1.95
+        },
+        {
+          "event_time": "2025-12-26 08:40",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.0,
+          "draw": 3.2,
+          "away": 1.96
+        },
+        {
+          "event_time": "2025-12-26 08:43",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.0,
+          "draw": 3.2,
+          "away": 1.91
+        },
+        {
+          "event_time": "2025-12-26 08:47",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.0,
+          "draw": 3.2,
+          "away": 1.96
+        },
+        {
+          "event_time": "2025-12-26 11:09",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.0,
+          "draw": 3.2,
+          "away": 2.0
+        },
+        {
+          "event_time": "2025-12-27 00:25",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.2,
+          "draw": 3.2,
+          "away": 1.91
+        },
+        {
+          "event_time": "2025-12-27 03:15",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.2,
+          "draw": 3.2,
+          "away": 1.95
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-27 03:15",
+        "state": "即",
+        "is_opening": 0,
+        "home": 4.2,
+        "draw": 3.2,
+        "away": 1.95
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 3,
+    "overunder_events": 4,
+    "1x2_events": 10
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20251228_065930"
+  }
+}
