@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2789308
-COMPANY_ID: 4
-COMPANY_NAME: 立博(Ladbrokes)
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 0
-OVERUNDER_EVENTS: 3
-1X2_EVENTS: 6
-TIME_RANGE: 2025-12-14 15:29 -> 2025-12-23 20:39
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-27 10:43:07",
+  "exported_at": "2025-12-27 20:53:10",
   "match": {
     "match_id": "2789308",
     "match_time": "2025-12-27 23:00",
@@ -28,7 +18,8 @@ TIME_RANGE: 2025-12-14 15:29 -> 2025-12-23 20:39
   },
   "markets": {
     "handicap": {
-      "events": []
+      "events": [],
+      "latest": null
     },
     "overunder": {
       "events": [
@@ -145,6 +136,6 @@ TIME_RANGE: 2025-12-14 15:29 -> 2025-12-23 20:39
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251227_104307"
+    "export_ts": "20251227_205310"
   }
 }
