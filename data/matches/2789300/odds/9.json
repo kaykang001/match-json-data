@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2789300
-COMPANY_ID: 9
-COMPANY_NAME: 威廉希尔(William Hill)
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 7
-OVERUNDER_EVENTS: 2
-1X2_EVENTS: 5
-TIME_RANGE: 2025-12-14 02:03 -> 2025-12-27 05:48
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-27 10:43:07",
+  "exported_at": "2025-12-27 20:53:10",
   "match": {
     "match_id": "2789300",
     "match_time": "2025-12-27 23:00",
@@ -91,16 +81,25 @@ TIME_RANGE: 2025-12-14 02:03 -> 2025-12-27 05:48
           "home_odds": 0.89,
           "away_odds": 0.76,
           "raw_cols": "||0.89|平手/半球|0.76|12-23 21:04|早"
+        },
+        {
+          "event_time": "2025-12-27 18:42",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.88,
+          "away_odds": 0.75,
+          "raw_cols": "||0.88|平手/半球|0.75|12-27 18:42|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-23 21:04",
-        "state": "早",
+        "event_time": "2025-12-27 18:42",
+        "state": "即",
         "is_opening": 0,
         "line": "平手/半球",
-        "home_odds": 0.89,
-        "away_odds": 0.76,
-        "raw_cols": "||0.89|平手/半球|0.76|12-23 21:04|早"
+        "home_odds": 0.88,
+        "away_odds": 0.75,
+        "raw_cols": "||0.88|平手/半球|0.75|12-27 18:42|即"
       }
     },
     "overunder": {
@@ -194,12 +193,12 @@ TIME_RANGE: 2025-12-14 02:03 -> 2025-12-27 05:48
     }
   },
   "counts": {
-    "handicap_events": 7,
+    "handicap_events": 8,
     "overunder_events": 2,
     "1x2_events": 5
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251227_104307"
+    "export_ts": "20251227_205310"
   }
 }
