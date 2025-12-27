@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2789301
-COMPANY_ID: 42
-COMPANY_NAME: 188bet/金宝博
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 39
-OVERUNDER_EVENTS: 23
-1X2_EVENTS: 34
-TIME_RANGE: 2025-12-14 01:10 -> 2025-12-27 09:14
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-27 10:43:07",
+  "exported_at": "2025-12-27 20:53:10",
   "match": {
     "match_id": "2789301",
     "match_time": "2025-12-27 23:00",
@@ -379,16 +369,295 @@ TIME_RANGE: 2025-12-14 01:10 -> 2025-12-27 09:14
           "home_odds": 0.82,
           "away_odds": 0.97,
           "raw_cols": "||0.82|受让半球|0.97|12-27 06:46|早"
+        },
+        {
+          "event_time": "2025-12-27 09:59",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.82,
+          "away_odds": 0.96,
+          "raw_cols": "||0.82|受让半球|0.96|12-27 09:59|即"
+        },
+        {
+          "event_time": "2025-12-27 12:04",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.81,
+          "away_odds": 0.98,
+          "raw_cols": "||0.81|受让半球|0.98|12-27 12:04|即"
+        },
+        {
+          "event_time": "2025-12-27 12:06",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.82,
+          "away_odds": 0.97,
+          "raw_cols": "||0.82|受让半球|0.97|12-27 12:06|即"
+        },
+        {
+          "event_time": "2025-12-27 13:03",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.8,
+          "away_odds": 0.99,
+          "raw_cols": "||0.80|受让半球|0.99|12-27 13:03|即"
+        },
+        {
+          "event_time": "2025-12-27 13:12",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.79,
+          "away_odds": 1.0,
+          "raw_cols": "||0.79|受让半球|1.00|12-27 13:12|即"
+        },
+        {
+          "event_time": "2025-12-27 13:33",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.76,
+          "away_odds": 1.04,
+          "raw_cols": "||0.76|受让半球|1.04|12-27 13:33|即"
+        },
+        {
+          "event_time": "2025-12-27 14:06",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.75,
+          "away_odds": 1.06,
+          "raw_cols": "||0.75|受让半球|1.06|12-27 14:06|即"
+        },
+        {
+          "event_time": "2025-12-27 14:09",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.06,
+          "away_odds": 0.75,
+          "raw_cols": "||1.06|受让平手/半球|0.75|12-27 14:09|即"
+        },
+        {
+          "event_time": "2025-12-27 14:16",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.75,
+          "away_odds": 1.06,
+          "raw_cols": "||0.75|受让半球|1.06|12-27 14:16|即"
+        },
+        {
+          "event_time": "2025-12-27 14:33",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.04,
+          "away_odds": 0.76,
+          "raw_cols": "||1.04|受让平手/半球|0.76|12-27 14:33|即"
+        },
+        {
+          "event_time": "2025-12-27 15:51",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.76,
+          "away_odds": 1.04,
+          "raw_cols": "||0.76|受让半球|1.04|12-27 15:51|即"
+        },
+        {
+          "event_time": "2025-12-27 15:52",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.04,
+          "away_odds": 0.76,
+          "raw_cols": "||1.04|受让平手/半球|0.76|12-27 15:52|即"
+        },
+        {
+          "event_time": "2025-12-27 16:03",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.05,
+          "away_odds": 0.77,
+          "raw_cols": "||1.05|受让平手/半球|0.77|12-27 16:03|即"
+        },
+        {
+          "event_time": "2025-12-27 16:32",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.77,
+          "away_odds": 1.05,
+          "raw_cols": "||0.77|受让半球|1.05|12-27 16:32|即"
+        },
+        {
+          "event_time": "2025-12-27 16:46",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.05,
+          "away_odds": 0.77,
+          "raw_cols": "||1.05|受让平手/半球|0.77|12-27 16:46|即"
+        },
+        {
+          "event_time": "2025-12-27 17:00",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.04,
+          "away_odds": 0.78,
+          "raw_cols": "||1.04|受让平手/半球|0.78|12-27 17:00|即"
+        },
+        {
+          "event_time": "2025-12-27 17:32",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.03,
+          "away_odds": 0.79,
+          "raw_cols": "||1.03|受让平手/半球|0.79|12-27 17:32|即"
+        },
+        {
+          "event_time": "2025-12-27 17:34",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.02,
+          "away_odds": 0.79,
+          "raw_cols": "||1.02|受让平手/半球|0.79|12-27 17:34|即"
+        },
+        {
+          "event_time": "2025-12-27 17:35",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.02,
+          "away_odds": 0.8,
+          "raw_cols": "||1.02|受让平手/半球|0.80|12-27 17:35|即"
+        },
+        {
+          "event_time": "2025-12-27 17:41",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.01,
+          "away_odds": 0.8,
+          "raw_cols": "||1.01|受让平手/半球|0.80|12-27 17:41|即"
+        },
+        {
+          "event_time": "2025-12-27 18:19",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.0,
+          "away_odds": 0.81,
+          "raw_cols": "||1.00|受让平手/半球|0.81|12-27 18:19|即"
+        },
+        {
+          "event_time": "2025-12-27 18:23",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.02,
+          "away_odds": 0.8,
+          "raw_cols": "||1.02|受让平手/半球|0.80|12-27 18:23|即"
+        },
+        {
+          "event_time": "2025-12-27 18:24",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.0,
+          "away_odds": 0.81,
+          "raw_cols": "||1.00|受让平手/半球|0.81|12-27 18:24|即"
+        },
+        {
+          "event_time": "2025-12-27 18:28",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.99,
+          "away_odds": 0.82,
+          "raw_cols": "||0.99|受让平手/半球|0.82|12-27 18:28|即"
+        },
+        {
+          "event_time": "2025-12-27 18:32",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.97,
+          "away_odds": 0.84,
+          "raw_cols": "||0.97|受让平手/半球|0.84|12-27 18:32|即"
+        },
+        {
+          "event_time": "2025-12-27 18:34",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.96,
+          "away_odds": 0.84,
+          "raw_cols": "||0.96|受让平手/半球|0.84|12-27 18:34|即"
+        },
+        {
+          "event_time": "2025-12-27 18:37",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.96,
+          "away_odds": 0.85,
+          "raw_cols": "||0.96|受让平手/半球|0.85|12-27 18:37|即"
+        },
+        {
+          "event_time": "2025-12-27 18:42",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.96,
+          "away_odds": 0.84,
+          "raw_cols": "||0.96|受让平手/半球|0.84|12-27 18:42|即"
+        },
+        {
+          "event_time": "2025-12-27 18:42",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.95,
+          "away_odds": 0.85,
+          "raw_cols": "||0.95|受让平手/半球|0.85|12-27 18:42|即"
+        },
+        {
+          "event_time": "2025-12-27 18:48",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.97,
+          "away_odds": 0.84,
+          "raw_cols": "||0.97|受让平手/半球|0.84|12-27 18:48|即"
+        },
+        {
+          "event_time": "2025-12-27 18:55",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.96,
+          "away_odds": 0.85,
+          "raw_cols": "||0.96|受让平手/半球|0.85|12-27 18:55|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-27 06:46",
-        "state": "早",
+        "event_time": "2025-12-27 18:55",
+        "state": "即",
         "is_opening": 0,
-        "line": "受让半球",
-        "home_odds": 0.82,
-        "away_odds": 0.97,
-        "raw_cols": "||0.82|受让半球|0.97|12-27 06:46|早"
+        "line": "受让平手/半球",
+        "home_odds": 0.96,
+        "away_odds": 0.85,
+        "raw_cols": "||0.96|受让平手/半球|0.85|12-27 18:55|即"
       }
     },
     "overunder": {
@@ -599,16 +868,232 @@ TIME_RANGE: 2025-12-14 01:10 -> 2025-12-27 09:14
           "over_odds": 0.92,
           "under_odds": 0.87,
           "raw_cols": "||0.92|2/2.5|0.87|12-27 00:43|早"
+        },
+        {
+          "event_time": "2025-12-27 09:59",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.93,
+          "under_odds": 0.85,
+          "raw_cols": "||0.93|2/2.5|0.85|12-27 09:59|即"
+        },
+        {
+          "event_time": "2025-12-27 10:04",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.92,
+          "under_odds": 0.87,
+          "raw_cols": "||0.92|2/2.5|0.87|12-27 10:04|即"
+        },
+        {
+          "event_time": "2025-12-27 11:08",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.93,
+          "under_odds": 0.86,
+          "raw_cols": "||0.93|2/2.5|0.86|12-27 11:08|即"
+        },
+        {
+          "event_time": "2025-12-27 11:38",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.94,
+          "under_odds": 0.85,
+          "raw_cols": "||0.94|2/2.5|0.85|12-27 11:38|即"
+        },
+        {
+          "event_time": "2025-12-27 12:04",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.94,
+          "under_odds": 0.84,
+          "raw_cols": "||0.94|2/2.5|0.84|12-27 12:04|即"
+        },
+        {
+          "event_time": "2025-12-27 13:20",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.95,
+          "under_odds": 0.84,
+          "raw_cols": "||0.95|2/2.5|0.84|12-27 13:20|即"
+        },
+        {
+          "event_time": "2025-12-27 13:33",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.96,
+          "under_odds": 0.83,
+          "raw_cols": "||0.96|2/2.5|0.83|12-27 13:33|即"
+        },
+        {
+          "event_time": "2025-12-27 13:33",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.95,
+          "under_odds": 0.83,
+          "raw_cols": "||0.95|2/2.5|0.83|12-27 13:33|即"
+        },
+        {
+          "event_time": "2025-12-27 14:17",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.97,
+          "under_odds": 0.82,
+          "raw_cols": "||0.97|2/2.5|0.82|12-27 14:17|即"
+        },
+        {
+          "event_time": "2025-12-27 14:57",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.95,
+          "under_odds": 0.83,
+          "raw_cols": "||0.95|2/2.5|0.83|12-27 14:57|即"
+        },
+        {
+          "event_time": "2025-12-27 15:22",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.94,
+          "under_odds": 0.84,
+          "raw_cols": "||0.94|2/2.5|0.84|12-27 15:22|即"
+        },
+        {
+          "event_time": "2025-12-27 15:51",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.95,
+          "under_odds": 0.84,
+          "raw_cols": "||0.95|2/2.5|0.84|12-27 15:51|即"
+        },
+        {
+          "event_time": "2025-12-27 15:52",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.95,
+          "under_odds": 0.83,
+          "raw_cols": "||0.95|2/2.5|0.83|12-27 15:52|即"
+        },
+        {
+          "event_time": "2025-12-27 16:03",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.96,
+          "under_odds": 0.84,
+          "raw_cols": "||0.96|2/2.5|0.84|12-27 16:03|即"
+        },
+        {
+          "event_time": "2025-12-27 16:26",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.97,
+          "under_odds": 0.84,
+          "raw_cols": "||0.97|2/2.5|0.84|12-27 16:26|即"
+        },
+        {
+          "event_time": "2025-12-27 16:57",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.97,
+          "under_odds": 0.83,
+          "raw_cols": "||0.97|2/2.5|0.83|12-27 16:57|即"
+        },
+        {
+          "event_time": "2025-12-27 17:09",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.98,
+          "under_odds": 0.83,
+          "raw_cols": "||0.98|2/2.5|0.83|12-27 17:09|即"
+        },
+        {
+          "event_time": "2025-12-27 18:15",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.99,
+          "under_odds": 0.82,
+          "raw_cols": "||0.99|2/2.5|0.82|12-27 18:15|即"
+        },
+        {
+          "event_time": "2025-12-27 18:23",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.98,
+          "under_odds": 0.82,
+          "raw_cols": "||0.98|2/2.5|0.82|12-27 18:23|即"
+        },
+        {
+          "event_time": "2025-12-27 18:25",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.0,
+          "under_odds": 0.81,
+          "raw_cols": "||1.00|2/2.5|0.81|12-27 18:25|即"
+        },
+        {
+          "event_time": "2025-12-27 18:42",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.02,
+          "under_odds": 0.79,
+          "raw_cols": "||1.02|2/2.5|0.79|12-27 18:42|即"
+        },
+        {
+          "event_time": "2025-12-27 18:48",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.03,
+          "under_odds": 0.79,
+          "raw_cols": "||1.03|2/2.5|0.79|12-27 18:48|即"
+        },
+        {
+          "event_time": "2025-12-27 18:54",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.04,
+          "under_odds": 0.78,
+          "raw_cols": "||1.04|2/2.5|0.78|12-27 18:54|即"
+        },
+        {
+          "event_time": "2025-12-27 18:58",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.05,
+          "under_odds": 0.77,
+          "raw_cols": "||1.05|2/2.5|0.77|12-27 18:58|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-27 00:43",
-        "state": "早",
+        "event_time": "2025-12-27 18:58",
+        "state": "即",
         "is_opening": 0,
         "line": "2/2.5",
-        "over_odds": 0.92,
-        "under_odds": 0.87,
-        "raw_cols": "||0.92|2/2.5|0.87|12-27 00:43|早"
+        "over_odds": 1.05,
+        "under_odds": 0.77,
+        "raw_cols": "||1.05|2/2.5|0.77|12-27 18:58|即"
       }
     },
     "1x2": {
@@ -918,26 +1403,161 @@ TIME_RANGE: 2025-12-14 01:10 -> 2025-12-27 09:14
           "draw": 3.3,
           "away": 2.0,
           "raw_cols": "||4.00|3.30|2.00|12-27 09:14|即"
+        },
+        {
+          "event_time": "2025-12-27 10:08",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.0,
+          "draw": 3.35,
+          "away": 2.0,
+          "raw_cols": "||4.00|3.35|2.00|12-27 10:08|即"
+        },
+        {
+          "event_time": "2025-12-27 10:10",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.0,
+          "draw": 3.3,
+          "away": 2.0,
+          "raw_cols": "||4.00|3.30|2.00|12-27 10:10|即"
+        },
+        {
+          "event_time": "2025-12-27 13:04",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.9,
+          "draw": 3.3,
+          "away": 2.0,
+          "raw_cols": "||3.90|3.30|2.00|12-27 13:04|即"
+        },
+        {
+          "event_time": "2025-12-27 13:33",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.9,
+          "draw": 3.3,
+          "away": 2.05,
+          "raw_cols": "||3.90|3.30|2.05|12-27 13:33|即"
+        },
+        {
+          "event_time": "2025-12-27 13:54",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.9,
+          "draw": 3.25,
+          "away": 2.05,
+          "raw_cols": "||3.90|3.25|2.05|12-27 13:54|即"
+        },
+        {
+          "event_time": "2025-12-27 14:09",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.8,
+          "draw": 3.25,
+          "away": 2.05,
+          "raw_cols": "||3.80|3.25|2.05|12-27 14:09|即"
+        },
+        {
+          "event_time": "2025-12-27 14:33",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.8,
+          "draw": 3.25,
+          "away": 2.1,
+          "raw_cols": "||3.80|3.25|2.10|12-27 14:33|即"
+        },
+        {
+          "event_time": "2025-12-27 14:54",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.8,
+          "draw": 3.3,
+          "away": 2.1,
+          "raw_cols": "||3.80|3.30|2.10|12-27 14:54|即"
+        },
+        {
+          "event_time": "2025-12-27 14:55",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.8,
+          "draw": 3.3,
+          "away": 2.05,
+          "raw_cols": "||3.80|3.30|2.05|12-27 14:55|即"
+        },
+        {
+          "event_time": "2025-12-27 14:56",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.8,
+          "draw": 3.3,
+          "away": 2.1,
+          "raw_cols": "||3.80|3.30|2.10|12-27 14:56|即"
+        },
+        {
+          "event_time": "2025-12-27 15:41",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.7,
+          "draw": 3.3,
+          "away": 2.1,
+          "raw_cols": "||3.70|3.30|2.10|12-27 15:41|即"
+        },
+        {
+          "event_time": "2025-12-27 16:00",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.8,
+          "draw": 3.3,
+          "away": 2.1,
+          "raw_cols": "||3.80|3.30|2.10|12-27 16:00|即"
+        },
+        {
+          "event_time": "2025-12-27 16:46",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.7,
+          "draw": 3.3,
+          "away": 2.1,
+          "raw_cols": "||3.70|3.30|2.10|12-27 16:46|即"
+        },
+        {
+          "event_time": "2025-12-27 17:35",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.7,
+          "draw": 3.25,
+          "away": 2.1,
+          "raw_cols": "||3.70|3.25|2.10|12-27 17:35|即"
+        },
+        {
+          "event_time": "2025-12-27 18:28",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.6,
+          "draw": 3.2,
+          "away": 2.15,
+          "raw_cols": "||3.60|3.20|2.15|12-27 18:28|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-27 09:14",
+        "event_time": "2025-12-27 18:28",
         "state": "即",
         "is_opening": 0,
-        "home": 4.0,
-        "draw": 3.3,
-        "away": 2.0,
-        "raw_cols": "||4.00|3.30|2.00|12-27 09:14|即"
+        "home": 3.6,
+        "draw": 3.2,
+        "away": 2.15,
+        "raw_cols": "||3.60|3.20|2.15|12-27 18:28|即"
       }
     }
   },
   "counts": {
-    "handicap_events": 39,
-    "overunder_events": 23,
-    "1x2_events": 34
+    "handicap_events": 70,
+    "overunder_events": 47,
+    "1x2_events": 49
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251227_104307"
+    "export_ts": "20251227_205310"
   }
 }

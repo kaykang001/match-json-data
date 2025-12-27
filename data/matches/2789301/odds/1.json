@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2789301
-COMPANY_ID: 1
-COMPANY_NAME: 澳彩
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
-OVERUNDER_EVENTS: 1
-1X2_EVENTS: 1
-TIME_RANGE: 2025-12-22 18:54 -> 2025-12-22 18:54
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-27 10:43:07",
+  "exported_at": "2025-12-27 20:53:10",
   "match": {
     "match_id": "2789301",
     "match_time": "2025-12-27 23:00",
@@ -37,16 +27,25 @@ TIME_RANGE: 2025-12-22 18:54 -> 2025-12-22 18:54
           "home_odds": 0.87,
           "away_odds": 0.97,
           "raw_cols": "||0.87|受让半球|0.97|12-22 18:54|即"
+        },
+        {
+          "event_time": "2025-12-27 15:17",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.78,
+          "away_odds": 1.06,
+          "raw_cols": "||0.78|受让半球|1.06|12-27 15:17|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-22 18:54",
+        "event_time": "2025-12-27 15:17",
         "state": "即",
         "is_opening": 0,
         "line": "受让半球",
-        "home_odds": 0.87,
-        "away_odds": 0.97,
-        "raw_cols": "||0.87|受让半球|0.97|12-22 18:54|即"
+        "home_odds": 0.78,
+        "away_odds": 1.06,
+        "raw_cols": "||0.78|受让半球|1.06|12-27 15:17|即"
       }
     },
     "overunder": {
@@ -81,26 +80,35 @@ TIME_RANGE: 2025-12-22 18:54 -> 2025-12-22 18:54
           "draw": 3.05,
           "away": 1.97,
           "raw_cols": "||3.61|3.05|1.97|12-22 18:54|(初盘)"
+        },
+        {
+          "event_time": "2025-12-27 15:18",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.34,
+          "draw": 3.05,
+          "away": 2.06,
+          "raw_cols": "||3.34|3.05|2.06|12-27 15:18|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-22 18:54",
-        "state": "早",
-        "is_opening": 1,
-        "home": 3.61,
+        "event_time": "2025-12-27 15:18",
+        "state": "即",
+        "is_opening": 0,
+        "home": 3.34,
         "draw": 3.05,
-        "away": 1.97,
-        "raw_cols": "||3.61|3.05|1.97|12-22 18:54|(初盘)"
+        "away": 2.06,
+        "raw_cols": "||3.34|3.05|2.06|12-27 15:18|即"
       }
     }
   },
   "counts": {
-    "handicap_events": 1,
+    "handicap_events": 2,
     "overunder_events": 1,
-    "1x2_events": 1
+    "1x2_events": 2
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251227_104307"
+    "export_ts": "20251227_205310"
   }
 }
