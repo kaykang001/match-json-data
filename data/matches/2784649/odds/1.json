@@ -1,0 +1,106 @@
+# INDEX
+MATCH_ID: 2784649
+COMPANY_ID: 1
+COMPANY_NAME: 澳彩
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 1
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 1
+TIME_RANGE: 2025-12-22 19:31 -> 2025-12-22 19:31
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2025-12-29 06:48:19",
+  "match": {
+    "match_id": "2784649",
+    "match_time": "2025-12-30 03:45",
+    "league": {
+      "league_id": 34,
+      "league_name": "unknown"
+    },
+    "home_team": "罗马",
+    "away_team": "热那亚"
+  },
+  "company": {
+    "company_id": "1",
+    "company_name": "澳彩"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-22 19:31",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球/一球",
+          "home_odds": 0.81,
+          "away_odds": 1.03,
+          "raw_cols": "||0.81|半球/一球|1.03|12-22 19:31|即"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-22 19:31",
+        "state": "即",
+        "is_opening": 0,
+        "line": "半球/一球",
+        "home_odds": 0.81,
+        "away_odds": 1.03,
+        "raw_cols": "||0.81|半球/一球|1.03|12-22 19:31|即"
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-22 19:31",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.03,
+          "under_odds": 0.77,
+          "raw_cols": "||1.03|2/2.5|0.77|12-22 19:31|即"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-22 19:31",
+        "state": "即",
+        "is_opening": 0,
+        "line": "2/2.5",
+        "over_odds": 1.03,
+        "under_odds": 0.77,
+        "raw_cols": "||1.03|2/2.5|0.77|12-22 19:31|即"
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-22 19:31",
+          "state": "早",
+          "is_opening": 1,
+          "home": 1.53,
+          "draw": 3.61,
+          "away": 5.45,
+          "raw_cols": "||1.53|3.61|5.45|12-22 19:31|(初盘)"
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-22 19:31",
+        "state": "早",
+        "is_opening": 1,
+        "home": 1.53,
+        "draw": 3.61,
+        "away": 5.45,
+        "raw_cols": "||1.53|3.61|5.45|12-22 19:31|(初盘)"
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 1,
+    "overunder_events": 1,
+    "1x2_events": 1
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20251229_064819"
+  }
+}
