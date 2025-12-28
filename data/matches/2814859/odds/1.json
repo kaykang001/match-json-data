@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2814859
-COMPANY_ID: 1
-COMPANY_NAME: 澳彩
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
-OVERUNDER_EVENTS: 1
-1X2_EVENTS: 1
-TIME_RANGE: 2025-12-23 17:26 -> 2025-12-23 17:26
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-28 06:59:31",
+  "exported_at": "2025-12-29 00:11:16",
   "match": {
     "match_id": "2814859",
     "match_time": "2025-12-29 02:00",
@@ -35,7 +25,8 @@ TIME_RANGE: 2025-12-23 17:26 -> 2025-12-23 17:26
           "is_opening": 0,
           "line": "受让平手/半球",
           "home_odds": 0.96,
-          "away_odds": 0.82
+          "away_odds": 0.82,
+          "raw_cols": "||0.96|受让平手/半球|0.82|12-23 17:26|即"
         }
       ],
       "latest": {
@@ -44,7 +35,8 @@ TIME_RANGE: 2025-12-23 17:26 -> 2025-12-23 17:26
         "is_opening": 0,
         "line": "受让平手/半球",
         "home_odds": 0.96,
-        "away_odds": 0.82
+        "away_odds": 0.82,
+        "raw_cols": "||0.96|受让平手/半球|0.82|12-23 17:26|即"
       }
     },
     "overunder": {
@@ -55,7 +47,8 @@ TIME_RANGE: 2025-12-23 17:26 -> 2025-12-23 17:26
           "is_opening": 0,
           "line": "2.5",
           "over_odds": 0.97,
-          "under_odds": 0.75
+          "under_odds": 0.75,
+          "raw_cols": "||0.97|2.5|0.75|12-23 17:26|即"
         }
       ],
       "latest": {
@@ -64,7 +57,8 @@ TIME_RANGE: 2025-12-23 17:26 -> 2025-12-23 17:26
         "is_opening": 0,
         "line": "2.5",
         "over_odds": 0.97,
-        "under_odds": 0.75
+        "under_odds": 0.75,
+        "raw_cols": "||0.97|2.5|0.75|12-23 17:26|即"
       }
     },
     "1x2": {
@@ -75,7 +69,8 @@ TIME_RANGE: 2025-12-23 17:26 -> 2025-12-23 17:26
           "is_opening": 1,
           "home": 3.0,
           "draw": 3.32,
-          "away": 2.04
+          "away": 2.04,
+          "raw_cols": "||3.00|3.32|2.04|12-23 17:26|(初盘)"
         }
       ],
       "latest": {
@@ -84,7 +79,8 @@ TIME_RANGE: 2025-12-23 17:26 -> 2025-12-23 17:26
         "is_opening": 1,
         "home": 3.0,
         "draw": 3.32,
-        "away": 2.04
+        "away": 2.04,
+        "raw_cols": "||3.00|3.32|2.04|12-23 17:26|(初盘)"
       }
     }
   },
@@ -95,6 +91,6 @@ TIME_RANGE: 2025-12-23 17:26 -> 2025-12-23 17:26
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251228_065930"
+    "export_ts": "20251229_001116"
   }
 }
