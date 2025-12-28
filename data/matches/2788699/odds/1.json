@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2788699
-COMPANY_ID: 1
-COMPANY_NAME: 澳彩
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 3
-OVERUNDER_EVENTS: 1
-1X2_EVENTS: 4
-TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-28 06:59:31",
+  "exported_at": "2025-12-28 21:13:25",
   "match": {
     "match_id": "2788699",
     "match_time": "2025-12-28 23:00",
@@ -35,7 +25,8 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
           "is_opening": 0,
           "line": "平手",
           "home_odds": 0.88,
-          "away_odds": 0.9
+          "away_odds": 0.9,
+          "raw_cols": "||0.88|平手|0.90|12-23 16:50|即"
         },
         {
           "event_time": "2025-12-25 02:08",
@@ -43,7 +34,8 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
           "is_opening": 0,
           "line": "平手",
           "home_odds": 0.7,
-          "away_odds": 1.08
+          "away_odds": 1.08,
+          "raw_cols": "||0.70|平手|1.08|12-25 02:08|即"
         },
         {
           "event_time": "2025-12-26 21:45",
@@ -51,7 +43,8 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
           "is_opening": 0,
           "line": "平手",
           "home_odds": 0.6,
-          "away_odds": 1.18
+          "away_odds": 1.18,
+          "raw_cols": "||0.60|平手|1.18|12-26 21:45|即"
         }
       ],
       "latest": {
@@ -60,7 +53,8 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
         "is_opening": 0,
         "line": "平手",
         "home_odds": 0.6,
-        "away_odds": 1.18
+        "away_odds": 1.18,
+        "raw_cols": "||0.60|平手|1.18|12-26 21:45|即"
       }
     },
     "overunder": {
@@ -71,7 +65,8 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
           "is_opening": 0,
           "line": "2",
           "over_odds": 0.94,
-          "under_odds": 0.78
+          "under_odds": 0.78,
+          "raw_cols": "||0.94|2|0.78|12-23 16:50|即"
         }
       ],
       "latest": {
@@ -80,7 +75,8 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
         "is_opening": 0,
         "line": "2",
         "over_odds": 0.94,
-        "under_odds": 0.78
+        "under_odds": 0.78,
+        "raw_cols": "||0.94|2|0.78|12-23 16:50|即"
       }
     },
     "1x2": {
@@ -91,7 +87,8 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
           "is_opening": 1,
           "home": 2.58,
           "draw": 2.85,
-          "away": 2.58
+          "away": 2.58,
+          "raw_cols": "||2.58|2.85|2.58|12-23 16:50|(初盘)"
         },
         {
           "event_time": "2025-12-23 21:45",
@@ -99,7 +96,8 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
           "is_opening": 0,
           "home": 2.56,
           "draw": 2.85,
-          "away": 2.6
+          "away": 2.6,
+          "raw_cols": "||2.56|2.85|2.60|12-23 21:45|即"
         },
         {
           "event_time": "2025-12-25 02:08",
@@ -107,7 +105,8 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
           "is_opening": 0,
           "home": 2.4,
           "draw": 2.85,
-          "away": 2.8
+          "away": 2.8,
+          "raw_cols": "||2.40|2.85|2.80|12-25 02:08|即"
         },
         {
           "event_time": "2025-12-26 21:46",
@@ -115,7 +114,8 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
           "is_opening": 0,
           "home": 2.3,
           "draw": 2.85,
-          "away": 2.95
+          "away": 2.95,
+          "raw_cols": "||2.30|2.85|2.95|12-26 21:46|即"
         }
       ],
       "latest": {
@@ -124,7 +124,8 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
         "is_opening": 0,
         "home": 2.3,
         "draw": 2.85,
-        "away": 2.95
+        "away": 2.95,
+        "raw_cols": "||2.30|2.85|2.95|12-26 21:46|即"
       }
     }
   },
@@ -135,6 +136,6 @@ TIME_RANGE: 2025-12-23 16:50 -> 2025-12-26 21:46
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251228_065930"
+    "export_ts": "20251228_211325"
   }
 }
