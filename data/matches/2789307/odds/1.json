@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2789307
-COMPANY_ID: 1
-COMPANY_NAME: 澳彩
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
-OVERUNDER_EVENTS: 3
-1X2_EVENTS: 1
-TIME_RANGE: 2025-12-22 18:58 -> 2025-12-28 04:20
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-28 06:59:31",
+  "exported_at": "2025-12-28 21:13:25",
   "match": {
     "match_id": "2789307",
     "match_time": "2025-12-28 22:00",
@@ -35,16 +25,36 @@ TIME_RANGE: 2025-12-22 18:58 -> 2025-12-28 04:20
           "is_opening": 0,
           "line": "平手",
           "home_odds": 0.82,
-          "away_odds": 1.02
+          "away_odds": 1.02,
+          "raw_cols": "||0.82|平手|1.02|12-22 18:58|即"
+        },
+        {
+          "event_time": "2025-12-28 12:01",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手",
+          "home_odds": 0.88,
+          "away_odds": 0.96,
+          "raw_cols": "||0.88|平手|0.96|12-28 12:01|即"
+        },
+        {
+          "event_time": "2025-12-28 15:37",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手",
+          "home_odds": 0.9,
+          "away_odds": 0.94,
+          "raw_cols": "||0.90|平手|0.94|12-28 15:37|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-22 18:58",
+        "event_time": "2025-12-28 15:37",
         "state": "即",
         "is_opening": 0,
         "line": "平手",
-        "home_odds": 0.82,
-        "away_odds": 1.02
+        "home_odds": 0.9,
+        "away_odds": 0.94,
+        "raw_cols": "||0.90|平手|0.94|12-28 15:37|即"
       }
     },
     "overunder": {
@@ -55,7 +65,8 @@ TIME_RANGE: 2025-12-22 18:58 -> 2025-12-28 04:20
           "is_opening": 0,
           "line": "2/2.5",
           "over_odds": 0.87,
-          "under_odds": 0.93
+          "under_odds": 0.93,
+          "raw_cols": "||0.87|2/2.5|0.93|12-22 18:58|即"
         },
         {
           "event_time": "2025-12-23 14:55",
@@ -63,7 +74,8 @@ TIME_RANGE: 2025-12-22 18:58 -> 2025-12-28 04:20
           "is_opening": 0,
           "line": "2/2.5",
           "over_odds": 0.9,
-          "under_odds": 0.9
+          "under_odds": 0.9,
+          "raw_cols": "||0.90|2/2.5|0.90|12-23 14:55|即"
         },
         {
           "event_time": "2025-12-28 04:20",
@@ -71,7 +83,8 @@ TIME_RANGE: 2025-12-22 18:58 -> 2025-12-28 04:20
           "is_opening": 0,
           "line": "2",
           "over_odds": 0.78,
-          "under_odds": 1.02
+          "under_odds": 1.02,
+          "raw_cols": "||0.78|2|1.02|12-28 04:20|即"
         }
       ],
       "latest": {
@@ -80,7 +93,8 @@ TIME_RANGE: 2025-12-22 18:58 -> 2025-12-28 04:20
         "is_opening": 0,
         "line": "2",
         "over_odds": 0.78,
-        "under_odds": 1.02
+        "under_odds": 1.02,
+        "raw_cols": "||0.78|2|1.02|12-28 04:20|即"
       }
     },
     "1x2": {
@@ -91,26 +105,37 @@ TIME_RANGE: 2025-12-22 18:58 -> 2025-12-28 04:20
           "is_opening": 1,
           "home": 2.4,
           "draw": 2.98,
-          "away": 2.77
+          "away": 2.77,
+          "raw_cols": "||2.40|2.98|2.77|12-22 18:58|(初盘)"
+        },
+        {
+          "event_time": "2025-12-28 15:33",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.55,
+          "draw": 3.0,
+          "away": 2.6,
+          "raw_cols": "||2.55|3.00|2.60|12-28 15:33|即"
         }
       ],
       "latest": {
-        "event_time": "2025-12-22 18:58",
-        "state": "早",
-        "is_opening": 1,
-        "home": 2.4,
-        "draw": 2.98,
-        "away": 2.77
+        "event_time": "2025-12-28 15:33",
+        "state": "即",
+        "is_opening": 0,
+        "home": 2.55,
+        "draw": 3.0,
+        "away": 2.6,
+        "raw_cols": "||2.55|3.00|2.60|12-28 15:33|即"
       }
     }
   },
   "counts": {
-    "handicap_events": 1,
+    "handicap_events": 3,
     "overunder_events": 3,
-    "1x2_events": 1
+    "1x2_events": 2
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251228_065930"
+    "export_ts": "20251228_211325"
   }
 }
