@@ -1,17 +1,7 @@
-# INDEX
-MATCH_ID: 2784642
-COMPANY_ID: 4
-COMPANY_NAME: 立博(Ladbrokes)
-MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 0
-OVERUNDER_EVENTS: 1
-1X2_EVENTS: 4
-TIME_RANGE: 2025-12-22 16:22 -> 2025-12-24 18:50
-# END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-28 06:59:31",
+  "exported_at": "2025-12-29 00:11:16",
   "match": {
     "match_id": "2784642",
     "match_time": "2025-12-29 03:45",
@@ -28,7 +18,8 @@ TIME_RANGE: 2025-12-22 16:22 -> 2025-12-24 18:50
   },
   "markets": {
     "handicap": {
-      "events": []
+      "events": [],
+      "latest": null
     },
     "overunder": {
       "events": [
@@ -38,7 +29,8 @@ TIME_RANGE: 2025-12-22 16:22 -> 2025-12-24 18:50
           "is_opening": 0,
           "line": "2.5",
           "over_odds": 0.73,
-          "under_odds": 1.0
+          "under_odds": 1.0,
+          "raw_cols": "||0.73|2.5|1.00|12-22 16:22|早"
         }
       ],
       "latest": {
@@ -47,7 +39,8 @@ TIME_RANGE: 2025-12-22 16:22 -> 2025-12-24 18:50
         "is_opening": 0,
         "line": "2.5",
         "over_odds": 0.73,
-        "under_odds": 1.0
+        "under_odds": 1.0,
+        "raw_cols": "||0.73|2.5|1.00|12-22 16:22|早"
       }
     },
     "1x2": {
@@ -58,7 +51,8 @@ TIME_RANGE: 2025-12-22 16:22 -> 2025-12-24 18:50
           "is_opening": 1,
           "home": 3.1,
           "draw": 3.4,
-          "away": 2.2
+          "away": 2.2,
+          "raw_cols": "||3.10|3.40|2.20|12-22 16:22|(初盘)"
         },
         {
           "event_time": "2025-12-23 05:24",
@@ -66,7 +60,8 @@ TIME_RANGE: 2025-12-22 16:22 -> 2025-12-24 18:50
           "is_opening": 0,
           "home": 3.3,
           "draw": 3.5,
-          "away": 2.1
+          "away": 2.1,
+          "raw_cols": "||3.30|3.50|2.10|12-23 05:24|早"
         },
         {
           "event_time": "2025-12-23 20:20",
@@ -74,7 +69,8 @@ TIME_RANGE: 2025-12-22 16:22 -> 2025-12-24 18:50
           "is_opening": 0,
           "home": 3.4,
           "draw": 3.5,
-          "away": 2.05
+          "away": 2.05,
+          "raw_cols": "||3.40|3.50|2.05|12-23 20:20|早"
         },
         {
           "event_time": "2025-12-24 18:50",
@@ -82,7 +78,8 @@ TIME_RANGE: 2025-12-22 16:22 -> 2025-12-24 18:50
           "is_opening": 0,
           "home": 3.3,
           "draw": 3.5,
-          "away": 2.1
+          "away": 2.1,
+          "raw_cols": "||3.30|3.50|2.10|12-24 18:50|早"
         }
       ],
       "latest": {
@@ -91,7 +88,8 @@ TIME_RANGE: 2025-12-22 16:22 -> 2025-12-24 18:50
         "is_opening": 0,
         "home": 3.3,
         "draw": 3.5,
-        "away": 2.1
+        "away": 2.1,
+        "raw_cols": "||3.30|3.50|2.10|12-24 18:50|早"
       }
     }
   },
@@ -102,6 +100,6 @@ TIME_RANGE: 2025-12-22 16:22 -> 2025-12-24 18:50
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251228_065930"
+    "export_ts": "20251229_001116"
   }
 }
