@@ -1,0 +1,116 @@
+# INDEX
+MATCH_ID: 2789312
+COMPANY_ID: 1
+COMPANY_NAME: 澳彩
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 3
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 1
+TIME_RANGE: 2025-12-27 18:17 -> 2025-12-29 14:20
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2025-12-30 05:20:52",
+  "match": {
+    "match_id": "2789312",
+    "match_time": "2025-12-31 03:30",
+    "league": {
+      "league_id": 36,
+      "league_name": "unknown"
+    },
+    "home_team": "切尔西",
+    "away_team": "伯恩茅斯"
+  },
+  "company": {
+    "company_id": "1",
+    "company_name": "澳彩"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-27 18:17",
+          "state": "即",
+          "is_opening": 0,
+          "line": "一球",
+          "home_odds": 1.04,
+          "away_odds": 0.8
+        },
+        {
+          "event_time": "2025-12-28 04:16",
+          "state": "即",
+          "is_opening": 0,
+          "line": "一球",
+          "home_odds": 1.02,
+          "away_odds": 0.82
+        },
+        {
+          "event_time": "2025-12-29 14:20",
+          "state": "即",
+          "is_opening": 0,
+          "line": "一球",
+          "home_odds": 0.98,
+          "away_odds": 0.86
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-29 14:20",
+        "state": "即",
+        "is_opening": 0,
+        "line": "一球",
+        "home_odds": 0.98,
+        "away_odds": 0.86
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-27 18:17",
+          "state": "即",
+          "is_opening": 0,
+          "line": "3",
+          "over_odds": 0.88,
+          "under_odds": 0.92
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-27 18:17",
+        "state": "即",
+        "is_opening": 0,
+        "line": "3",
+        "over_odds": 0.88,
+        "under_odds": 0.92
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-27 18:17",
+          "state": "早",
+          "is_opening": 1,
+          "home": 1.53,
+          "draw": 4.05,
+          "away": 4.8
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-27 18:17",
+        "state": "早",
+        "is_opening": 1,
+        "home": 1.53,
+        "draw": 4.05,
+        "away": 4.8
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 3,
+    "overunder_events": 1,
+    "1x2_events": 1
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20251230_052051"
+  }
+}
