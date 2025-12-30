@@ -3,15 +3,15 @@ MATCH_ID: 2789316
 COMPANY_ID: 9
 COMPANY_NAME: 威廉希尔(William Hill)
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 14
-OVERUNDER_EVENTS: 1
-1X2_EVENTS: 10
-TIME_RANGE: 2025-12-21 02:21 -> 2025-12-29 22:43
+HANDICAP_EVENTS: 15
+OVERUNDER_EVENTS: 2
+1X2_EVENTS: 11
+TIME_RANGE: 2025-12-21 02:21 -> 2025-12-30 12:21
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-30 05:20:52",
+  "exported_at": "2025-12-31 01:04:31",
   "match": {
     "match_id": "2789316",
     "match_time": "2025-12-31 03:30",
@@ -140,15 +140,23 @@ TIME_RANGE: 2025-12-21 02:21 -> 2025-12-29 22:43
           "line": "平手/半球",
           "home_odds": 0.74,
           "away_odds": 0.87
+        },
+        {
+          "event_time": "2025-12-30 12:21",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.74,
+          "away_odds": 0.91
         }
       ],
       "latest": {
-        "event_time": "2025-12-29 22:43",
-        "state": "早",
+        "event_time": "2025-12-30 12:21",
+        "state": "即",
         "is_opening": 0,
         "line": "平手/半球",
         "home_odds": 0.74,
-        "away_odds": 0.87
+        "away_odds": 0.91
       }
     },
     "overunder": {
@@ -160,15 +168,23 @@ TIME_RANGE: 2025-12-21 02:21 -> 2025-12-29 22:43
           "line": "2.5",
           "over_odds": 1.1,
           "under_odds": 0.67
+        },
+        {
+          "event_time": "2025-12-30 12:02",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.25,
+          "under_odds": 0.62
         }
       ],
       "latest": {
-        "event_time": "2025-12-21 02:31",
-        "state": "早",
+        "event_time": "2025-12-30 12:02",
+        "state": "即",
         "is_opening": 0,
         "line": "2.5",
-        "over_odds": 1.1,
-        "under_odds": 0.67
+        "over_odds": 1.25,
+        "under_odds": 0.62
       }
     },
     "1x2": {
@@ -252,25 +268,33 @@ TIME_RANGE: 2025-12-21 02:21 -> 2025-12-29 22:43
           "home": 2.15,
           "draw": 3.1,
           "away": 3.5
+        },
+        {
+          "event_time": "2025-12-30 12:17",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.1,
+          "draw": 3.1,
+          "away": 3.6
         }
       ],
       "latest": {
-        "event_time": "2025-12-28 09:30",
-        "state": "早",
+        "event_time": "2025-12-30 12:17",
+        "state": "即",
         "is_opening": 0,
-        "home": 2.15,
+        "home": 2.1,
         "draw": 3.1,
-        "away": 3.5
+        "away": 3.6
       }
     }
   },
   "counts": {
-    "handicap_events": 14,
-    "overunder_events": 1,
-    "1x2_events": 10
+    "handicap_events": 15,
+    "overunder_events": 2,
+    "1x2_events": 11
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251230_052051"
+    "export_ts": "20251231_010431"
   }
 }

@@ -3,15 +3,15 @@ MATCH_ID: 2789316
 COMPANY_ID: 48
 COMPANY_NAME: 香港马会
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
+HANDICAP_EVENTS: 2
 OVERUNDER_EVENTS: 1
 1X2_EVENTS: 1
-TIME_RANGE: 2025-12-28 19:36 -> 2025-12-28 19:36
+TIME_RANGE: 2025-12-28 19:36 -> 2025-12-30 12:03
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-30 05:20:52",
+  "exported_at": "2025-12-31 01:04:31",
   "match": {
     "match_id": "2789316",
     "match_time": "2025-12-31 03:30",
@@ -36,15 +36,23 @@ TIME_RANGE: 2025-12-28 19:36 -> 2025-12-28 19:36
           "line": "平手/半球",
           "home_odds": 0.77,
           "away_odds": 1.0
+        },
+        {
+          "event_time": "2025-12-30 12:03",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.8,
+          "away_odds": 1.03
         }
       ],
       "latest": {
-        "event_time": "2025-12-28 19:36",
+        "event_time": "2025-12-30 12:03",
         "state": "即",
         "is_opening": 0,
         "line": "平手/半球",
-        "home_odds": 0.77,
-        "away_odds": 1.0
+        "home_odds": 0.8,
+        "away_odds": 1.03
       }
     },
     "overunder": {
@@ -89,12 +97,12 @@ TIME_RANGE: 2025-12-28 19:36 -> 2025-12-28 19:36
     }
   },
   "counts": {
-    "handicap_events": 1,
+    "handicap_events": 2,
     "overunder_events": 1,
     "1x2_events": 1
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251230_052051"
+    "export_ts": "20251231_010431"
   }
 }
