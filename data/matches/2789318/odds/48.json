@@ -3,15 +3,15 @@ MATCH_ID: 2789318
 COMPANY_ID: 48
 COMPANY_NAME: 香港马会
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
-OVERUNDER_EVENTS: 1
-1X2_EVENTS: 1
-TIME_RANGE: 2025-12-28 19:36 -> 2025-12-28 19:36
+HANDICAP_EVENTS: 4
+OVERUNDER_EVENTS: 3
+1X2_EVENTS: 5
+TIME_RANGE: 2025-12-28 19:36 -> 2025-12-30 20:55
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-30 05:20:52",
+  "exported_at": "2025-12-31 01:04:31",
   "match": {
     "match_id": "2789318",
     "match_time": "2025-12-31 03:30",
@@ -36,15 +36,39 @@ TIME_RANGE: 2025-12-28 19:36 -> 2025-12-28 19:36
           "line": "受让平手/半球",
           "home_odds": 0.9,
           "away_odds": 0.86
+        },
+        {
+          "event_time": "2025-12-30 12:04",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.93,
+          "away_odds": 0.89
+        },
+        {
+          "event_time": "2025-12-30 16:38",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.99,
+          "away_odds": 0.83
+        },
+        {
+          "event_time": "2025-12-30 20:55",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 1.08,
+          "away_odds": 0.76
         }
       ],
       "latest": {
-        "event_time": "2025-12-28 19:36",
+        "event_time": "2025-12-30 20:55",
         "state": "即",
         "is_opening": 0,
         "line": "受让平手/半球",
-        "home_odds": 0.9,
-        "away_odds": 0.86
+        "home_odds": 1.08,
+        "away_odds": 0.76
       }
     },
     "overunder": {
@@ -56,15 +80,31 @@ TIME_RANGE: 2025-12-28 19:36 -> 2025-12-28 19:36
           "line": "2.5/3",
           "over_odds": 0.9,
           "under_odds": 0.8
+        },
+        {
+          "event_time": "2025-12-30 19:19",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5/3",
+          "over_odds": 0.83,
+          "under_odds": 0.87
+        },
+        {
+          "event_time": "2025-12-30 20:35",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5/3",
+          "over_odds": 0.78,
+          "under_odds": 0.92
         }
       ],
       "latest": {
-        "event_time": "2025-12-28 19:36",
+        "event_time": "2025-12-30 20:35",
         "state": "即",
         "is_opening": 0,
         "line": "2.5/3",
-        "over_odds": 0.9,
-        "under_odds": 0.8
+        "over_odds": 0.78,
+        "under_odds": 0.92
       }
     },
     "1x2": {
@@ -76,25 +116,57 @@ TIME_RANGE: 2025-12-28 19:36 -> 2025-12-28 19:36
           "home": 3.0,
           "draw": 3.35,
           "away": 2.01
+        },
+        {
+          "event_time": "2025-12-30 16:38",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.1,
+          "draw": 3.35,
+          "away": 1.97
+        },
+        {
+          "event_time": "2025-12-30 19:19",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.05,
+          "draw": 3.4,
+          "away": 1.98
+        },
+        {
+          "event_time": "2025-12-30 20:35",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.05,
+          "draw": 3.45,
+          "away": 1.96
+        },
+        {
+          "event_time": "2025-12-30 20:54",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.2,
+          "draw": 3.5,
+          "away": 1.89
         }
       ],
       "latest": {
-        "event_time": "2025-12-28 19:36",
-        "state": "早",
-        "is_opening": 1,
-        "home": 3.0,
-        "draw": 3.35,
-        "away": 2.01
+        "event_time": "2025-12-30 20:54",
+        "state": "即",
+        "is_opening": 0,
+        "home": 3.2,
+        "draw": 3.5,
+        "away": 1.89
       }
     }
   },
   "counts": {
-    "handicap_events": 1,
-    "overunder_events": 1,
-    "1x2_events": 1
+    "handicap_events": 4,
+    "overunder_events": 3,
+    "1x2_events": 5
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251230_052051"
+    "export_ts": "20251231_010431"
   }
 }
