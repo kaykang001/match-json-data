@@ -3,15 +3,15 @@ MATCH_ID: 2789311
 COMPANY_ID: 1
 COMPANY_NAME: 澳彩
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 2
+HANDICAP_EVENTS: 4
 OVERUNDER_EVENTS: 1
-1X2_EVENTS: 1
-TIME_RANGE: 2025-12-27 18:17 -> 2025-12-29 14:18
+1X2_EVENTS: 2
+TIME_RANGE: 2025-12-27 18:17 -> 2025-12-30 21:55
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-30 05:20:52",
+  "exported_at": "2025-12-31 01:04:31",
   "match": {
     "match_id": "2789311",
     "match_time": "2025-12-31 03:30",
@@ -44,15 +44,31 @@ TIME_RANGE: 2025-12-27 18:17 -> 2025-12-29 14:18
           "line": "受让半球/一球",
           "home_odds": 1.04,
           "away_odds": 0.8
+        },
+        {
+          "event_time": "2025-12-30 14:26",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让一球",
+          "home_odds": 0.84,
+          "away_odds": 1.0
+        },
+        {
+          "event_time": "2025-12-30 21:55",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让一球",
+          "home_odds": 0.86,
+          "away_odds": 0.98
         }
       ],
       "latest": {
-        "event_time": "2025-12-29 14:18",
+        "event_time": "2025-12-30 21:55",
         "state": "即",
         "is_opening": 0,
-        "line": "受让半球/一球",
-        "home_odds": 1.04,
-        "away_odds": 0.8
+        "line": "受让一球",
+        "home_odds": 0.86,
+        "away_odds": 0.98
       }
     },
     "overunder": {
@@ -84,25 +100,33 @@ TIME_RANGE: 2025-12-27 18:17 -> 2025-12-29 14:18
           "home": 4.85,
           "draw": 3.75,
           "away": 1.55
+        },
+        {
+          "event_time": "2025-12-30 14:27",
+          "state": "即",
+          "is_opening": 0,
+          "home": 5.41,
+          "draw": 3.75,
+          "away": 1.5
         }
       ],
       "latest": {
-        "event_time": "2025-12-27 18:17",
-        "state": "早",
-        "is_opening": 1,
-        "home": 4.85,
+        "event_time": "2025-12-30 14:27",
+        "state": "即",
+        "is_opening": 0,
+        "home": 5.41,
         "draw": 3.75,
-        "away": 1.55
+        "away": 1.5
       }
     }
   },
   "counts": {
-    "handicap_events": 2,
+    "handicap_events": 4,
     "overunder_events": 1,
-    "1x2_events": 1
+    "1x2_events": 2
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251230_052051"
+    "export_ts": "20251231_010431"
   }
 }

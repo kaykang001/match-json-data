@@ -5,13 +5,13 @@ COMPANY_NAME: 立博(Ladbrokes)
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 0
 OVERUNDER_EVENTS: 2
-1X2_EVENTS: 4
-TIME_RANGE: 2025-12-26 19:11 -> 2025-12-29 17:42
+1X2_EVENTS: 10
+TIME_RANGE: 2025-12-26 19:11 -> 2025-12-30 22:22
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-30 05:20:52",
+  "exported_at": "2025-12-31 01:04:31",
   "match": {
     "match_id": "2789311",
     "match_time": "2025-12-31 03:30",
@@ -28,7 +28,8 @@ TIME_RANGE: 2025-12-26 19:11 -> 2025-12-29 17:42
   },
   "markets": {
     "handicap": {
-      "events": []
+      "events": [],
+      "latest": null
     },
     "overunder": {
       "events": [
@@ -91,25 +92,73 @@ TIME_RANGE: 2025-12-26 19:11 -> 2025-12-29 17:42
           "home": 5.25,
           "draw": 3.9,
           "away": 1.65
+        },
+        {
+          "event_time": "2025-12-30 11:23",
+          "state": "早",
+          "is_opening": 0,
+          "home": 5.5,
+          "draw": 3.8,
+          "away": 1.61
+        },
+        {
+          "event_time": "2025-12-30 12:02",
+          "state": "早",
+          "is_opening": 0,
+          "home": 5.25,
+          "draw": 3.9,
+          "away": 1.61
+        },
+        {
+          "event_time": "2025-12-30 12:19",
+          "state": "早",
+          "is_opening": 0,
+          "home": 5.5,
+          "draw": 3.8,
+          "away": 1.61
+        },
+        {
+          "event_time": "2025-12-30 12:53",
+          "state": "早",
+          "is_opening": 0,
+          "home": 5.25,
+          "draw": 3.9,
+          "away": 1.61
+        },
+        {
+          "event_time": "2025-12-30 15:18",
+          "state": "早",
+          "is_opening": 0,
+          "home": 5.5,
+          "draw": 3.9,
+          "away": 1.61
+        },
+        {
+          "event_time": "2025-12-30 22:22",
+          "state": "早",
+          "is_opening": 0,
+          "home": 5.5,
+          "draw": 3.9,
+          "away": 1.57
         }
       ],
       "latest": {
-        "event_time": "2025-12-29 17:42",
+        "event_time": "2025-12-30 22:22",
         "state": "早",
         "is_opening": 0,
-        "home": 5.25,
+        "home": 5.5,
         "draw": 3.9,
-        "away": 1.65
+        "away": 1.57
       }
     }
   },
   "counts": {
     "handicap_events": 0,
     "overunder_events": 2,
-    "1x2_events": 4
+    "1x2_events": 10
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251230_052051"
+    "export_ts": "20251231_010431"
   }
 }
