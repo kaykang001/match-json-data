@@ -3,15 +3,15 @@ MATCH_ID: 2788688
 COMPANY_ID: 1
 COMPANY_NAME: 澳彩
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 2
+HANDICAP_EVENTS: 3
 OVERUNDER_EVENTS: 2
 1X2_EVENTS: 2
-TIME_RANGE: 2025-12-27 18:14 -> 2025-12-28 10:19
+TIME_RANGE: 2025-12-27 18:14 -> 2025-12-30 13:45
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-30 05:20:51",
+  "exported_at": "2025-12-30 23:04:32",
   "match": {
     "match_id": "2788688",
     "match_time": "2025-12-31 00:00",
@@ -44,15 +44,23 @@ TIME_RANGE: 2025-12-27 18:14 -> 2025-12-28 10:19
           "line": "受让一球",
           "home_odds": 0.94,
           "away_odds": 0.84
+        },
+        {
+          "event_time": "2025-12-30 13:45",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让一球",
+          "home_odds": 0.88,
+          "away_odds": 0.9
         }
       ],
       "latest": {
-        "event_time": "2025-12-28 10:19",
+        "event_time": "2025-12-30 13:45",
         "state": "即",
         "is_opening": 0,
         "line": "受让一球",
-        "home_odds": 0.94,
-        "away_odds": 0.84
+        "home_odds": 0.88,
+        "away_odds": 0.9
       }
     },
     "overunder": {
@@ -113,12 +121,12 @@ TIME_RANGE: 2025-12-27 18:14 -> 2025-12-28 10:19
     }
   },
   "counts": {
-    "handicap_events": 2,
+    "handicap_events": 3,
     "overunder_events": 2,
     "1x2_events": 2
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251230_052051"
+    "export_ts": "20251230_230432"
   }
 }
