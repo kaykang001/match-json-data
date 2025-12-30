@@ -5,13 +5,13 @@ COMPANY_NAME: 威廉希尔(William Hill)
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 7
 OVERUNDER_EVENTS: 2
-1X2_EVENTS: 39
-TIME_RANGE: 2025-12-27 09:23 -> 2025-12-29 23:31
+1X2_EVENTS: 42
+TIME_RANGE: 2025-12-27 09:23 -> 2025-12-30 18:29
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-30 05:20:51",
+  "exported_at": "2025-12-31 01:04:31",
   "match": {
     "match_id": "2788695",
     "match_time": "2025-12-31 03:00",
@@ -436,13 +436,37 @@ TIME_RANGE: 2025-12-27 09:23 -> 2025-12-29 23:31
           "home": 13.0,
           "draw": 5.5,
           "away": 1.22
+        },
+        {
+          "event_time": "2025-12-30 08:01",
+          "state": "即",
+          "is_opening": 0,
+          "home": 15.0,
+          "draw": 5.5,
+          "away": 1.22
+        },
+        {
+          "event_time": "2025-12-30 18:12",
+          "state": "即",
+          "is_opening": 0,
+          "home": 13.0,
+          "draw": 5.5,
+          "away": 1.22
+        },
+        {
+          "event_time": "2025-12-30 18:29",
+          "state": "即",
+          "is_opening": 0,
+          "home": 15.0,
+          "draw": 5.5,
+          "away": 1.22
         }
       ],
       "latest": {
-        "event_time": "2025-12-29 23:31",
-        "state": "早",
+        "event_time": "2025-12-30 18:29",
+        "state": "即",
         "is_opening": 0,
-        "home": 13.0,
+        "home": 15.0,
         "draw": 5.5,
         "away": 1.22
       }
@@ -451,10 +475,10 @@ TIME_RANGE: 2025-12-27 09:23 -> 2025-12-29 23:31
   "counts": {
     "handicap_events": 7,
     "overunder_events": 2,
-    "1x2_events": 39
+    "1x2_events": 42
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251230_052051"
+    "export_ts": "20251231_010431"
   }
 }
