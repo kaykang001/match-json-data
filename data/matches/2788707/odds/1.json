@@ -3,18 +3,18 @@ MATCH_ID: 2788707
 COMPANY_ID: 1
 COMPANY_NAME: 澳彩
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 7
+HANDICAP_EVENTS: 8
 OVERUNDER_EVENTS: 2
-1X2_EVENTS: 8
-TIME_RANGE: 2025-12-28 17:05 -> 2025-12-31 06:29
+1X2_EVENTS: 9
+TIME_RANGE: 2025-12-28 17:05 -> 2025-12-31 10:28
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2025-12-31 06:57:22",
+  "exported_at": "2025-12-31 23:52:27",
   "match": {
     "match_id": "2788707",
-    "match_time": null,
+    "match_time": "2026-01-01 03:00",
     "league": {
       "league_id": 93,
       "league_name": "unknown"
@@ -84,15 +84,23 @@ TIME_RANGE: 2025-12-28 17:05 -> 2025-12-31 06:29
           "line": "受让半球/一球",
           "home_odds": 0.96,
           "away_odds": 0.82
+        },
+        {
+          "event_time": "2025-12-31 10:27",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球/一球",
+          "home_odds": 1.0,
+          "away_odds": 0.78
         }
       ],
       "latest": {
-        "event_time": "2025-12-31 06:27",
+        "event_time": "2025-12-31 10:27",
         "state": "即",
         "is_opening": 0,
         "line": "受让半球/一球",
-        "home_odds": 0.96,
-        "away_odds": 0.82
+        "home_odds": 1.0,
+        "away_odds": 0.78
       }
     },
     "overunder": {
@@ -188,25 +196,33 @@ TIME_RANGE: 2025-12-28 17:05 -> 2025-12-31 06:29
           "home": 4.92,
           "draw": 3.25,
           "away": 1.62
+        },
+        {
+          "event_time": "2025-12-31 10:28",
+          "state": "即",
+          "is_opening": 0,
+          "home": 5.33,
+          "draw": 3.25,
+          "away": 1.58
         }
       ],
       "latest": {
-        "event_time": "2025-12-31 06:29",
+        "event_time": "2025-12-31 10:28",
         "state": "即",
         "is_opening": 0,
-        "home": 4.92,
+        "home": 5.33,
         "draw": 3.25,
-        "away": 1.62
+        "away": 1.58
       }
     }
   },
   "counts": {
-    "handicap_events": 7,
+    "handicap_events": 8,
     "overunder_events": 2,
-    "1x2_events": 8
+    "1x2_events": 9
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20251231_065722"
+    "export_ts": "20251231_235227"
   }
 }
