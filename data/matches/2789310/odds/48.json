@@ -3,15 +3,15 @@ MATCH_ID: 2789310
 COMPANY_ID: 48
 COMPANY_NAME: 香港马会
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 4
-OVERUNDER_EVENTS: 1
-1X2_EVENTS: 4
-TIME_RANGE: 2025-12-29 14:42 -> 2025-12-31 21:52
+HANDICAP_EVENTS: 7
+OVERUNDER_EVENTS: 3
+1X2_EVENTS: 8
+TIME_RANGE: 2025-12-29 14:42 -> 2026-01-01 23:05
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-01 11:34:27",
+  "exported_at": "2026-01-02 00:09:35",
   "match": {
     "match_id": "2789310",
     "match_time": "2026-01-02 04:00",
@@ -60,15 +60,39 @@ TIME_RANGE: 2025-12-29 14:42 -> 2025-12-31 21:52
           "line": "平手/半球",
           "home_odds": 0.88,
           "away_odds": 0.88
+        },
+        {
+          "event_time": "2026-01-01 12:24",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.92,
+          "away_odds": 0.9
+        },
+        {
+          "event_time": "2026-01-01 17:27",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.94,
+          "away_odds": 0.88
+        },
+        {
+          "event_time": "2026-01-01 18:10",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.99,
+          "away_odds": 0.83
         }
       ],
       "latest": {
-        "event_time": "2025-12-31 21:52",
+        "event_time": "2026-01-01 18:10",
         "state": "即",
         "is_opening": 0,
         "line": "平手/半球",
-        "home_odds": 0.88,
-        "away_odds": 0.88
+        "home_odds": 0.99,
+        "away_odds": 0.83
       }
     },
     "overunder": {
@@ -80,15 +104,31 @@ TIME_RANGE: 2025-12-29 14:42 -> 2025-12-31 21:52
           "line": "2.5",
           "over_odds": 0.78,
           "under_odds": 0.92
+        },
+        {
+          "event_time": "2026-01-01 20:39",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.75,
+          "under_odds": 0.95
+        },
+        {
+          "event_time": "2026-01-01 23:05",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5/3",
+          "over_odds": 0.93,
+          "under_odds": 0.77
         }
       ],
       "latest": {
-        "event_time": "2025-12-29 14:42",
+        "event_time": "2026-01-01 23:05",
         "state": "即",
         "is_opening": 0,
-        "line": "2.5",
-        "over_odds": 0.78,
-        "under_odds": 0.92
+        "line": "2.5/3",
+        "over_odds": 0.93,
+        "under_odds": 0.77
       }
     },
     "1x2": {
@@ -124,25 +164,57 @@ TIME_RANGE: 2025-12-29 14:42 -> 2025-12-31 21:52
           "home": 2.06,
           "draw": 3.25,
           "away": 2.98
+        },
+        {
+          "event_time": "2026-01-01 12:24",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.07,
+          "draw": 3.25,
+          "away": 2.97
+        },
+        {
+          "event_time": "2026-01-01 17:27",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.09,
+          "draw": 3.25,
+          "away": 2.93
+        },
+        {
+          "event_time": "2026-01-01 18:10",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.14,
+          "draw": 3.25,
+          "away": 2.84
+        },
+        {
+          "event_time": "2026-01-01 23:05",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.13,
+          "draw": 3.3,
+          "away": 2.82
         }
       ],
       "latest": {
-        "event_time": "2025-12-31 21:52",
+        "event_time": "2026-01-01 23:05",
         "state": "即",
         "is_opening": 0,
-        "home": 2.06,
-        "draw": 3.25,
-        "away": 2.98
+        "home": 2.13,
+        "draw": 3.3,
+        "away": 2.82
       }
     }
   },
   "counts": {
-    "handicap_events": 4,
-    "overunder_events": 1,
-    "1x2_events": 4
+    "handicap_events": 7,
+    "overunder_events": 3,
+    "1x2_events": 8
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260101_113427"
+    "export_ts": "20260102_000934"
   }
 }
