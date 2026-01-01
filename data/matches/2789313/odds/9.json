@@ -1,0 +1,236 @@
+# INDEX
+MATCH_ID: 2789313
+COMPANY_ID: 9
+COMPANY_NAME: 威廉希尔(William Hill)
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 9
+OVERUNDER_EVENTS: 2
+1X2_EVENTS: 9
+TIME_RANGE: 2025-12-21 02:21 -> 2025-12-31 13:18
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-01 10:41:41",
+  "match": {
+    "match_id": "2789313",
+    "match_time": null,
+    "league": {
+      "league_id": 36,
+      "league_name": "unknown"
+    },
+    "home_team": "水晶宫",
+    "away_team": "富勒姆"
+  },
+  "company": {
+    "company_id": "9",
+    "company_name": "威廉希尔(William Hill)"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-21 03:24",
+          "state": "早",
+          "is_opening": 0,
+          "line": null,
+          "home_odds": null,
+          "away_odds": null
+        },
+        {
+          "event_time": "2025-12-21 23:57",
+          "state": "早",
+          "is_opening": 0,
+          "line": null,
+          "home_odds": null,
+          "away_odds": null
+        },
+        {
+          "event_time": "2025-12-23 19:37",
+          "state": "早",
+          "is_opening": 0,
+          "line": null,
+          "home_odds": null,
+          "away_odds": null
+        },
+        {
+          "event_time": "2025-12-24 06:47",
+          "state": "早",
+          "is_opening": 0,
+          "line": null,
+          "home_odds": null,
+          "away_odds": null
+        },
+        {
+          "event_time": "2025-12-26 19:34",
+          "state": "早",
+          "is_opening": 0,
+          "line": null,
+          "home_odds": null,
+          "away_odds": null
+        },
+        {
+          "event_time": "2025-12-28 01:37",
+          "state": "早",
+          "is_opening": 0,
+          "line": null,
+          "home_odds": null,
+          "away_odds": null
+        },
+        {
+          "event_time": "2025-12-29 07:06",
+          "state": "早",
+          "is_opening": 0,
+          "line": null,
+          "home_odds": null,
+          "away_odds": null
+        },
+        {
+          "event_time": "2025-12-29 18:34",
+          "state": "早",
+          "is_opening": 0,
+          "line": null,
+          "home_odds": null,
+          "away_odds": null
+        },
+        {
+          "event_time": "2025-12-31 01:38",
+          "state": "早",
+          "is_opening": 0,
+          "line": null,
+          "home_odds": null,
+          "away_odds": null
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-31 01:38",
+        "state": "早",
+        "is_opening": 0,
+        "line": null,
+        "home_odds": null,
+        "away_odds": null
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-21 02:31",
+          "state": "早",
+          "is_opening": 0,
+          "line": null,
+          "over_odds": null,
+          "under_odds": null
+        },
+        {
+          "event_time": "2025-12-31 13:18",
+          "state": "早",
+          "is_opening": 0,
+          "line": null,
+          "over_odds": null,
+          "under_odds": null
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-31 13:18",
+        "state": "早",
+        "is_opening": 0,
+        "line": null,
+        "over_odds": null,
+        "under_odds": null
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-21 02:21",
+          "state": "早",
+          "is_opening": 1,
+          "home": null,
+          "draw": null,
+          "away": null
+        },
+        {
+          "event_time": "2025-12-21 23:30",
+          "state": "早",
+          "is_opening": 0,
+          "home": null,
+          "draw": null,
+          "away": null
+        },
+        {
+          "event_time": "2025-12-23 17:32",
+          "state": "早",
+          "is_opening": 0,
+          "home": null,
+          "draw": null,
+          "away": null
+        },
+        {
+          "event_time": "2025-12-23 19:10",
+          "state": "早",
+          "is_opening": 0,
+          "home": null,
+          "draw": null,
+          "away": null
+        },
+        {
+          "event_time": "2025-12-24 06:46",
+          "state": "早",
+          "is_opening": 0,
+          "home": null,
+          "draw": null,
+          "away": null
+        },
+        {
+          "event_time": "2025-12-26 16:21",
+          "state": "早",
+          "is_opening": 0,
+          "home": null,
+          "draw": null,
+          "away": null
+        },
+        {
+          "event_time": "2025-12-26 16:40",
+          "state": "早",
+          "is_opening": 0,
+          "home": null,
+          "draw": null,
+          "away": null
+        },
+        {
+          "event_time": "2025-12-27 05:49",
+          "state": "早",
+          "is_opening": 0,
+          "home": null,
+          "draw": null,
+          "away": null
+        },
+        {
+          "event_time": "2025-12-29 06:37",
+          "state": "早",
+          "is_opening": 0,
+          "home": null,
+          "draw": null,
+          "away": null
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-29 06:37",
+        "state": "早",
+        "is_opening": 0,
+        "home": null,
+        "draw": null,
+        "away": null
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 9,
+    "overunder_events": 2,
+    "1x2_events": 9
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260101_104141"
+  }
+}
