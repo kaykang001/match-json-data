@@ -1,0 +1,140 @@
+# INDEX
+MATCH_ID: 2852163
+COMPANY_ID: 1
+COMPANY_NAME: 澳彩
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 3
+OVERUNDER_EVENTS: 2
+1X2_EVENTS: 3
+TIME_RANGE: 2025-12-31 17:43 -> 2026-01-01 03:48
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-02 07:11:02",
+  "match": {
+    "match_id": "2852163",
+    "match_time": "2026-01-03 01:30",
+    "league": {
+      "league_id": 292,
+      "league_name": "unknown"
+    },
+    "home_team": "吉达国民",
+    "away_team": "利雅得胜利"
+  },
+  "company": {
+    "company_id": "1",
+    "company_name": "澳彩"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-31 17:43",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 1.04,
+          "away_odds": 0.74
+        },
+        {
+          "event_time": "2025-12-31 23:24",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 1.1,
+          "away_odds": 0.68
+        },
+        {
+          "event_time": "2026-01-01 03:46",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 1.18,
+          "away_odds": 0.6
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-01 03:46",
+        "state": "即",
+        "is_opening": 0,
+        "line": "受让半球",
+        "home_odds": 1.18,
+        "away_odds": 0.6
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-31 17:43",
+          "state": "即",
+          "is_opening": 0,
+          "line": "3",
+          "over_odds": 0.81,
+          "under_odds": 0.91
+        },
+        {
+          "event_time": "2026-01-01 03:48",
+          "state": "即",
+          "is_opening": 0,
+          "line": "3",
+          "over_odds": 0.7,
+          "under_odds": 1.02
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-01 03:48",
+        "state": "即",
+        "is_opening": 0,
+        "line": "3",
+        "over_odds": 0.7,
+        "under_odds": 1.02
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-31 17:43",
+          "state": "早",
+          "is_opening": 1,
+          "home": 3.48,
+          "draw": 3.8,
+          "away": 1.74
+        },
+        {
+          "event_time": "2025-12-31 23:24",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.75,
+          "draw": 3.8,
+          "away": 1.68
+        },
+        {
+          "event_time": "2026-01-01 03:47",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.1,
+          "draw": 3.9,
+          "away": 1.6
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-01 03:47",
+        "state": "即",
+        "is_opening": 0,
+        "home": 4.1,
+        "draw": 3.9,
+        "away": 1.6
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 3,
+    "overunder_events": 2,
+    "1x2_events": 3
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260102_071102"
+  }
+}

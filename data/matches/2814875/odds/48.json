@@ -1,0 +1,100 @@
+# INDEX
+MATCH_ID: 2814875
+COMPANY_ID: 48
+COMPANY_NAME: 香港马会
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 1
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 1
+TIME_RANGE: 2026-01-01 12:01 -> 2026-01-01 12:01
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-02 07:11:02",
+  "match": {
+    "match_id": "2814875",
+    "match_time": "2026-01-03 04:45",
+    "league": {
+      "league_id": 23,
+      "league_name": "unknown"
+    },
+    "home_team": "吉马良斯",
+    "away_team": "葡萄牙国民"
+  },
+  "company": {
+    "company_id": "48",
+    "company_name": "香港马会"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2026-01-01 12:01",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球/一球",
+          "home_odds": 1.02,
+          "away_odds": 0.76
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-01 12:01",
+        "state": "即",
+        "is_opening": 0,
+        "line": "半球/一球",
+        "home_odds": 1.02,
+        "away_odds": 0.76
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2026-01-01 12:01",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.02,
+          "under_odds": 0.7
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-01 12:01",
+        "state": "即",
+        "is_opening": 0,
+        "line": "2.5",
+        "over_odds": 1.02,
+        "under_odds": 0.7
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2026-01-01 12:01",
+          "state": "早",
+          "is_opening": 1,
+          "home": 1.67,
+          "draw": 3.35,
+          "away": 4.25
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-01 12:01",
+        "state": "早",
+        "is_opening": 1,
+        "home": 1.67,
+        "draw": 3.35,
+        "away": 4.25
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 1,
+    "overunder_events": 1,
+    "1x2_events": 1
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260102_071102"
+  }
+}

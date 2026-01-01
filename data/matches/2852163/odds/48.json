@@ -1,0 +1,116 @@
+# INDEX
+MATCH_ID: 2852163
+COMPANY_ID: 48
+COMPANY_NAME: 香港马会
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 2
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 2
+TIME_RANGE: 2026-01-01 12:01 -> 2026-01-01 12:22
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-02 07:11:02",
+  "match": {
+    "match_id": "2852163",
+    "match_time": "2026-01-03 01:30",
+    "league": {
+      "league_id": 292,
+      "league_name": "unknown"
+    },
+    "home_team": "吉达国民",
+    "away_team": "利雅得胜利"
+  },
+  "company": {
+    "company_id": "48",
+    "company_name": "香港马会"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2026-01-01 12:01",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球/一球",
+          "home_odds": 1.03,
+          "away_odds": 0.75
+        },
+        {
+          "event_time": "2026-01-01 12:22",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让一球",
+          "home_odds": 0.85,
+          "away_odds": 0.91
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-01 12:22",
+        "state": "即",
+        "is_opening": 0,
+        "line": "受让一球",
+        "home_odds": 0.85,
+        "away_odds": 0.91
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2026-01-01 12:01",
+          "state": "即",
+          "is_opening": 0,
+          "line": "3.5",
+          "over_odds": 0.94,
+          "under_odds": 0.76
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-01 12:01",
+        "state": "即",
+        "is_opening": 0,
+        "line": "3.5",
+        "over_odds": 0.94,
+        "under_odds": 0.76
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2026-01-01 12:01",
+          "state": "早",
+          "is_opening": 1,
+          "home": 4.15,
+          "draw": 4.25,
+          "away": 1.52
+        },
+        {
+          "event_time": "2026-01-01 12:22",
+          "state": "即",
+          "is_opening": 0,
+          "home": 4.45,
+          "draw": 4.35,
+          "away": 1.47
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-01 12:22",
+        "state": "即",
+        "is_opening": 0,
+        "home": 4.45,
+        "draw": 4.35,
+        "away": 1.47
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 2,
+    "overunder_events": 1,
+    "1x2_events": 2
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260102_071102"
+  }
+}
