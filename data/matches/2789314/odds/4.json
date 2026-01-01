@@ -11,10 +11,10 @@ TIME_RANGE: 2025-12-21 03:28 -> 2026-01-01 09:06
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-01 10:41:41",
+  "exported_at": "2026-01-01 11:34:27",
   "match": {
     "match_id": "2789314",
-    "match_time": null,
+    "match_time": "2026-01-02 01:30",
     "league": {
       "league_id": 36,
       "league_name": "unknown"
@@ -36,34 +36,34 @@ TIME_RANGE: 2025-12-21 03:28 -> 2026-01-01 09:06
           "event_time": "2025-12-21 03:28",
           "state": "早",
           "is_opening": 0,
-          "line": null,
-          "over_odds": null,
-          "under_odds": null
+          "line": "2.5",
+          "over_odds": 0.6,
+          "under_odds": 1.2
         },
         {
           "event_time": "2025-12-22 05:43",
           "state": "早",
           "is_opening": 0,
-          "line": null,
-          "over_odds": null,
-          "under_odds": null
+          "line": "2.5",
+          "over_odds": 0.61,
+          "under_odds": 1.2
         },
         {
           "event_time": "2025-12-31 14:42",
           "state": "早",
           "is_opening": 0,
-          "line": null,
-          "over_odds": null,
-          "under_odds": null
+          "line": "2.5",
+          "over_odds": 0.57,
+          "under_odds": 1.25
         }
       ],
       "latest": {
         "event_time": "2025-12-31 14:42",
         "state": "早",
         "is_opening": 0,
-        "line": null,
-        "over_odds": null,
-        "under_odds": null
+        "line": "2.5",
+        "over_odds": 0.57,
+        "under_odds": 1.25
       }
     },
     "1x2": {
@@ -72,90 +72,90 @@ TIME_RANGE: 2025-12-21 03:28 -> 2026-01-01 09:06
           "event_time": "2025-12-21 03:28",
           "state": "早",
           "is_opening": 1,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 1.5,
+          "draw": 4.5,
+          "away": 6.0
         },
         {
           "event_time": "2025-12-22 05:43",
           "state": "早",
           "is_opening": 0,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 1.48,
+          "draw": 4.6,
+          "away": 6.0
         },
         {
           "event_time": "2025-12-22 05:56",
           "state": "早",
           "is_opening": 0,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 1.48,
+          "draw": 4.4,
+          "away": 6.0
         },
         {
           "event_time": "2025-12-28 01:59",
           "state": "早",
           "is_opening": 0,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 1.5,
+          "draw": 4.4,
+          "away": 5.75
         },
         {
           "event_time": "2025-12-29 16:25",
           "state": "早",
           "is_opening": 0,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 1.53,
+          "draw": 4.2,
+          "away": 5.75
         },
         {
           "event_time": "2025-12-29 17:05",
           "state": "早",
           "is_opening": 0,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 1.53,
+          "draw": 4.33,
+          "away": 5.5
         },
         {
           "event_time": "2025-12-30 06:06",
           "state": "早",
           "is_opening": 0,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 1.53,
+          "draw": 4.5,
+          "away": 5.5
         },
         {
           "event_time": "2025-12-30 19:36",
           "state": "早",
           "is_opening": 0,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 1.53,
+          "draw": 4.33,
+          "away": 5.75
         },
         {
           "event_time": "2025-12-30 19:38",
           "state": "早",
           "is_opening": 0,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 1.53,
+          "draw": 4.4,
+          "away": 5.5
         },
         {
           "event_time": "2026-01-01 09:06",
           "state": "早",
           "is_opening": 0,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 1.5,
+          "draw": 4.5,
+          "away": 5.75
         }
       ],
       "latest": {
         "event_time": "2026-01-01 09:06",
         "state": "早",
         "is_opening": 0,
-        "home": null,
-        "draw": null,
-        "away": null
+        "home": 1.5,
+        "draw": 4.5,
+        "away": 5.75
       }
     }
   },
@@ -166,6 +166,6 @@ TIME_RANGE: 2025-12-21 03:28 -> 2026-01-01 09:06
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260101_104141"
+    "export_ts": "20260101_113427"
   }
 }

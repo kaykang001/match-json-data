@@ -11,10 +11,10 @@ TIME_RANGE: 2025-12-27 18:22 -> 2025-12-29 14:28
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-01 10:41:41",
+  "exported_at": "2026-01-01 11:34:27",
   "match": {
     "match_id": "2789313",
-    "match_time": null,
+    "match_time": "2026-01-02 01:30",
     "league": {
       "league_id": 36,
       "league_name": "unknown"
@@ -33,34 +33,34 @@ TIME_RANGE: 2025-12-27 18:22 -> 2025-12-29 14:28
           "event_time": "2025-12-27 18:22",
           "state": "即",
           "is_opening": 0,
-          "line": null,
-          "home_odds": null,
-          "away_odds": null
+          "line": "平手/半球",
+          "home_odds": 0.85,
+          "away_odds": 0.99
         },
         {
           "event_time": "2025-12-28 22:00",
           "state": "即",
           "is_opening": 0,
-          "line": null,
-          "home_odds": null,
-          "away_odds": null
+          "line": "平手/半球",
+          "home_odds": 0.83,
+          "away_odds": 1.01
         },
         {
           "event_time": "2025-12-29 14:28",
           "state": "即",
           "is_opening": 0,
-          "line": null,
-          "home_odds": null,
-          "away_odds": null
+          "line": "平手/半球",
+          "home_odds": 0.86,
+          "away_odds": 0.98
         }
       ],
       "latest": {
         "event_time": "2025-12-29 14:28",
         "state": "即",
         "is_opening": 0,
-        "line": null,
-        "home_odds": null,
-        "away_odds": null
+        "line": "平手/半球",
+        "home_odds": 0.86,
+        "away_odds": 0.98
       }
     },
     "overunder": {
@@ -69,18 +69,18 @@ TIME_RANGE: 2025-12-27 18:22 -> 2025-12-29 14:28
           "event_time": "2025-12-27 18:22",
           "state": "即",
           "is_opening": 0,
-          "line": null,
-          "over_odds": null,
-          "under_odds": null
+          "line": "2.5",
+          "over_odds": 0.95,
+          "under_odds": 0.85
         }
       ],
       "latest": {
         "event_time": "2025-12-27 18:22",
         "state": "即",
         "is_opening": 0,
-        "line": null,
-        "over_odds": null,
-        "under_odds": null
+        "line": "2.5",
+        "over_odds": 0.95,
+        "under_odds": 0.85
       }
     },
     "1x2": {
@@ -89,26 +89,26 @@ TIME_RANGE: 2025-12-27 18:22 -> 2025-12-29 14:28
           "event_time": "2025-12-27 18:22",
           "state": "早",
           "is_opening": 1,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 2.03,
+          "draw": 3.08,
+          "away": 3.37
         },
         {
           "event_time": "2025-12-29 14:28",
           "state": "即",
           "is_opening": 0,
-          "home": null,
-          "draw": null,
-          "away": null
+          "home": 2.14,
+          "draw": 3.08,
+          "away": 3.1
         }
       ],
       "latest": {
         "event_time": "2025-12-29 14:28",
         "state": "即",
         "is_opening": 0,
-        "home": null,
-        "draw": null,
-        "away": null
+        "home": 2.14,
+        "draw": 3.08,
+        "away": 3.1
       }
     }
   },
@@ -119,6 +119,6 @@ TIME_RANGE: 2025-12-27 18:22 -> 2025-12-29 14:28
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260101_104141"
+    "export_ts": "20260101_113427"
   }
 }
