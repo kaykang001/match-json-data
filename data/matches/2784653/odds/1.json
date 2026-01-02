@@ -3,15 +3,15 @@ MATCH_ID: 2784653
 COMPANY_ID: 1
 COMPANY_NAME: 澳彩
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
-OVERUNDER_EVENTS: 1
+HANDICAP_EVENTS: 2
+OVERUNDER_EVENTS: 2
 1X2_EVENTS: 1
-TIME_RANGE: 2025-12-29 18:40 -> 2025-12-29 18:40
+TIME_RANGE: 2025-12-29 18:40 -> 2026-01-02 22:09
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-02 07:11:02",
+  "exported_at": "2026-01-03 00:54:23",
   "match": {
     "match_id": "2784653",
     "match_time": "2026-01-03 03:45",
@@ -36,15 +36,23 @@ TIME_RANGE: 2025-12-29 18:40 -> 2025-12-29 18:40
           "line": "受让一球",
           "home_odds": 0.88,
           "away_odds": 0.96
+        },
+        {
+          "event_time": "2026-01-02 22:09",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让一球",
+          "home_odds": 0.85,
+          "away_odds": 0.99
         }
       ],
       "latest": {
-        "event_time": "2025-12-29 18:40",
+        "event_time": "2026-01-02 22:09",
         "state": "即",
         "is_opening": 0,
         "line": "受让一球",
-        "home_odds": 0.88,
-        "away_odds": 0.96
+        "home_odds": 0.85,
+        "away_odds": 0.99
       }
     },
     "overunder": {
@@ -56,15 +64,23 @@ TIME_RANGE: 2025-12-29 18:40 -> 2025-12-29 18:40
           "line": "2.5",
           "over_odds": 0.94,
           "under_odds": 0.86
+        },
+        {
+          "event_time": "2026-01-02 21:46",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.86,
+          "under_odds": 0.94
         }
       ],
       "latest": {
-        "event_time": "2025-12-29 18:40",
+        "event_time": "2026-01-02 21:46",
         "state": "即",
         "is_opening": 0,
-        "line": "2.5",
-        "over_odds": 0.94,
-        "under_odds": 0.86
+        "line": "2/2.5",
+        "over_odds": 0.86,
+        "under_odds": 0.94
       }
     },
     "1x2": {
@@ -89,12 +105,12 @@ TIME_RANGE: 2025-12-29 18:40 -> 2025-12-29 18:40
     }
   },
   "counts": {
-    "handicap_events": 1,
-    "overunder_events": 1,
+    "handicap_events": 2,
+    "overunder_events": 2,
     "1x2_events": 1
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260102_071102"
+    "export_ts": "20260103_005423"
   }
 }
