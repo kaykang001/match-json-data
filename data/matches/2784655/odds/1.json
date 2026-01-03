@@ -1,0 +1,124 @@
+# INDEX
+MATCH_ID: 2784655
+COMPANY_ID: 1
+COMPANY_NAME: 澳彩
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 2
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 3
+TIME_RANGE: 2025-12-29 18:45 -> 2026-01-02 22:05
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-04 04:35:11",
+  "match": {
+    "match_id": "2784655",
+    "match_time": "2026-01-04 22:00",
+    "league": {
+      "league_id": 34,
+      "league_name": "unknown"
+    },
+    "home_team": "佛罗伦萨",
+    "away_team": "克雷莫纳"
+  },
+  "company": {
+    "company_id": "1",
+    "company_name": "澳彩"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-29 18:45",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球/一球",
+          "home_odds": 0.96,
+          "away_odds": 0.88
+        },
+        {
+          "event_time": "2026-01-02 22:04",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球/一球",
+          "home_odds": 1.02,
+          "away_odds": 0.82
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-02 22:04",
+        "state": "即",
+        "is_opening": 0,
+        "line": "半球/一球",
+        "home_odds": 1.02,
+        "away_odds": 0.82
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-29 18:45",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.98,
+          "under_odds": 0.82
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-29 18:45",
+        "state": "即",
+        "is_opening": 0,
+        "line": "2.5",
+        "over_odds": 0.98,
+        "under_odds": 0.82
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-29 18:45",
+          "state": "早",
+          "is_opening": 1,
+          "home": 1.65,
+          "draw": 3.4,
+          "away": 4.75
+        },
+        {
+          "event_time": "2025-12-29 18:47",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.68,
+          "draw": 3.35,
+          "away": 4.6
+        },
+        {
+          "event_time": "2026-01-02 22:05",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.76,
+          "draw": 3.35,
+          "away": 4.1
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-02 22:05",
+        "state": "即",
+        "is_opening": 0,
+        "home": 1.76,
+        "draw": 3.35,
+        "away": 4.1
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 2,
+    "overunder_events": 1,
+    "1x2_events": 3
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260104_043511"
+  }
+}
