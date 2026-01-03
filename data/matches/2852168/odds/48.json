@@ -5,13 +5,13 @@ COMPANY_NAME: 香港马会
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 0
 OVERUNDER_EVENTS: 1
-1X2_EVENTS: 1
-TIME_RANGE: 2026-01-01 19:31 -> 2026-01-01 19:31
+1X2_EVENTS: 3
+TIME_RANGE: 2026-01-01 19:31 -> 2026-01-03 17:25
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-03 11:44:37",
+  "exported_at": "2026-01-03 22:29:25",
   "match": {
     "match_id": "2852168",
     "match_time": "2026-01-04 01:30",
@@ -28,7 +28,8 @@ TIME_RANGE: 2026-01-01 19:31 -> 2026-01-01 19:31
   },
   "markets": {
     "handicap": {
-      "events": []
+      "events": [],
+      "latest": null
     },
     "overunder": {
       "events": [
@@ -59,25 +60,41 @@ TIME_RANGE: 2026-01-01 19:31 -> 2026-01-01 19:31
           "home": 1.44,
           "draw": 4.25,
           "away": 4.85
+        },
+        {
+          "event_time": "2026-01-03 15:48",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.51,
+          "draw": 4.1,
+          "away": 4.4
+        },
+        {
+          "event_time": "2026-01-03 17:25",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.45,
+          "draw": 4.25,
+          "away": 4.8
         }
       ],
       "latest": {
-        "event_time": "2026-01-01 19:31",
-        "state": "早",
-        "is_opening": 1,
-        "home": 1.44,
+        "event_time": "2026-01-03 17:25",
+        "state": "即",
+        "is_opening": 0,
+        "home": 1.45,
         "draw": 4.25,
-        "away": 4.85
+        "away": 4.8
       }
     }
   },
   "counts": {
     "handicap_events": 0,
     "overunder_events": 1,
-    "1x2_events": 1
+    "1x2_events": 3
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260103_114437"
+    "export_ts": "20260103_222925"
   }
 }
