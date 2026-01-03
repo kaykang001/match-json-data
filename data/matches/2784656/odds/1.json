@@ -1,0 +1,100 @@
+# INDEX
+MATCH_ID: 2784656
+COMPANY_ID: 1
+COMPANY_NAME: 澳彩
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 1
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 1
+TIME_RANGE: 2025-12-29 18:42 -> 2025-12-29 18:42
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-03 11:44:37",
+  "match": {
+    "match_id": "2784656",
+    "match_time": "2026-01-03 22:00",
+    "league": {
+      "league_id": 34,
+      "league_name": "unknown"
+    },
+    "home_team": "热那亚",
+    "away_team": "比萨"
+  },
+  "company": {
+    "company_id": "1",
+    "company_name": "澳彩"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-29 18:42",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球",
+          "home_odds": 0.86,
+          "away_odds": 0.98
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-29 18:42",
+        "state": "即",
+        "is_opening": 0,
+        "line": "半球",
+        "home_odds": 0.86,
+        "away_odds": 0.98
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-29 18:42",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2",
+          "over_odds": 0.87,
+          "under_odds": 0.93
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-29 18:42",
+        "state": "即",
+        "is_opening": 0,
+        "line": "2",
+        "over_odds": 0.87,
+        "under_odds": 0.93
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-29 18:42",
+          "state": "早",
+          "is_opening": 1,
+          "home": 1.86,
+          "draw": 3.0,
+          "away": 4.2
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-29 18:42",
+        "state": "早",
+        "is_opening": 1,
+        "home": 1.86,
+        "draw": 3.0,
+        "away": 4.2
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 1,
+    "overunder_events": 1,
+    "1x2_events": 1
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260103_114437"
+  }
+}
