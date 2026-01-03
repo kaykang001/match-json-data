@@ -3,15 +3,15 @@ MATCH_ID: 2784652
 COMPANY_ID: 42
 COMPANY_NAME: 188bet/金宝博
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 57
-OVERUNDER_EVENTS: 76
-1X2_EVENTS: 42
-TIME_RANGE: 2025-12-21 20:00 -> 2026-01-03 22:06
+HANDICAP_EVENTS: 60
+OVERUNDER_EVENTS: 79
+1X2_EVENTS: 44
+TIME_RANGE: 2025-12-21 20:00 -> 2026-01-03 23:38
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-03 22:29:25",
+  "exported_at": "2026-01-04 00:47:25",
   "match": {
     "match_id": "2784652",
     "match_time": "2026-01-04 03:45",
@@ -484,15 +484,39 @@ TIME_RANGE: 2025-12-21 20:00 -> 2026-01-03 22:06
           "line": "平手/半球",
           "home_odds": 0.92,
           "away_odds": 0.88
+        },
+        {
+          "event_time": "2026-01-03 22:36",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.93,
+          "away_odds": 0.88
+        },
+        {
+          "event_time": "2026-01-03 22:48",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.92,
+          "away_odds": 0.88
+        },
+        {
+          "event_time": "2026-01-03 23:00",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.93,
+          "away_odds": 0.87
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 22:06",
+        "event_time": "2026-01-03 23:00",
         "state": "即",
         "is_opening": 0,
         "line": "平手/半球",
-        "home_odds": 0.92,
-        "away_odds": 0.88
+        "home_odds": 0.93,
+        "away_odds": 0.87
       }
     },
     "overunder": {
@@ -1104,15 +1128,39 @@ TIME_RANGE: 2025-12-21 20:00 -> 2026-01-03 22:06
           "line": "2/2.5",
           "over_odds": 0.99,
           "under_odds": 0.82
+        },
+        {
+          "event_time": "2026-01-03 23:02",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.98,
+          "under_odds": 0.83
+        },
+        {
+          "event_time": "2026-01-03 23:12",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.0,
+          "under_odds": 0.81
+        },
+        {
+          "event_time": "2026-01-03 23:38",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.01,
+          "under_odds": 0.8
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 20:58",
+        "event_time": "2026-01-03 23:38",
         "state": "即",
         "is_opening": 0,
         "line": "2/2.5",
-        "over_odds": 0.99,
-        "under_odds": 0.82
+        "over_odds": 1.01,
+        "under_odds": 0.8
       }
     },
     "1x2": {
@@ -1452,10 +1500,26 @@ TIME_RANGE: 2025-12-21 20:00 -> 2026-01-03 22:06
           "home": 2.3,
           "draw": 3.05,
           "away": 3.4
+        },
+        {
+          "event_time": "2026-01-03 22:47",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.3,
+          "draw": 3.05,
+          "away": 3.45
+        },
+        {
+          "event_time": "2026-01-03 23:02",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.3,
+          "draw": 3.05,
+          "away": 3.4
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 21:39",
+        "event_time": "2026-01-03 23:02",
         "state": "即",
         "is_opening": 0,
         "home": 2.3,
@@ -1465,12 +1529,12 @@ TIME_RANGE: 2025-12-21 20:00 -> 2026-01-03 22:06
     }
   },
   "counts": {
-    "handicap_events": 57,
-    "overunder_events": 76,
-    "1x2_events": 42
+    "handicap_events": 60,
+    "overunder_events": 79,
+    "1x2_events": 44
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260103_222925"
+    "export_ts": "20260104_004725"
   }
 }

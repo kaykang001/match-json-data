@@ -3,15 +3,15 @@ MATCH_ID: 2784652
 COMPANY_ID: 3
 COMPANY_NAME: Crown
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 27
-OVERUNDER_EVENTS: 50
+HANDICAP_EVENTS: 31
+OVERUNDER_EVENTS: 52
 1X2_EVENTS: 24
-TIME_RANGE: 2025-12-21 23:48 -> 2026-01-03 22:19
+TIME_RANGE: 2025-12-21 23:48 -> 2026-01-03 23:37
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-03 22:29:25",
+  "exported_at": "2026-01-04 00:47:25",
   "match": {
     "match_id": "2784652",
     "match_time": "2026-01-04 03:45",
@@ -242,12 +242,44 @@ TIME_RANGE: 2025-12-21 23:48 -> 2026-01-03 22:19
           "state": "即",
           "is_opening": 0,
           "line": "平手/半球",
+          "home_odds": 0.96,
+          "away_odds": 0.93
+        },
+        {
+          "event_time": "2026-01-03 22:19",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.97,
+          "away_odds": 0.92
+        },
+        {
+          "event_time": "2026-01-03 22:38",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.97,
+          "away_odds": 0.92
+        },
+        {
+          "event_time": "2026-01-03 23:36",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.98,
+          "away_odds": 0.91
+        },
+        {
+          "event_time": "2026-01-03 23:37",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
           "home_odds": 0.97,
           "away_odds": 0.92
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 22:19",
+        "event_time": "2026-01-03 23:37",
         "state": "即",
         "is_opening": 0,
         "line": "平手/半球",
@@ -656,10 +688,26 @@ TIME_RANGE: 2025-12-21 23:48 -> 2026-01-03 22:19
           "line": "2/2.5",
           "over_odds": 1.06,
           "under_odds": 0.82
+        },
+        {
+          "event_time": "2026-01-03 22:20",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.04,
+          "under_odds": 0.84
+        },
+        {
+          "event_time": "2026-01-03 23:37",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.06,
+          "under_odds": 0.82
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 21:09",
+        "event_time": "2026-01-03 23:37",
         "state": "即",
         "is_opening": 0,
         "line": "2/2.5",
@@ -873,12 +921,12 @@ TIME_RANGE: 2025-12-21 23:48 -> 2026-01-03 22:19
     }
   },
   "counts": {
-    "handicap_events": 27,
-    "overunder_events": 50,
+    "handicap_events": 31,
+    "overunder_events": 52,
     "1x2_events": 24
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260103_222925"
+    "export_ts": "20260104_004725"
   }
 }

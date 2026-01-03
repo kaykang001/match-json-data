@@ -3,15 +3,15 @@ MATCH_ID: 2784652
 COMPANY_ID: 8
 COMPANY_NAME: 365bet
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 21
-OVERUNDER_EVENTS: 54
+HANDICAP_EVENTS: 23
+OVERUNDER_EVENTS: 56
 1X2_EVENTS: 80
-TIME_RANGE: 2025-12-21 20:33 -> 2026-01-03 21:01
+TIME_RANGE: 2025-12-21 20:33 -> 2026-01-03 23:14
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-03 22:29:25",
+  "exported_at": "2026-01-04 00:47:25",
   "match": {
     "match_id": "2784652",
     "match_time": "2026-01-04 03:45",
@@ -196,10 +196,26 @@ TIME_RANGE: 2025-12-21 20:33 -> 2026-01-03 21:01
           "line": "平手/半球",
           "home_odds": 0.93,
           "away_odds": 0.93
+        },
+        {
+          "event_time": "2026-01-03 23:05",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.98,
+          "away_odds": 0.88
+        },
+        {
+          "event_time": "2026-01-03 23:14",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.93,
+          "away_odds": 0.93
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 18:10",
+        "event_time": "2026-01-03 23:14",
         "state": "即",
         "is_opening": 0,
         "line": "平手/半球",
@@ -640,10 +656,26 @@ TIME_RANGE: 2025-12-21 20:33 -> 2026-01-03 21:01
           "line": "2/2.5",
           "over_odds": 1.03,
           "under_odds": 0.83
+        },
+        {
+          "event_time": "2026-01-03 23:05",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.0,
+          "under_odds": 0.85
+        },
+        {
+          "event_time": "2026-01-03 23:13",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 1.03,
+          "under_odds": 0.83
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 18:44",
+        "event_time": "2026-01-03 23:13",
         "state": "即",
         "is_opening": 0,
         "line": "2/2.5",
@@ -1305,12 +1337,12 @@ TIME_RANGE: 2025-12-21 20:33 -> 2026-01-03 21:01
     }
   },
   "counts": {
-    "handicap_events": 21,
-    "overunder_events": 54,
+    "handicap_events": 23,
+    "overunder_events": 56,
     "1x2_events": 80
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260103_222925"
+    "export_ts": "20260104_004725"
   }
 }

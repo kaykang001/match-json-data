@@ -4,14 +4,14 @@ COMPANY_ID: 4
 COMPANY_NAME: 立博(Ladbrokes)
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 0
-OVERUNDER_EVENTS: 8
+OVERUNDER_EVENTS: 9
 1X2_EVENTS: 11
-TIME_RANGE: 2025-12-21 20:09 -> 2026-01-03 17:11
+TIME_RANGE: 2025-12-21 20:09 -> 2026-01-03 23:04
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-03 22:29:25",
+  "exported_at": "2026-01-04 00:47:25",
   "match": {
     "match_id": "2784652",
     "match_time": "2026-01-04 03:45",
@@ -96,14 +96,22 @@ TIME_RANGE: 2025-12-21 20:09 -> 2026-01-03 17:11
           "line": "2.5",
           "over_odds": 1.2,
           "under_odds": 0.61
+        },
+        {
+          "event_time": "2026-01-03 23:04",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.15,
+          "under_odds": 0.61
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 17:11",
+        "event_time": "2026-01-03 23:04",
         "state": "早",
         "is_opening": 0,
         "line": "2.5",
-        "over_odds": 1.2,
+        "over_odds": 1.15,
         "under_odds": 0.61
       }
     },
@@ -210,11 +218,11 @@ TIME_RANGE: 2025-12-21 20:09 -> 2026-01-03 17:11
   },
   "counts": {
     "handicap_events": 0,
-    "overunder_events": 8,
+    "overunder_events": 9,
     "1x2_events": 11
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260103_222925"
+    "export_ts": "20260104_004725"
   }
 }
