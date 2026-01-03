@@ -1,0 +1,83 @@
+# INDEX
+MATCH_ID: 2814869
+COMPANY_ID: 48
+COMPANY_NAME: 香港马会
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 0
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 1
+TIME_RANGE: 2026-01-01 19:31 -> 2026-01-01 19:31
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-03 11:44:37",
+  "match": {
+    "match_id": "2814869",
+    "match_time": "2026-01-04 02:00",
+    "league": {
+      "league_id": 23,
+      "league_name": "unknown"
+    },
+    "home_team": "本菲卡",
+    "away_team": "埃斯托里尔"
+  },
+  "company": {
+    "company_id": "48",
+    "company_name": "香港马会"
+  },
+  "markets": {
+    "handicap": {
+      "events": []
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2026-01-01 19:31",
+          "state": "即",
+          "is_opening": 0,
+          "line": "3/3.5",
+          "over_odds": 0.88,
+          "under_odds": 0.82
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-01 19:31",
+        "state": "即",
+        "is_opening": 0,
+        "line": "3/3.5",
+        "over_odds": 0.88,
+        "under_odds": 0.82
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2026-01-01 19:31",
+          "state": "早",
+          "is_opening": 1,
+          "home": 1.1,
+          "draw": 6.6,
+          "away": 13.5
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-01 19:31",
+        "state": "早",
+        "is_opening": 1,
+        "home": 1.1,
+        "draw": 6.6,
+        "away": 13.5
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 0,
+    "overunder_events": 1,
+    "1x2_events": 1
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260103_114437"
+  }
+}

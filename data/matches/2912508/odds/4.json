@@ -1,0 +1,179 @@
+# INDEX
+MATCH_ID: 2912508
+COMPANY_ID: 4
+COMPANY_NAME: 立博(Ladbrokes)
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 0
+OVERUNDER_EVENTS: 3
+1X2_EVENTS: 11
+TIME_RANGE: 2025-12-31 16:19 -> 2026-01-02 23:48
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-03 11:44:37",
+  "match": {
+    "match_id": "2912508",
+    "match_time": "2026-01-04 03:00",
+    "league": {
+      "league_id": 93,
+      "league_name": "unknown"
+    },
+    "home_team": "马里",
+    "away_team": "突尼斯"
+  },
+  "company": {
+    "company_id": "4",
+    "company_name": "立博(Ladbrokes)"
+  },
+  "markets": {
+    "handicap": {
+      "events": []
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-31 16:19",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.7,
+          "under_odds": 0.4
+        },
+        {
+          "event_time": "2025-12-31 16:22",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.75,
+          "under_odds": 0.4
+        },
+        {
+          "event_time": "2026-01-02 23:48",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.7,
+          "under_odds": 0.4
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-02 23:48",
+        "state": "早",
+        "is_opening": 0,
+        "line": "2.5",
+        "over_odds": 1.7,
+        "under_odds": 0.4
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-31 16:19",
+          "state": "早",
+          "is_opening": 1,
+          "home": 2.75,
+          "draw": 2.6,
+          "away": 2.75
+        },
+        {
+          "event_time": "2025-12-31 16:20",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.7,
+          "draw": 2.62,
+          "away": 2.75
+        },
+        {
+          "event_time": "2025-12-31 16:22",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.7,
+          "draw": 2.7,
+          "away": 2.6
+        },
+        {
+          "event_time": "2025-12-31 19:07",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.87,
+          "draw": 2.62,
+          "away": 2.6
+        },
+        {
+          "event_time": "2025-12-31 20:36",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.8,
+          "draw": 2.75,
+          "away": 2.5
+        },
+        {
+          "event_time": "2025-12-31 21:15",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.8,
+          "draw": 2.7,
+          "away": 2.5
+        },
+        {
+          "event_time": "2026-01-01 13:37",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.8,
+          "draw": 2.75,
+          "away": 2.5
+        },
+        {
+          "event_time": "2026-01-01 14:57",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.87,
+          "draw": 2.8,
+          "away": 2.45
+        },
+        {
+          "event_time": "2026-01-02 17:07",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.75,
+          "draw": 2.8,
+          "away": 2.5
+        },
+        {
+          "event_time": "2026-01-02 23:08",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.8,
+          "draw": 2.7,
+          "away": 2.6
+        },
+        {
+          "event_time": "2026-01-02 23:48",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.87,
+          "draw": 2.75,
+          "away": 2.45
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-02 23:48",
+        "state": "早",
+        "is_opening": 0,
+        "home": 2.87,
+        "draw": 2.75,
+        "away": 2.45
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 0,
+    "overunder_events": 3,
+    "1x2_events": 11
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260103_114437"
+  }
+}
