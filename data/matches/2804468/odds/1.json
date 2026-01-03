@@ -1,0 +1,108 @@
+# INDEX
+MATCH_ID: 2804468
+COMPANY_ID: 1
+COMPANY_NAME: 澳彩
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 2
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 1
+TIME_RANGE: 2025-12-29 19:42 -> 2026-01-03 21:49
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-04 04:35:11",
+  "match": {
+    "match_id": "2804468",
+    "match_time": "2026-01-05 01:30",
+    "league": {
+      "league_id": 31,
+      "league_name": "unknown"
+    },
+    "home_team": "马洛卡",
+    "away_team": "赫罗纳"
+  },
+  "company": {
+    "company_id": "1",
+    "company_name": "澳彩"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2025-12-29 19:42",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.95,
+          "away_odds": 0.89
+        },
+        {
+          "event_time": "2026-01-03 21:49",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.88,
+          "away_odds": 0.96
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-03 21:49",
+        "state": "即",
+        "is_opening": 0,
+        "line": "平手/半球",
+        "home_odds": 0.88,
+        "away_odds": 0.96
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-29 19:42",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.96,
+          "under_odds": 0.84
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-29 19:42",
+        "state": "即",
+        "is_opening": 0,
+        "line": "2/2.5",
+        "over_odds": 0.96,
+        "under_odds": 0.84
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-29 19:42",
+          "state": "早",
+          "is_opening": 1,
+          "home": 2.15,
+          "draw": 3.03,
+          "away": 3.13
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-29 19:42",
+        "state": "早",
+        "is_opening": 1,
+        "home": 2.15,
+        "draw": 3.03,
+        "away": 3.13
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 2,
+    "overunder_events": 1,
+    "1x2_events": 1
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260104_043511"
+  }
+}

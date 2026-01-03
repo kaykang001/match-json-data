@@ -1,0 +1,131 @@
+# INDEX
+MATCH_ID: 2814873
+COMPANY_ID: 4
+COMPANY_NAME: 立博(Ladbrokes)
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 0
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 7
+TIME_RANGE: 2025-12-30 02:01 -> 2026-01-04 00:09
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-04 04:35:11",
+  "match": {
+    "match_id": "2814873",
+    "match_time": "2026-01-05 02:00",
+    "league": {
+      "league_id": 23,
+      "league_name": "unknown"
+    },
+    "home_team": "圣克拉拉",
+    "away_team": "波尔图"
+  },
+  "company": {
+    "company_id": "4",
+    "company_name": "立博(Ladbrokes)"
+  },
+  "markets": {
+    "handicap": {
+      "events": []
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-30 02:01",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.2,
+          "under_odds": 0.6
+        }
+      ],
+      "latest": {
+        "event_time": "2025-12-30 02:01",
+        "state": "早",
+        "is_opening": 0,
+        "line": "2.5",
+        "over_odds": 1.2,
+        "under_odds": 0.6
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-30 02:01",
+          "state": "早",
+          "is_opening": 1,
+          "home": 7.0,
+          "draw": 3.9,
+          "away": 1.5
+        },
+        {
+          "event_time": "2025-12-30 02:07",
+          "state": "早",
+          "is_opening": 0,
+          "home": 7.0,
+          "draw": 4.0,
+          "away": 1.5
+        },
+        {
+          "event_time": "2025-12-30 04:50",
+          "state": "早",
+          "is_opening": 0,
+          "home": 6.5,
+          "draw": 4.0,
+          "away": 1.5
+        },
+        {
+          "event_time": "2025-12-31 10:24",
+          "state": "早",
+          "is_opening": 0,
+          "home": 7.0,
+          "draw": 3.9,
+          "away": 1.5
+        },
+        {
+          "event_time": "2025-12-31 23:46",
+          "state": "早",
+          "is_opening": 0,
+          "home": 7.0,
+          "draw": 4.0,
+          "away": 1.5
+        },
+        {
+          "event_time": "2026-01-02 11:06",
+          "state": "早",
+          "is_opening": 0,
+          "home": 7.0,
+          "draw": 4.0,
+          "away": 1.48
+        },
+        {
+          "event_time": "2026-01-04 00:09",
+          "state": "早",
+          "is_opening": 0,
+          "home": 7.5,
+          "draw": 4.2,
+          "away": 1.44
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-04 00:09",
+        "state": "早",
+        "is_opening": 0,
+        "home": 7.5,
+        "draw": 4.2,
+        "away": 1.44
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 0,
+    "overunder_events": 1,
+    "1x2_events": 7
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260104_043511"
+  }
+}
