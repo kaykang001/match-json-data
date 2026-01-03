@@ -1,0 +1,187 @@
+# INDEX
+MATCH_ID: 2804465
+COMPANY_ID: 4
+COMPANY_NAME: 立博(Ladbrokes)
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 0
+OVERUNDER_EVENTS: 7
+1X2_EVENTS: 8
+TIME_RANGE: 2025-12-22 20:17 -> 2026-01-03 05:52
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-03 11:44:37",
+  "match": {
+    "match_id": "2804465",
+    "match_time": "2026-01-03 21:00",
+    "league": {
+      "league_id": 31,
+      "league_name": "unknown"
+    },
+    "home_team": "塞尔塔",
+    "away_team": "巴伦西亚"
+  },
+  "company": {
+    "company_id": "4",
+    "company_name": "立博(Ladbrokes)"
+  },
+  "markets": {
+    "handicap": {
+      "events": []
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2025-12-22 20:17",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.85,
+          "under_odds": 0.83
+        },
+        {
+          "event_time": "2025-12-27 19:09",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.91,
+          "under_odds": 0.83
+        },
+        {
+          "event_time": "2025-12-30 03:05",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.95,
+          "under_odds": 0.75
+        },
+        {
+          "event_time": "2026-01-01 21:33",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.05,
+          "under_odds": 0.7
+        },
+        {
+          "event_time": "2026-01-02 21:09",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.05,
+          "under_odds": 0.67
+        },
+        {
+          "event_time": "2026-01-03 05:32",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.05,
+          "under_odds": 0.7
+        },
+        {
+          "event_time": "2026-01-03 05:52",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.1,
+          "under_odds": 0.67
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-03 05:52",
+        "state": "即",
+        "is_opening": 0,
+        "line": "2.5",
+        "over_odds": 1.1,
+        "under_odds": 0.67
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2025-12-22 20:17",
+          "state": "早",
+          "is_opening": 1,
+          "home": 1.85,
+          "draw": 3.6,
+          "away": 4.0
+        },
+        {
+          "event_time": "2025-12-27 19:09",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.95,
+          "draw": 3.5,
+          "away": 3.8
+        },
+        {
+          "event_time": "2025-12-30 03:05",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.95,
+          "draw": 3.4,
+          "away": 3.8
+        },
+        {
+          "event_time": "2025-12-30 15:50",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.0,
+          "draw": 3.4,
+          "away": 3.8
+        },
+        {
+          "event_time": "2026-01-01 17:40",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.0,
+          "draw": 3.4,
+          "away": 3.75
+        },
+        {
+          "event_time": "2026-01-01 21:33",
+          "state": "早",
+          "is_opening": 0,
+          "home": 2.0,
+          "draw": 3.3,
+          "away": 3.8
+        },
+        {
+          "event_time": "2026-01-02 21:09",
+          "state": "早",
+          "is_opening": 0,
+          "home": 1.95,
+          "draw": 3.3,
+          "away": 4.0
+        },
+        {
+          "event_time": "2026-01-03 05:52",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.95,
+          "draw": 3.4,
+          "away": 4.0
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-03 05:52",
+        "state": "即",
+        "is_opening": 0,
+        "home": 1.95,
+        "draw": 3.4,
+        "away": 4.0
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 0,
+    "overunder_events": 7,
+    "1x2_events": 8
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260103_114437"
+  }
+}
