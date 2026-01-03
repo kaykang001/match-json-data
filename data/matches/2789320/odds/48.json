@@ -3,15 +3,15 @@ MATCH_ID: 2789320
 COMPANY_ID: 48
 COMPANY_NAME: 香港马会
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 2
+HANDICAP_EVENTS: 4
 OVERUNDER_EVENTS: 1
-1X2_EVENTS: 2
-TIME_RANGE: 2026-01-01 19:31 -> 2026-01-03 11:23
+1X2_EVENTS: 3
+TIME_RANGE: 2026-01-01 19:31 -> 2026-01-03 17:41
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-03 11:44:37",
+  "exported_at": "2026-01-03 22:29:25",
   "match": {
     "match_id": "2789320",
     "match_time": "2026-01-04 01:30",
@@ -44,15 +44,31 @@ TIME_RANGE: 2026-01-01 19:31 -> 2026-01-03 11:23
           "line": "受让一球",
           "home_odds": 1.02,
           "away_odds": 0.76
+        },
+        {
+          "event_time": "2026-01-03 12:10",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让一球",
+          "home_odds": 1.05,
+          "away_odds": 0.78
+        },
+        {
+          "event_time": "2026-01-03 17:41",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让一球/球半",
+          "home_odds": 0.78,
+          "away_odds": 1.05
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 11:23",
+        "event_time": "2026-01-03 17:41",
         "state": "即",
         "is_opening": 0,
-        "line": "受让一球",
-        "home_odds": 1.02,
-        "away_odds": 0.76
+        "line": "受让一球/球半",
+        "home_odds": 0.78,
+        "away_odds": 1.05
       }
     },
     "overunder": {
@@ -92,25 +108,33 @@ TIME_RANGE: 2026-01-01 19:31 -> 2026-01-03 11:23
           "home": 5.9,
           "draw": 4.25,
           "away": 1.38
+        },
+        {
+          "event_time": "2026-01-03 17:41",
+          "state": "即",
+          "is_opening": 0,
+          "home": 6.1,
+          "draw": 4.3,
+          "away": 1.36
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 11:23",
+        "event_time": "2026-01-03 17:41",
         "state": "即",
         "is_opening": 0,
-        "home": 5.9,
-        "draw": 4.25,
-        "away": 1.38
+        "home": 6.1,
+        "draw": 4.3,
+        "away": 1.36
       }
     }
   },
   "counts": {
-    "handicap_events": 2,
+    "handicap_events": 4,
     "overunder_events": 1,
-    "1x2_events": 2
+    "1x2_events": 3
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260103_114437"
+    "export_ts": "20260103_222925"
   }
 }
