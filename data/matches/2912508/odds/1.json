@@ -3,15 +3,15 @@ MATCH_ID: 2912508
 COMPANY_ID: 1
 COMPANY_NAME: 澳彩
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
-OVERUNDER_EVENTS: 1
-1X2_EVENTS: 1
-TIME_RANGE: 2026-01-01 17:30 -> 2026-01-01 17:30
+HANDICAP_EVENTS: 3
+OVERUNDER_EVENTS: 2
+1X2_EVENTS: 2
+TIME_RANGE: 2026-01-01 17:30 -> 2026-01-03 21:39
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-03 11:44:37",
+  "exported_at": "2026-01-04 00:47:25",
   "match": {
     "match_id": "2912508",
     "match_time": "2026-01-04 03:00",
@@ -36,15 +36,31 @@ TIME_RANGE: 2026-01-01 17:30 -> 2026-01-01 17:30
           "line": "平手",
           "home_odds": 1.0,
           "away_odds": 0.78
+        },
+        {
+          "event_time": "2026-01-03 14:05",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手",
+          "home_odds": 0.9,
+          "away_odds": 0.88
+        },
+        {
+          "event_time": "2026-01-03 14:22",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手",
+          "home_odds": 0.74,
+          "away_odds": 1.04
         }
       ],
       "latest": {
-        "event_time": "2026-01-01 17:30",
+        "event_time": "2026-01-03 14:22",
         "state": "即",
         "is_opening": 0,
         "line": "平手",
-        "home_odds": 1.0,
-        "away_odds": 0.78
+        "home_odds": 0.74,
+        "away_odds": 1.04
       }
     },
     "overunder": {
@@ -56,15 +72,23 @@ TIME_RANGE: 2026-01-01 17:30 -> 2026-01-01 17:30
           "line": "1.5/2",
           "over_odds": 0.74,
           "under_odds": 0.98
+        },
+        {
+          "event_time": "2026-01-03 21:39",
+          "state": "即",
+          "is_opening": 0,
+          "line": "1.5/2",
+          "over_odds": 0.94,
+          "under_odds": 0.78
         }
       ],
       "latest": {
-        "event_time": "2026-01-01 17:30",
+        "event_time": "2026-01-03 21:39",
         "state": "即",
         "is_opening": 0,
         "line": "1.5/2",
-        "over_odds": 0.74,
-        "under_odds": 0.98
+        "over_odds": 0.94,
+        "under_odds": 0.78
       }
     },
     "1x2": {
@@ -76,25 +100,33 @@ TIME_RANGE: 2026-01-01 17:30 -> 2026-01-01 17:30
           "home": 2.81,
           "draw": 2.68,
           "away": 2.52
+        },
+        {
+          "event_time": "2026-01-03 14:22",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.52,
+          "draw": 2.68,
+          "away": 2.81
         }
       ],
       "latest": {
-        "event_time": "2026-01-01 17:30",
-        "state": "早",
-        "is_opening": 1,
-        "home": 2.81,
+        "event_time": "2026-01-03 14:22",
+        "state": "即",
+        "is_opening": 0,
+        "home": 2.52,
         "draw": 2.68,
-        "away": 2.52
+        "away": 2.81
       }
     }
   },
   "counts": {
-    "handicap_events": 1,
-    "overunder_events": 1,
-    "1x2_events": 1
+    "handicap_events": 3,
+    "overunder_events": 2,
+    "1x2_events": 2
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260103_114437"
+    "export_ts": "20260104_004725"
   }
 }
