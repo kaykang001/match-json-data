@@ -3,15 +3,15 @@ MATCH_ID: 2800170
 COMPANY_ID: 1
 COMPANY_NAME: 澳彩
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 3
-OVERUNDER_EVENTS: 1
+HANDICAP_EVENTS: 5
+OVERUNDER_EVENTS: 3
 1X2_EVENTS: 1
-TIME_RANGE: 2025-12-29 19:36 -> 2025-12-31 14:53
+TIME_RANGE: 2025-12-29 19:36 -> 2026-01-04 21:01
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-05 00:03:04",
   "match": {
     "match_id": "2800170",
     "match_time": "2026-01-05 03:45",
@@ -52,13 +52,29 @@ TIME_RANGE: 2025-12-29 19:36 -> 2025-12-31 14:53
           "line": "两球/两球半",
           "home_odds": 1.0,
           "away_odds": 0.84
+        },
+        {
+          "event_time": "2026-01-04 15:34",
+          "state": "即",
+          "is_opening": 0,
+          "line": "两球/两球半",
+          "home_odds": 0.9,
+          "away_odds": 0.94
+        },
+        {
+          "event_time": "2026-01-04 21:01",
+          "state": "即",
+          "is_opening": 0,
+          "line": "两球半",
+          "home_odds": 1.0,
+          "away_odds": 0.84
         }
       ],
       "latest": {
-        "event_time": "2025-12-31 14:53",
+        "event_time": "2026-01-04 21:01",
         "state": "即",
         "is_opening": 0,
-        "line": "两球/两球半",
+        "line": "两球半",
         "home_odds": 1.0,
         "away_odds": 0.84
       }
@@ -72,15 +88,31 @@ TIME_RANGE: 2025-12-29 19:36 -> 2025-12-31 14:53
           "line": "3.5",
           "over_odds": 1.0,
           "under_odds": 0.8
+        },
+        {
+          "event_time": "2026-01-04 17:13",
+          "state": "即",
+          "is_opening": 0,
+          "line": "3.5",
+          "over_odds": 0.9,
+          "under_odds": 0.9
+        },
+        {
+          "event_time": "2026-01-04 17:14",
+          "state": "即",
+          "is_opening": 0,
+          "line": "3.5",
+          "over_odds": 0.86,
+          "under_odds": 0.94
         }
       ],
       "latest": {
-        "event_time": "2025-12-29 19:36",
+        "event_time": "2026-01-04 17:14",
         "state": "即",
         "is_opening": 0,
         "line": "3.5",
-        "over_odds": 1.0,
-        "under_odds": 0.8
+        "over_odds": 0.86,
+        "under_odds": 0.94
       }
     },
     "1x2": {
@@ -105,12 +137,12 @@ TIME_RANGE: 2025-12-29 19:36 -> 2025-12-31 14:53
     }
   },
   "counts": {
-    "handicap_events": 3,
-    "overunder_events": 1,
+    "handicap_events": 5,
+    "overunder_events": 3,
     "1x2_events": 1
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260105_000304"
   }
 }
