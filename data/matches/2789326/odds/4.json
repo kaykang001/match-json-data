@@ -4,14 +4,14 @@ COMPANY_ID: 4
 COMPANY_NAME: 立博(Ladbrokes)
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 0
-OVERUNDER_EVENTS: 2
-1X2_EVENTS: 6
-TIME_RANGE: 2025-12-31 05:59 -> 2026-01-02 23:21
+OVERUNDER_EVENTS: 3
+1X2_EVENTS: 7
+TIME_RANGE: 2025-12-31 05:59 -> 2026-01-04 07:45
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-04 21:34:19",
   "match": {
     "match_id": "2789326",
     "match_time": "2026-01-04 23:00",
@@ -28,7 +28,8 @@ TIME_RANGE: 2025-12-31 05:59 -> 2026-01-02 23:21
   },
   "markets": {
     "handicap": {
-      "events": []
+      "events": [],
+      "latest": null
     },
     "overunder": {
       "events": [
@@ -47,15 +48,23 @@ TIME_RANGE: 2025-12-31 05:59 -> 2026-01-02 23:21
           "line": "2.5",
           "over_odds": 0.75,
           "under_odds": 1.0
+        },
+        {
+          "event_time": "2026-01-04 07:45",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.8,
+          "under_odds": 0.95
         }
       ],
       "latest": {
-        "event_time": "2026-01-02 03:26",
-        "state": "早",
+        "event_time": "2026-01-04 07:45",
+        "state": "即",
         "is_opening": 0,
         "line": "2.5",
-        "over_odds": 0.75,
-        "under_odds": 1.0
+        "over_odds": 0.8,
+        "under_odds": 0.95
       }
     },
     "1x2": {
@@ -107,25 +116,33 @@ TIME_RANGE: 2025-12-31 05:59 -> 2026-01-02 23:21
           "home": 1.67,
           "draw": 4.0,
           "away": 4.8
+        },
+        {
+          "event_time": "2026-01-04 07:45",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.65,
+          "draw": 3.9,
+          "away": 5.0
         }
       ],
       "latest": {
-        "event_time": "2026-01-02 23:21",
-        "state": "早",
+        "event_time": "2026-01-04 07:45",
+        "state": "即",
         "is_opening": 0,
-        "home": 1.67,
-        "draw": 4.0,
-        "away": 4.8
+        "home": 1.65,
+        "draw": 3.9,
+        "away": 5.0
       }
     }
   },
   "counts": {
     "handicap_events": 0,
-    "overunder_events": 2,
-    "1x2_events": 6
+    "overunder_events": 3,
+    "1x2_events": 7
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260104_213419"
   }
 }
