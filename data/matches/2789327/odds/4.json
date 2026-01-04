@@ -5,13 +5,13 @@ COMPANY_NAME: 立博(Ladbrokes)
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 0
 OVERUNDER_EVENTS: 6
-1X2_EVENTS: 6
-TIME_RANGE: 2025-12-31 05:59 -> 2026-01-03 23:07
+1X2_EVENTS: 9
+TIME_RANGE: 2025-12-31 05:59 -> 2026-01-04 18:41
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-04 21:34:19",
   "match": {
     "match_id": "2789327",
     "match_time": "2026-01-04 23:00",
@@ -28,7 +28,8 @@ TIME_RANGE: 2025-12-31 05:59 -> 2026-01-03 23:07
   },
   "markets": {
     "handicap": {
-      "events": []
+      "events": [],
+      "latest": null
     },
     "overunder": {
       "events": [
@@ -139,14 +140,38 @@ TIME_RANGE: 2025-12-31 05:59 -> 2026-01-03 23:07
           "home": 1.8,
           "draw": 3.6,
           "away": 4.33
+        },
+        {
+          "event_time": "2026-01-04 06:24",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.83,
+          "draw": 3.5,
+          "away": 4.33
+        },
+        {
+          "event_time": "2026-01-04 18:37",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.85,
+          "draw": 3.25,
+          "away": 4.6
+        },
+        {
+          "event_time": "2026-01-04 18:41",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.85,
+          "draw": 3.5,
+          "away": 4.33
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 23:07",
-        "state": "早",
+        "event_time": "2026-01-04 18:41",
+        "state": "即",
         "is_opening": 0,
-        "home": 1.8,
-        "draw": 3.6,
+        "home": 1.85,
+        "draw": 3.5,
         "away": 4.33
       }
     }
@@ -154,10 +179,10 @@ TIME_RANGE: 2025-12-31 05:59 -> 2026-01-03 23:07
   "counts": {
     "handicap_events": 0,
     "overunder_events": 6,
-    "1x2_events": 6
+    "1x2_events": 9
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260104_213419"
   }
 }

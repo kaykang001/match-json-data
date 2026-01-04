@@ -3,15 +3,15 @@ MATCH_ID: 2789327
 COMPANY_ID: 9
 COMPANY_NAME: 威廉希尔(William Hill)
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 13
-OVERUNDER_EVENTS: 4
-1X2_EVENTS: 8
-TIME_RANGE: 2025-12-28 02:09 -> 2026-01-03 07:33
+HANDICAP_EVENTS: 14
+OVERUNDER_EVENTS: 5
+1X2_EVENTS: 9
+TIME_RANGE: 2025-12-28 02:09 -> 2026-01-04 16:03
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-04 21:34:19",
   "match": {
     "match_id": "2789327",
     "match_time": "2026-01-04 23:00",
@@ -132,15 +132,23 @@ TIME_RANGE: 2025-12-28 02:09 -> 2026-01-03 07:33
           "line": "半球",
           "home_odds": 0.71,
           "away_odds": 0.92
+        },
+        {
+          "event_time": "2026-01-04 06:36",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球",
+          "home_odds": 0.75,
+          "away_odds": 0.95
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 07:33",
-        "state": "早",
+        "event_time": "2026-01-04 06:36",
+        "state": "即",
         "is_opening": 0,
         "line": "半球",
-        "home_odds": 0.71,
-        "away_odds": 0.92
+        "home_odds": 0.75,
+        "away_odds": 0.95
       }
     },
     "overunder": {
@@ -176,15 +184,23 @@ TIME_RANGE: 2025-12-28 02:09 -> 2026-01-03 07:33
           "line": "2.5",
           "over_odds": 1.05,
           "under_odds": 0.7
+        },
+        {
+          "event_time": "2026-01-04 16:03",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.15,
+          "under_odds": 0.65
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 00:29",
-        "state": "早",
+        "event_time": "2026-01-04 16:03",
+        "state": "即",
         "is_opening": 0,
         "line": "2.5",
-        "over_odds": 1.05,
-        "under_odds": 0.7
+        "over_odds": 1.15,
+        "under_odds": 0.65
       }
     },
     "1x2": {
@@ -252,25 +268,33 @@ TIME_RANGE: 2025-12-28 02:09 -> 2026-01-03 07:33
           "home": 1.8,
           "draw": 3.4,
           "away": 4.4
+        },
+        {
+          "event_time": "2026-01-04 13:09",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.83,
+          "draw": 3.4,
+          "away": 4.2
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 00:28",
-        "state": "早",
+        "event_time": "2026-01-04 13:09",
+        "state": "即",
         "is_opening": 0,
-        "home": 1.8,
+        "home": 1.83,
         "draw": 3.4,
-        "away": 4.4
+        "away": 4.2
       }
     }
   },
   "counts": {
-    "handicap_events": 13,
-    "overunder_events": 4,
-    "1x2_events": 8
+    "handicap_events": 14,
+    "overunder_events": 5,
+    "1x2_events": 9
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260104_213419"
   }
 }
