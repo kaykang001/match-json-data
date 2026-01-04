@@ -4,14 +4,14 @@ COMPANY_ID: 4
 COMPANY_NAME: 立博(Ladbrokes)
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 0
-OVERUNDER_EVENTS: 5
-1X2_EVENTS: 7
-TIME_RANGE: 2025-12-29 23:31 -> 2026-01-04 00:58
+OVERUNDER_EVENTS: 9
+1X2_EVENTS: 14
+TIME_RANGE: 2025-12-29 23:31 -> 2026-01-04 18:21
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-04 21:34:19",
   "match": {
     "match_id": "2814872",
     "match_time": "2026-01-04 23:30",
@@ -28,7 +28,8 @@ TIME_RANGE: 2025-12-29 23:31 -> 2026-01-04 00:58
   },
   "markets": {
     "handicap": {
-      "events": []
+      "events": [],
+      "latest": null
     },
     "overunder": {
       "events": [
@@ -71,14 +72,46 @@ TIME_RANGE: 2025-12-29 23:31 -> 2026-01-04 00:58
           "line": "2.5",
           "over_odds": 1.37,
           "under_odds": 0.5
+        },
+        {
+          "event_time": "2026-01-04 10:43",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.4,
+          "under_odds": 0.5
+        },
+        {
+          "event_time": "2026-01-04 14:36",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.45,
+          "under_odds": 0.48
+        },
+        {
+          "event_time": "2026-01-04 15:57",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.5,
+          "under_odds": 0.48
+        },
+        {
+          "event_time": "2026-01-04 18:21",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.45,
+          "under_odds": 0.5
         }
       ],
       "latest": {
-        "event_time": "2026-01-04 00:58",
+        "event_time": "2026-01-04 18:21",
         "state": "即",
         "is_opening": 0,
         "line": "2.5",
-        "over_odds": 1.37,
+        "over_odds": 1.45,
         "under_odds": 0.5
       }
     },
@@ -139,25 +172,81 @@ TIME_RANGE: 2025-12-29 23:31 -> 2026-01-04 00:58
           "home": 2.4,
           "draw": 3.1,
           "away": 3.0
+        },
+        {
+          "event_time": "2026-01-04 10:43",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.5,
+          "draw": 3.1,
+          "away": 3.0
+        },
+        {
+          "event_time": "2026-01-04 13:33",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.4,
+          "draw": 3.0,
+          "away": 3.1
+        },
+        {
+          "event_time": "2026-01-04 14:36",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.37,
+          "draw": 3.0,
+          "away": 3.2
+        },
+        {
+          "event_time": "2026-01-04 15:57",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.3,
+          "draw": 3.1,
+          "away": 3.3
+        },
+        {
+          "event_time": "2026-01-04 17:02",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.2,
+          "draw": 3.1,
+          "away": 3.5
+        },
+        {
+          "event_time": "2026-01-04 17:23",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.3,
+          "draw": 3.1,
+          "away": 3.3
+        },
+        {
+          "event_time": "2026-01-04 18:21",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.3,
+          "draw": 3.0,
+          "away": 3.25
         }
       ],
       "latest": {
-        "event_time": "2026-01-04 00:58",
+        "event_time": "2026-01-04 18:21",
         "state": "即",
         "is_opening": 0,
-        "home": 2.4,
-        "draw": 3.1,
-        "away": 3.0
+        "home": 2.3,
+        "draw": 3.0,
+        "away": 3.25
       }
     }
   },
   "counts": {
     "handicap_events": 0,
-    "overunder_events": 5,
-    "1x2_events": 7
+    "overunder_events": 9,
+    "1x2_events": 14
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260104_213419"
   }
 }
