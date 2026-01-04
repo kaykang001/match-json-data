@@ -3,15 +3,15 @@ MATCH_ID: 2800167
 COMPANY_ID: 48
 COMPANY_NAME: 香港马会
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
+HANDICAP_EVENTS: 3
 OVERUNDER_EVENTS: 1
-1X2_EVENTS: 1
-TIME_RANGE: 2026-01-01 19:31 -> 2026-01-01 19:31
+1X2_EVENTS: 3
+TIME_RANGE: 2026-01-01 19:31 -> 2026-01-04 12:29
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-04 21:34:19",
   "match": {
     "match_id": "2800167",
     "match_time": "2026-01-04 22:00",
@@ -36,15 +36,31 @@ TIME_RANGE: 2026-01-01 19:31 -> 2026-01-01 19:31
           "line": "球半/两球",
           "home_odds": 0.91,
           "away_odds": 0.85
+        },
+        {
+          "event_time": "2026-01-04 12:01",
+          "state": "即",
+          "is_opening": 0,
+          "line": "球半/两球",
+          "home_odds": 0.9,
+          "away_odds": 0.92
+        },
+        {
+          "event_time": "2026-01-04 12:29",
+          "state": "即",
+          "is_opening": 0,
+          "line": "球半/两球",
+          "home_odds": 0.86,
+          "away_odds": 0.96
         }
       ],
       "latest": {
-        "event_time": "2026-01-01 19:31",
+        "event_time": "2026-01-04 12:29",
         "state": "即",
         "is_opening": 0,
         "line": "球半/两球",
-        "home_odds": 0.91,
-        "away_odds": 0.85
+        "home_odds": 0.86,
+        "away_odds": 0.96
       }
     },
     "overunder": {
@@ -76,25 +92,41 @@ TIME_RANGE: 2026-01-01 19:31 -> 2026-01-01 19:31
           "home": 1.16,
           "draw": 5.7,
           "away": 10.5
+        },
+        {
+          "event_time": "2026-01-04 12:01",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.15,
+          "draw": 5.8,
+          "away": 11.0
+        },
+        {
+          "event_time": "2026-01-04 12:29",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.13,
+          "draw": 6.0,
+          "away": 12.0
         }
       ],
       "latest": {
-        "event_time": "2026-01-01 19:31",
-        "state": "早",
-        "is_opening": 1,
-        "home": 1.16,
-        "draw": 5.7,
-        "away": 10.5
+        "event_time": "2026-01-04 12:29",
+        "state": "即",
+        "is_opening": 0,
+        "home": 1.13,
+        "draw": 6.0,
+        "away": 12.0
       }
     }
   },
   "counts": {
-    "handicap_events": 1,
+    "handicap_events": 3,
     "overunder_events": 1,
-    "1x2_events": 1
+    "1x2_events": 3
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260104_213419"
   }
 }
