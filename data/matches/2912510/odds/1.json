@@ -3,15 +3,15 @@ MATCH_ID: 2912510
 COMPANY_ID: 1
 COMPANY_NAME: 澳彩
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
+HANDICAP_EVENTS: 3
 OVERUNDER_EVENTS: 1
 1X2_EVENTS: 1
-TIME_RANGE: 2026-01-01 17:33 -> 2026-01-01 17:33
+TIME_RANGE: 2026-01-01 17:33 -> 2026-01-04 16:11
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-04 21:34:19",
   "match": {
     "match_id": "2912510",
     "match_time": "2026-01-05 00:00",
@@ -36,15 +36,31 @@ TIME_RANGE: 2026-01-01 17:33 -> 2026-01-01 17:33
           "line": "两球",
           "home_odds": 0.78,
           "away_odds": 1.0
+        },
+        {
+          "event_time": "2026-01-04 12:37",
+          "state": "即",
+          "is_opening": 0,
+          "line": "球半/两球",
+          "home_odds": 0.7,
+          "away_odds": 1.08
+        },
+        {
+          "event_time": "2026-01-04 16:11",
+          "state": "即",
+          "is_opening": 0,
+          "line": "两球",
+          "home_odds": 0.9,
+          "away_odds": 0.88
         }
       ],
       "latest": {
-        "event_time": "2026-01-01 17:33",
+        "event_time": "2026-01-04 16:11",
         "state": "即",
         "is_opening": 0,
         "line": "两球",
-        "home_odds": 0.78,
-        "away_odds": 1.0
+        "home_odds": 0.9,
+        "away_odds": 0.88
       }
     },
     "overunder": {
@@ -89,12 +105,12 @@ TIME_RANGE: 2026-01-01 17:33 -> 2026-01-01 17:33
     }
   },
   "counts": {
-    "handicap_events": 1,
+    "handicap_events": 3,
     "overunder_events": 1,
     "1x2_events": 1
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260104_213419"
   }
 }
