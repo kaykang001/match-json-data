@@ -3,15 +3,15 @@ MATCH_ID: 2784655
 COMPANY_ID: 48
 COMPANY_NAME: 香港马会
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 2
+HANDICAP_EVENTS: 3
 OVERUNDER_EVENTS: 1
 1X2_EVENTS: 2
-TIME_RANGE: 2026-01-01 19:31 -> 2026-01-04 03:05
+TIME_RANGE: 2026-01-01 19:31 -> 2026-01-04 12:01
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-04 12:53:04",
   "match": {
     "match_id": "2784655",
     "match_time": "2026-01-04 22:00",
@@ -44,15 +44,23 @@ TIME_RANGE: 2026-01-01 19:31 -> 2026-01-04 03:05
           "line": "半球/一球",
           "home_odds": 0.9,
           "away_odds": 0.86
+        },
+        {
+          "event_time": "2026-01-04 12:01",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球/一球",
+          "home_odds": 0.93,
+          "away_odds": 0.89
         }
       ],
       "latest": {
-        "event_time": "2026-01-04 03:05",
+        "event_time": "2026-01-04 12:01",
         "state": "即",
         "is_opening": 0,
         "line": "半球/一球",
-        "home_odds": 0.9,
-        "away_odds": 0.86
+        "home_odds": 0.93,
+        "away_odds": 0.89
       }
     },
     "overunder": {
@@ -105,12 +113,12 @@ TIME_RANGE: 2026-01-01 19:31 -> 2026-01-04 03:05
     }
   },
   "counts": {
-    "handicap_events": 2,
+    "handicap_events": 3,
     "overunder_events": 1,
     "1x2_events": 2
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260104_125304"
   }
 }

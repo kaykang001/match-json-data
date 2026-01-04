@@ -3,15 +3,15 @@ MATCH_ID: 2784655
 COMPANY_ID: 9
 COMPANY_NAME: 威廉希尔(William Hill)
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 27
+HANDICAP_EVENTS: 29
 OVERUNDER_EVENTS: 1
-1X2_EVENTS: 13
-TIME_RANGE: 2025-12-21 20:34 -> 2026-01-02 23:57
+1X2_EVENTS: 14
+TIME_RANGE: 2025-12-21 20:34 -> 2026-01-04 12:17
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-04 12:53:04",
   "match": {
     "match_id": "2784655",
     "match_time": "2026-01-04 22:00",
@@ -244,15 +244,31 @@ TIME_RANGE: 2025-12-21 20:34 -> 2026-01-02 23:57
           "line": "半球/一球",
           "home_odds": 0.9,
           "away_odds": 0.71
+        },
+        {
+          "event_time": "2026-01-04 06:57",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球/一球",
+          "home_odds": 0.93,
+          "away_odds": 0.73
+        },
+        {
+          "event_time": "2026-01-04 12:17",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球/一球",
+          "home_odds": 0.9,
+          "away_odds": 0.75
         }
       ],
       "latest": {
-        "event_time": "2026-01-02 23:57",
-        "state": "早",
+        "event_time": "2026-01-04 12:17",
+        "state": "即",
         "is_opening": 0,
         "line": "半球/一球",
         "home_odds": 0.9,
-        "away_odds": 0.71
+        "away_odds": 0.75
       }
     },
     "overunder": {
@@ -380,25 +396,33 @@ TIME_RANGE: 2025-12-21 20:34 -> 2026-01-02 23:57
           "home": 1.75,
           "draw": 3.4,
           "away": 4.5
+        },
+        {
+          "event_time": "2026-01-04 12:02",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.73,
+          "draw": 3.4,
+          "away": 4.6
         }
       ],
       "latest": {
-        "event_time": "2025-12-29 04:56",
-        "state": "早",
+        "event_time": "2026-01-04 12:02",
+        "state": "即",
         "is_opening": 0,
-        "home": 1.75,
+        "home": 1.73,
         "draw": 3.4,
-        "away": 4.5
+        "away": 4.6
       }
     }
   },
   "counts": {
-    "handicap_events": 27,
+    "handicap_events": 29,
     "overunder_events": 1,
-    "1x2_events": 13
+    "1x2_events": 14
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260104_125304"
   }
 }

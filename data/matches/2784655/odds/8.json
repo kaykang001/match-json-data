@@ -4,14 +4,14 @@ COMPANY_ID: 8
 COMPANY_NAME: 365bet
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 12
-OVERUNDER_EVENTS: 37
+OVERUNDER_EVENTS: 38
 1X2_EVENTS: 12
-TIME_RANGE: 2025-12-21 21:17 -> 2026-01-04 01:57
+TIME_RANGE: 2025-12-21 21:17 -> 2026-01-04 05:37
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-04 12:53:04",
   "match": {
     "match_id": "2784655",
     "match_time": "2026-01-04 22:00",
@@ -432,15 +432,23 @@ TIME_RANGE: 2025-12-21 21:17 -> 2026-01-04 01:57
           "line": "2.5",
           "over_odds": 1.03,
           "under_odds": 0.83
+        },
+        {
+          "event_time": "2026-01-04 05:37",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.0,
+          "under_odds": 0.8
         }
       ],
       "latest": {
-        "event_time": "2026-01-03 21:01",
+        "event_time": "2026-01-04 05:37",
         "state": "即",
         "is_opening": 0,
         "line": "2.5",
-        "over_odds": 1.03,
-        "under_odds": 0.83
+        "over_odds": 1.0,
+        "under_odds": 0.8
       }
     },
     "1x2": {
@@ -554,11 +562,11 @@ TIME_RANGE: 2025-12-21 21:17 -> 2026-01-04 01:57
   },
   "counts": {
     "handicap_events": 12,
-    "overunder_events": 37,
+    "overunder_events": 38,
     "1x2_events": 12
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260104_125304"
   }
 }
