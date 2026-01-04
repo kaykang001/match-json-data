@@ -4,14 +4,14 @@ COMPANY_ID: 8
 COMPANY_NAME: 365bet
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 6
-OVERUNDER_EVENTS: 4
+OVERUNDER_EVENTS: 9
 1X2_EVENTS: 14
-TIME_RANGE: 2025-12-08 16:24 -> 2026-01-03 21:23
+TIME_RANGE: 2025-12-08 16:24 -> 2026-01-04 19:25
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-04 21:34:19",
   "match": {
     "match_id": "2800164",
     "match_time": "2026-01-05 00:15",
@@ -120,15 +120,55 @@ TIME_RANGE: 2025-12-08 16:24 -> 2026-01-03 21:23
           "line": "2/2.5",
           "over_odds": 0.98,
           "under_odds": 0.88
+        },
+        {
+          "event_time": "2026-01-04 12:37",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.93,
+          "under_odds": 0.93
+        },
+        {
+          "event_time": "2026-01-04 13:04",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.98,
+          "under_odds": 0.88
+        },
+        {
+          "event_time": "2026-01-04 13:19",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.93,
+          "under_odds": 0.93
+        },
+        {
+          "event_time": "2026-01-04 13:21",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.98,
+          "under_odds": 0.88
+        },
+        {
+          "event_time": "2026-01-04 19:25",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.95,
+          "under_odds": 0.9
         }
       ],
       "latest": {
-        "event_time": "2025-12-24 17:10",
+        "event_time": "2026-01-04 19:25",
         "state": "即",
         "is_opening": 0,
         "line": "2/2.5",
-        "over_odds": 0.98,
-        "under_odds": 0.88
+        "over_odds": 0.95,
+        "under_odds": 0.9
       }
     },
     "1x2": {
@@ -258,11 +298,11 @@ TIME_RANGE: 2025-12-08 16:24 -> 2026-01-03 21:23
   },
   "counts": {
     "handicap_events": 6,
-    "overunder_events": 4,
+    "overunder_events": 9,
     "1x2_events": 14
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260104_213419"
   }
 }

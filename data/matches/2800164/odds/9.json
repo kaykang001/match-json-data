@@ -3,15 +3,15 @@ MATCH_ID: 2800164
 COMPANY_ID: 9
 COMPANY_NAME: 威廉希尔(William Hill)
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 12
+HANDICAP_EVENTS: 13
 OVERUNDER_EVENTS: 3
-1X2_EVENTS: 7
-TIME_RANGE: 2025-12-08 19:17 -> 2026-01-02 03:57
+1X2_EVENTS: 8
+TIME_RANGE: 2025-12-08 19:17 -> 2026-01-04 08:02
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-04 04:35:11",
+  "exported_at": "2026-01-04 21:34:19",
   "match": {
     "match_id": "2800164",
     "match_time": "2026-01-05 00:15",
@@ -124,15 +124,23 @@ TIME_RANGE: 2025-12-08 19:17 -> 2026-01-02 03:57
           "line": "平手/半球",
           "home_odds": 0.71,
           "away_odds": 0.95
+        },
+        {
+          "event_time": "2026-01-04 06:55",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.73,
+          "away_odds": 0.93
         }
       ],
       "latest": {
-        "event_time": "2026-01-02 03:57",
-        "state": "早",
+        "event_time": "2026-01-04 06:55",
+        "state": "即",
         "is_opening": 0,
         "line": "平手/半球",
-        "home_odds": 0.71,
-        "away_odds": 0.95
+        "home_odds": 0.73,
+        "away_odds": 0.93
       }
     },
     "overunder": {
@@ -228,25 +236,33 @@ TIME_RANGE: 2025-12-08 19:17 -> 2026-01-02 03:57
           "home": 2.05,
           "draw": 3.1,
           "away": 3.6
+        },
+        {
+          "event_time": "2026-01-04 08:02",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.1,
+          "draw": 3.1,
+          "away": 3.5
         }
       ],
       "latest": {
-        "event_time": "2026-01-02 03:45",
-        "state": "早",
+        "event_time": "2026-01-04 08:02",
+        "state": "即",
         "is_opening": 0,
-        "home": 2.05,
+        "home": 2.1,
         "draw": 3.1,
-        "away": 3.6
+        "away": 3.5
       }
     }
   },
   "counts": {
-    "handicap_events": 12,
+    "handicap_events": 13,
     "overunder_events": 3,
-    "1x2_events": 7
+    "1x2_events": 8
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260104_043511"
+    "export_ts": "20260104_213419"
   }
 }
