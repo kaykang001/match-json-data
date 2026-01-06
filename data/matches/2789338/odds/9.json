@@ -4,14 +4,14 @@ COMPANY_ID: 9
 COMPANY_NAME: 威廉希尔(William Hill)
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 11
-OVERUNDER_EVENTS: 3
+OVERUNDER_EVENTS: 5
 1X2_EVENTS: 8
-TIME_RANGE: 2026-01-01 19:09 -> 2026-01-05 11:01
+TIME_RANGE: 2026-01-01 19:09 -> 2026-01-06 17:52
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-06 21:14:19",
+  "exported_at": "2026-01-07 00:22:09",
   "match": {
     "match_id": "2789338",
     "match_time": "2026-01-07 04:00",
@@ -152,15 +152,31 @@ TIME_RANGE: 2026-01-01 19:09 -> 2026-01-05 11:01
           "line": "2.5",
           "over_odds": 0.91,
           "under_odds": 0.8
+        },
+        {
+          "event_time": "2026-01-06 15:50",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.0,
+          "under_odds": 0.75
+        },
+        {
+          "event_time": "2026-01-06 17:52",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.85,
+          "under_odds": 0.83
         }
       ],
       "latest": {
-        "event_time": "2026-01-04 03:45",
-        "state": "早",
+        "event_time": "2026-01-06 17:52",
+        "state": "即",
         "is_opening": 0,
         "line": "2.5",
-        "over_odds": 0.91,
-        "under_odds": 0.8
+        "over_odds": 0.85,
+        "under_odds": 0.83
       }
     },
     "1x2": {
@@ -242,11 +258,11 @@ TIME_RANGE: 2026-01-01 19:09 -> 2026-01-05 11:01
   },
   "counts": {
     "handicap_events": 11,
-    "overunder_events": 3,
+    "overunder_events": 5,
     "1x2_events": 8
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260106_211419"
+    "export_ts": "20260107_002209"
   }
 }

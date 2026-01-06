@@ -4,14 +4,14 @@ COMPANY_ID: 4
 COMPANY_NAME: 立博(Ladbrokes)
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 0
-OVERUNDER_EVENTS: 4
-1X2_EVENTS: 6
-TIME_RANGE: 2026-01-02 16:35 -> 2026-01-06 04:36
+OVERUNDER_EVENTS: 6
+1X2_EVENTS: 7
+TIME_RANGE: 2026-01-02 16:35 -> 2026-01-06 21:42
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-06 21:14:19",
+  "exported_at": "2026-01-07 00:22:09",
   "match": {
     "match_id": "2789338",
     "match_time": "2026-01-07 04:00",
@@ -64,10 +64,26 @@ TIME_RANGE: 2026-01-02 16:35 -> 2026-01-06 04:36
           "line": "2.5",
           "over_odds": 0.85,
           "under_odds": 0.85
+        },
+        {
+          "event_time": "2026-01-06 14:10",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.91,
+          "under_odds": 0.8
+        },
+        {
+          "event_time": "2026-01-06 21:42",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 0.85,
+          "under_odds": 0.85
         }
       ],
       "latest": {
-        "event_time": "2026-01-05 07:25",
+        "event_time": "2026-01-06 21:42",
         "state": "早",
         "is_opening": 0,
         "line": "2.5",
@@ -124,25 +140,33 @@ TIME_RANGE: 2026-01-02 16:35 -> 2026-01-06 04:36
           "home": 3.0,
           "draw": 3.4,
           "away": 2.3
+        },
+        {
+          "event_time": "2026-01-06 14:10",
+          "state": "早",
+          "is_opening": 0,
+          "home": 3.0,
+          "draw": 3.3,
+          "away": 2.3
         }
       ],
       "latest": {
-        "event_time": "2026-01-06 04:36",
+        "event_time": "2026-01-06 14:10",
         "state": "早",
         "is_opening": 0,
         "home": 3.0,
-        "draw": 3.4,
+        "draw": 3.3,
         "away": 2.3
       }
     }
   },
   "counts": {
     "handicap_events": 0,
-    "overunder_events": 4,
-    "1x2_events": 6
+    "overunder_events": 6,
+    "1x2_events": 7
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260106_211419"
+    "export_ts": "20260107_002209"
   }
 }
