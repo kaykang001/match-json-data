@@ -1,0 +1,188 @@
+# INDEX
+MATCH_ID: 2908071
+COMPANY_ID: 9
+COMPANY_NAME: 威廉希尔(William Hill)
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 8
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 5
+TIME_RANGE: 2026-01-04 18:57 -> 2026-01-06 09:57
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-06 21:14:19",
+  "match": {
+    "match_id": "2908071",
+    "match_time": "2026-01-07 02:00",
+    "league": {
+      "league_id": 81,
+      "league_name": "unknown"
+    },
+    "home_team": "格拉纳达",
+    "away_team": "巴列卡诺"
+  },
+  "company": {
+    "company_id": "9",
+    "company_name": "威廉希尔(William Hill)"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2026-01-04 18:57",
+          "state": "早",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.85,
+          "away_odds": 0.91
+        },
+        {
+          "event_time": "2026-01-04 19:01",
+          "state": "早",
+          "is_opening": 0,
+          "line": "受让半球",
+          "home_odds": 0.62,
+          "away_odds": 1.2
+        },
+        {
+          "event_time": "2026-01-04 22:16",
+          "state": "早",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.83,
+          "away_odds": 0.89
+        },
+        {
+          "event_time": "2026-01-04 22:48",
+          "state": "早",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.83,
+          "away_odds": 0.9
+        },
+        {
+          "event_time": "2026-01-04 23:43",
+          "state": "早",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.77,
+          "away_odds": 0.84
+        },
+        {
+          "event_time": "2026-01-05 15:50",
+          "state": "早",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.76,
+          "away_odds": 0.85
+        },
+        {
+          "event_time": "2026-01-05 18:07",
+          "state": "早",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.78,
+          "away_odds": 0.83
+        },
+        {
+          "event_time": "2026-01-06 09:55",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让平手/半球",
+          "home_odds": 0.8,
+          "away_odds": 0.85
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-06 09:55",
+        "state": "即",
+        "is_opening": 0,
+        "line": "受让平手/半球",
+        "home_odds": 0.8,
+        "away_odds": 0.85
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2026-01-04 19:13",
+          "state": "早",
+          "is_opening": 0,
+          "line": "2.5",
+          "over_odds": 1.15,
+          "under_odds": 0.62
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-04 19:13",
+        "state": "早",
+        "is_opening": 0,
+        "line": "2.5",
+        "over_odds": 1.15,
+        "under_odds": 0.62
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2026-01-04 19:04",
+          "state": "早",
+          "is_opening": 1,
+          "home": 3.25,
+          "draw": 3.0,
+          "away": 2.25
+        },
+        {
+          "event_time": "2026-01-05 15:47",
+          "state": "早",
+          "is_opening": 0,
+          "home": 3.2,
+          "draw": 3.0,
+          "away": 2.25
+        },
+        {
+          "event_time": "2026-01-05 18:10",
+          "state": "早",
+          "is_opening": 0,
+          "home": 3.25,
+          "draw": 3.0,
+          "away": 2.25
+        },
+        {
+          "event_time": "2026-01-05 18:23",
+          "state": "早",
+          "is_opening": 0,
+          "home": 3.25,
+          "draw": 3.0,
+          "away": 2.2
+        },
+        {
+          "event_time": "2026-01-06 09:57",
+          "state": "即",
+          "is_opening": 0,
+          "home": 3.3,
+          "draw": 3.0,
+          "away": 2.15
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-06 09:57",
+        "state": "即",
+        "is_opening": 0,
+        "home": 3.3,
+        "draw": 3.0,
+        "away": 2.15
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 8,
+    "overunder_events": 1,
+    "1x2_events": 5
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260106_211419"
+  }
+}

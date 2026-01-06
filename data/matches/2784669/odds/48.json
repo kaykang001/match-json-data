@@ -1,0 +1,100 @@
+# INDEX
+MATCH_ID: 2784669
+COMPANY_ID: 48
+COMPANY_NAME: 香港马会
+MARKETS: handicap, overunder, 1x2
+HANDICAP_EVENTS: 1
+OVERUNDER_EVENTS: 1
+1X2_EVENTS: 1
+TIME_RANGE: 2026-01-05 19:31 -> 2026-01-05 19:31
+# END_INDEX
+{
+  "schema_version": "company_package.v1",
+  "timezone": "UTC+8",
+  "exported_at": "2026-01-06 21:14:19",
+  "match": {
+    "match_id": "2784669",
+    "match_time": "2026-01-06 22:00",
+    "league": {
+      "league_id": 34,
+      "league_name": "unknown"
+    },
+    "home_team": "比萨",
+    "away_team": "科莫"
+  },
+  "company": {
+    "company_id": "48",
+    "company_name": "香港马会"
+  },
+  "markets": {
+    "handicap": {
+      "events": [
+        {
+          "event_time": "2026-01-05 19:31",
+          "state": "即",
+          "is_opening": 0,
+          "line": "受让半球/一球",
+          "home_odds": 0.8,
+          "away_odds": 0.97
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-05 19:31",
+        "state": "即",
+        "is_opening": 0,
+        "line": "受让半球/一球",
+        "home_odds": 0.8,
+        "away_odds": 0.97
+      }
+    },
+    "overunder": {
+      "events": [
+        {
+          "event_time": "2026-01-05 19:31",
+          "state": "即",
+          "is_opening": 0,
+          "line": "2/2.5",
+          "over_odds": 0.86,
+          "under_odds": 0.84
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-05 19:31",
+        "state": "即",
+        "is_opening": 0,
+        "line": "2/2.5",
+        "over_odds": 0.86,
+        "under_odds": 0.84
+      }
+    },
+    "1x2": {
+      "events": [
+        {
+          "event_time": "2026-01-05 19:31",
+          "state": "早",
+          "is_opening": 1,
+          "home": 4.65,
+          "draw": 3.25,
+          "away": 1.64
+        }
+      ],
+      "latest": {
+        "event_time": "2026-01-05 19:31",
+        "state": "早",
+        "is_opening": 1,
+        "home": 4.65,
+        "draw": 3.25,
+        "away": 1.64
+      }
+    }
+  },
+  "counts": {
+    "handicap_events": 1,
+    "overunder_events": 1,
+    "1x2_events": 1
+  },
+  "meta": {
+    "source": "titan",
+    "export_ts": "20260106_211419"
+  }
+}
