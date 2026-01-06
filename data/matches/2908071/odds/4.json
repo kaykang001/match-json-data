@@ -4,14 +4,14 @@ COMPANY_ID: 4
 COMPANY_NAME: 立博(Ladbrokes)
 MARKETS: handicap, overunder, 1x2
 HANDICAP_EVENTS: 0
-OVERUNDER_EVENTS: 3
-1X2_EVENTS: 7
-TIME_RANGE: 2026-01-04 23:33 -> 2026-01-06 17:47
+OVERUNDER_EVENTS: 2
+1X2_EVENTS: 4
+TIME_RANGE: 2026-01-04 23:33 -> 2026-01-06 09:47
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-06 22:10:14",
+  "exported_at": "2026-01-06 21:14:19",
   "match": {
     "match_id": "2908071",
     "match_time": "2026-01-07 02:00",
@@ -48,23 +48,15 @@ TIME_RANGE: 2026-01-04 23:33 -> 2026-01-06 17:47
           "line": "2.5",
           "over_odds": 1.15,
           "under_odds": 0.61
-        },
-        {
-          "event_time": "2026-01-06 16:06",
-          "state": "早",
-          "is_opening": 0,
-          "line": "2.5",
-          "over_odds": 1.2,
-          "under_odds": 0.6
         }
       ],
       "latest": {
-        "event_time": "2026-01-06 16:06",
+        "event_time": "2026-01-04 23:36",
         "state": "早",
         "is_opening": 0,
         "line": "2.5",
-        "over_odds": 1.2,
-        "under_odds": 0.6
+        "over_odds": 1.15,
+        "under_odds": 0.61
       }
     },
     "1x2": {
@@ -100,49 +92,25 @@ TIME_RANGE: 2026-01-04 23:33 -> 2026-01-06 17:47
           "home": 3.3,
           "draw": 3.3,
           "away": 2.15
-        },
-        {
-          "event_time": "2026-01-06 16:06",
-          "state": "早",
-          "is_opening": 0,
-          "home": 3.5,
-          "draw": 3.25,
-          "away": 2.15
-        },
-        {
-          "event_time": "2026-01-06 17:43",
-          "state": "早",
-          "is_opening": 0,
-          "home": 3.7,
-          "draw": 3.25,
-          "away": 2.05
-        },
-        {
-          "event_time": "2026-01-06 17:47",
-          "state": "早",
-          "is_opening": 0,
-          "home": 3.9,
-          "draw": 3.3,
-          "away": 2.0
         }
       ],
       "latest": {
-        "event_time": "2026-01-06 17:47",
+        "event_time": "2026-01-06 09:47",
         "state": "早",
         "is_opening": 0,
-        "home": 3.9,
+        "home": 3.3,
         "draw": 3.3,
-        "away": 2.0
+        "away": 2.15
       }
     }
   },
   "counts": {
     "handicap_events": 0,
-    "overunder_events": 3,
-    "1x2_events": 7
+    "overunder_events": 2,
+    "1x2_events": 4
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260106_221014"
+    "export_ts": "20260106_211419"
   }
 }
