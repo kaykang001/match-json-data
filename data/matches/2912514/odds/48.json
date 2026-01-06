@@ -3,15 +3,15 @@ MATCH_ID: 2912514
 COMPANY_ID: 48
 COMPANY_NAME: 香港马会
 MARKETS: handicap, overunder, 1x2
-HANDICAP_EVENTS: 1
+HANDICAP_EVENTS: 7
 OVERUNDER_EVENTS: 1
-1X2_EVENTS: 3
-TIME_RANGE: 2026-01-01 12:01 -> 2026-01-05 23:59
+1X2_EVENTS: 9
+TIME_RANGE: 2026-01-01 12:01 -> 2026-01-06 18:20
 # END_INDEX
 {
   "schema_version": "company_package.v1",
   "timezone": "UTC+8",
-  "exported_at": "2026-01-06 21:14:19",
+  "exported_at": "2026-01-06 22:10:14",
   "match": {
     "match_id": "2912514",
     "match_time": "2026-01-07 00:00",
@@ -36,15 +36,63 @@ TIME_RANGE: 2026-01-01 12:01 -> 2026-01-05 23:59
           "line": "半球/一球",
           "home_odds": 1.19,
           "away_odds": 0.64
+        },
+        {
+          "event_time": "2026-01-06 13:02",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球/一球",
+          "home_odds": 1.24,
+          "away_odds": 0.61
+        },
+        {
+          "event_time": "2026-01-06 13:03",
+          "state": "即",
+          "is_opening": 0,
+          "line": "半球/一球",
+          "home_odds": 1.32,
+          "away_odds": 0.57
+        },
+        {
+          "event_time": "2026-01-06 13:04",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.71,
+          "away_odds": 1.08
+        },
+        {
+          "event_time": "2026-01-06 13:33",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.75,
+          "away_odds": 1.03
+        },
+        {
+          "event_time": "2026-01-06 14:16",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.67,
+          "away_odds": 1.14
+        },
+        {
+          "event_time": "2026-01-06 18:20",
+          "state": "即",
+          "is_opening": 0,
+          "line": "平手/半球",
+          "home_odds": 0.69,
+          "away_odds": 1.11
         }
       ],
       "latest": {
-        "event_time": "2026-01-01 12:01",
+        "event_time": "2026-01-06 18:20",
         "state": "即",
         "is_opening": 0,
-        "line": "半球/一球",
-        "home_odds": 1.19,
-        "away_odds": 0.64
+        "line": "平手/半球",
+        "home_odds": 0.69,
+        "away_odds": 1.11
       }
     },
     "overunder": {
@@ -92,25 +140,73 @@ TIME_RANGE: 2026-01-01 12:01 -> 2026-01-05 23:59
           "home": 1.82,
           "draw": 2.8,
           "away": 4.45
+        },
+        {
+          "event_time": "2026-01-06 13:02",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.86,
+          "draw": 2.76,
+          "away": 4.25
+        },
+        {
+          "event_time": "2026-01-06 13:03",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.91,
+          "draw": 2.74,
+          "away": 4.05
+        },
+        {
+          "event_time": "2026-01-06 13:04",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.97,
+          "draw": 2.72,
+          "away": 3.9
+        },
+        {
+          "event_time": "2026-01-06 13:33",
+          "state": "即",
+          "is_opening": 0,
+          "home": 2.01,
+          "draw": 2.68,
+          "away": 3.8
+        },
+        {
+          "event_time": "2026-01-06 14:16",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.91,
+          "draw": 2.74,
+          "away": 4.05
+        },
+        {
+          "event_time": "2026-01-06 18:20",
+          "state": "即",
+          "is_opening": 0,
+          "home": 1.93,
+          "draw": 2.73,
+          "away": 4.0
         }
       ],
       "latest": {
-        "event_time": "2026-01-05 23:59",
+        "event_time": "2026-01-06 18:20",
         "state": "即",
         "is_opening": 0,
-        "home": 1.82,
-        "draw": 2.8,
-        "away": 4.45
+        "home": 1.93,
+        "draw": 2.73,
+        "away": 4.0
       }
     }
   },
   "counts": {
-    "handicap_events": 1,
+    "handicap_events": 7,
     "overunder_events": 1,
-    "1x2_events": 3
+    "1x2_events": 9
   },
   "meta": {
     "source": "titan",
-    "export_ts": "20260106_211419"
+    "export_ts": "20260106_221014"
   }
 }
